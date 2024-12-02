@@ -860,3 +860,22 @@ Caused by: java.lang.NullPointerException
 [21:37:56] [Server thread/INFO]: Mateo2009MC issued server command: /sethome casa
 [21:38:04] [Server thread/INFO]: Mateo2009MC was slain by Iron Golem ❤
 [21:38:09] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[21:41:37] [Server thread/INFO]: Mateo2009MC has made the advancement [Suit Up]
+[21:47:24] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/48936, uuid='f88f65fb-e758-4d1d-8c5c-ed1a4f041731', l='ServerLevel[world]', x=2500.50, y=53.00, z=2822.50, cpos=[156, 176], tl=582, v=true] died: Skeletal Knight suffocated in a wall
+[21:48:18] [Server thread/INFO]: Mateo2009MC was slain by Iron Golem ❤
+[21:48:23] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[21:48:33] [Server thread/INFO]: Mateo2009MC was slain by Iron Golem ❤
+[21:48:37] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[21:49:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50029, uuid='b72eb42e-1676-422e-b59a-ac1b8357363f', l='ServerLevel[world]', x=2491.78, y=-48.00, z=2770.22, cpos=[155, 173], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[21:49:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50158, uuid='567dea46-2a14-42e0-b93e-6762ee79570d', l='ServerLevel[world]', x=2491.41, y=-47.50, z=2769.84, cpos=[155, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[21:49:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50159, uuid='5c73520d-53e8-4db4-82ce-1fb0af5a9384', l='ServerLevel[world]', x=2492.16, y=-47.50, z=2769.84, cpos=[155, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[21:49:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50106, uuid='55000426-4911-4e17-9c9e-f81df64775a7', l='ServerLevel[world]', x=2485.69, y=28.00, z=2663.78, cpos=[155, 166], tl=181, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[21:49:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50174, uuid='fe631649-0a84-4c90-a32c-68e3617d21a1', l='ServerLevel[world]', x=2486.06, y=28.50, z=2663.41, cpos=[155, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[21:50:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50220, uuid='f2b0dee9-d905-4e12-af9a-1e5992462316', l='ServerLevel[world]', x=2390.08, y=38.00, z=2789.81, cpos=[149, 174], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[21:51:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50681, uuid='47fe3298-679e-4813-85be-41918b75f496', l='ServerLevel[world]', x=2363.22, y=63.00, z=2683.78, cpos=[147, 167], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[21:51:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50769, uuid='f4a19f11-bfc8-46cf-b0e5-85eae1e8f867', l='ServerLevel[world]', x=2362.84, y=63.50, z=2684.16, cpos=[147, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[21:51:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50767, uuid='5a060d8a-5379-41ac-932e-c2bd4b0f3d8e', l='ServerLevel[world]', x=2362.95, y=63.00, z=2683.74, cpos=[147, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
+[21:51:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50768, uuid='e50990e5-c747-4f73-99ec-98399be5524e', l='ServerLevel[world]', x=2363.70, y=63.02, z=2683.63, cpos=[147, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
+[21:51:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50766, uuid='1357f71a-6069-4276-aa81-5ff2fce4b32a', l='ServerLevel[world]', x=2449.78, y=30.06, z=2831.41, cpos=[153, 176], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[21:51:14] [Server thread/INFO]: Named entity EntityWitch['Magician'/50593, uuid='732f70fe-f635-456c-8c6d-fc5f0ea9d77f', l='ServerLevel[world]', x=2404.95, y=74.00, z=2769.87, cpos=[150, 173], tl=416, v=false, removed=DISCARDED] died: Magician was slain by Iron Golem
+[21:51:27] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/51058, uuid='3be49123-1824-44af-99ec-74570794d718', l='ServerLevel[world]', x=2486.22, y=66.00, z=2807.78, cpos=[155, 175], tl=152, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
