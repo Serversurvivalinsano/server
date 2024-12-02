@@ -798,3 +798,35 @@ Caused by: java.lang.NullPointerException
 [21:00:23] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
 [21:00:27] [Server thread/INFO]: alexisromors issued server command: /
 [21:00:38] [Server thread/INFO]: alexisromors issued server command: /tp pepito
+[21:01:19] [Server thread/WARN]: alexisromors moved too quickly! -14.434862814630389,1.6724040883466103,-0.7214359985334795
+[21:01:42] [Server thread/INFO]: alexisromors issued server command: /feed
+[21:02:21] [Server thread/INFO]: pepito was blown up by Lvl 3 | Creeper
+[21:02:38] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/23023, uuid='9fb40ac0-4c2f-4540-acb3-e2876f11f3fc', l='ServerLevel[world]', x=426.65, y=-11.00, z=1782.65, cpos=[26, 111], tl=459, v=true] died: Skeletal Knight suffocated in a wall
+[21:02:40] [User Authenticator #4/INFO]: UUID of player NISEXX100 is e9d0aad5-7159-37aa-8d5f-04da16ed7ce5
+[21:02:40] [Server thread/INFO]: NISEXX100 joined the game
+[21:02:40] [Server thread/INFO]: NISEXX100[/[0:0:0:0:0:0:0:1%0]:55920] logged in with entity id 23772 at ([world]46.33653572351205, 23.0, 258.37986279464025)
+[21:02:48] [Server thread/INFO]: alexisromors issued server command: /tp pepito
+[21:02:58] [Server thread/INFO]: Mateo2009MC has made the advancement [Acquire Hardware]
+[21:03:16] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[21:04:23] [Server thread/INFO]: alexisromors issued server command: /
+[21:04:26] [Server thread/INFO]: alexisromors issued server command: /matrix
+[21:04:33] [Server thread/INFO]: alexisromors issued server command: /matrix notigy
+[21:04:34] [Server thread/INFO]: alexisromors issued server command: /matrix notify
+[21:04:39] [Server thread/INFO]: alexisromors issued server command: /matrix notify NISEXX100
+[21:04:39] [Server thread/INFO]: [Matrix] NISEXX100
+[21:04:44] [Server thread/INFO]: alexisromors issued server command: /matrix notify pepito r
+[21:04:44] [Server thread/INFO]: [Matrix] pepito r
+[21:04:52] [Server thread/INFO]: alexisromors issued server command: /matrix notify Mateo2009MC t
+[21:04:52] [Server thread/INFO]: [Matrix] Mateo2009MC t
+[21:05:04] [Server thread/INFO]: pepito has made the advancement [Monster Hunter]
+[21:05:07] [Server thread/INFO]: alexisromors issued server command: /matrix status
+[21:05:12] [Server thread/INFO]: alexisromors issued server command: /matrix status pepito
+[21:06:17] [Server thread/INFO]: alexisromors issued server command: /tp pepito
+[21:07:16] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[21:07:27] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/28671, uuid='8cd1d3b1-4bf2-44dc-b582-31739151cf3e', l='ServerLevel[world]', x=84.50, y=-37.00, z=193.50, cpos=[5, 12], tl=450, v=true] died: Skeletal Knight suffocated in a wall
+[21:07:41] [Server thread/INFO]: alexisromors issued server command: /skills
+[21:08:11] [Server thread/INFO]: pepito was shot by Lvl 7 | Skeleton
+[21:09:04] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/31627, uuid='151bdec2-c3e1-4b5d-972a-370417da626b', l='ServerLevel[world]', x=1188.50, y=40.00, z=2458.50, cpos=[74, 153], tl=431, v=true] died: Skeletal Knight suffocated in a wall
+[21:09:08] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/30077, uuid='42ae95d8-ce5a-453c-a91f-536c82fd8fef', l='ServerLevel[world]', x=1257.64, y=67.00, z=2520.48, cpos=[78, 157], tl=782, v=true] died: Skeletal Knight was slain by Mateo2009MC
+[21:09:48] [Server thread/INFO]: pepito issued server command: /tpa NISEXX100
+[21:10:03] [Server thread/INFO]: NISEXX100 issued server command: /tpaccept

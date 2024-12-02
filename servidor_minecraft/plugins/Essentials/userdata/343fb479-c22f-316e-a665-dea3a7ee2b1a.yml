@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1733173238360
+  lastteleport: 1733173636943
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: alexisromors
 lastlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 57.861491322064346
-  y: 76.21470252961905
-  z: 276.1462485415703
-  yaw: 130.3465576171875
-  pitch: 5.6998419761657715
+  x: -16.121139255154986
+  y: 75.75617010569286
+  z: 452.82682191687223
+  yaw: 121.343505859375
+  pitch: 40.649505615234375
 logoutlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
