@@ -830,3 +830,21 @@ Caused by: java.lang.NullPointerException
 [21:09:08] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/30077, uuid='42ae95d8-ce5a-453c-a91f-536c82fd8fef', l='ServerLevel[world]', x=1257.64, y=67.00, z=2520.48, cpos=[78, 157], tl=782, v=true] died: Skeletal Knight was slain by Mateo2009MC
 [21:09:48] [Server thread/INFO]: pepito issued server command: /tpa NISEXX100
 [21:10:03] [Server thread/INFO]: NISEXX100 issued server command: /tpaccept
+[21:11:12] [Server thread/INFO]: NISEXX100 was shot by Lvl 1 | Skeleton
+[21:11:39] [Server thread/INFO]: pepito was shot by Lvl 1 | Skeleton
+[21:12:30] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[21:12:33] [Server thread/INFO]: alexisromors issued server command: /tp pepito
+[21:12:36] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[21:13:42] [Server thread/INFO]: NISEXX100 was slain by pepito
+[21:13:47] [Server thread/INFO]: pepito was slain by NISEXX100's Zombie
+[21:14:08] [Server thread/INFO]: pepito was slain by NISEXX100's Zombie
+[21:14:12] [Server thread/INFO]: NISEXX100 was slain by NISEXX100's Zombie
+[21:14:15] [Server thread/INFO]: alexisromors issued server command: /gmc
+[21:14:19] [Server thread/INFO]: alexisromors issued server command: /gmsp
+[21:14:22] [Server thread/INFO]: alexisromors issued server command: /gmsp
+[21:15:38] [Server thread/INFO]: Mateo2009MC has made the advancement [Sweet Dreams]
+[21:16:00] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[21:18:30] [Server thread/INFO]: NISEXX100 has made the advancement [Isn't It Iron Pick]
+[21:19:58] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/43158, uuid='9dd7f830-af4b-49c7-8eb5-c6cff2eb1a8c', l='ServerLevel[world]', x=102.50, y=-48.00, z=205.50, cpos=[6, 12], tl=589, v=true] died: Skeletal Knight suffocated in a wall
+[21:20:34] [Server thread/INFO]: NISEXX100 was shot by Lvl 6 | Skeleton
+[21:20:51] [Server thread/INFO]: NISEXX100 issued server command: /tpa pepito
