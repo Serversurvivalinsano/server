@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1733176117762
+  lastteleport: 1733176752868
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733177484341
   login: 1733172105105
 money: '0'
 last-account-name: Mateo2009MC
 lastlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 21.94986645447217
-  y: 66.0
-  z: 243.19639033490353
-  yaw: 74.84478759765625
-  pitch: 10.650253295898438
+  x: 22.083591171454575
+  y: 65.0
+  z: 244.28008513951545
+  yaw: -16.6552734375
+  pitch: -5.249743461608887
 homes:
   arboles:
     world: 4d530142-f3f4-414e-9853-fded7966017c
@@ -45,3 +45,11 @@ homes:
     z: 2734.837807977055
     yaw: 53.591796875
     pitch: 21.190061569213867
+logoutlocation:
+  world: 4d530142-f3f4-414e-9853-fded7966017c
+  world-name: world
+  x: 2472.400518551327
+  y: 72.0
+  z: 2735.182134587421
+  yaw: -158.02587890625
+  pitch: 20.099750518798828
