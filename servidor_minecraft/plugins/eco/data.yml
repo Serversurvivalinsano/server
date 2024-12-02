@@ -1,0 +1,10 @@
+# For internal storage use only, do not modify.
+
+legacy-data-migrated: true
+previous-handler: yaml
+player:
+  343fb479-c22f-316e-a665-dea3a7ee2b1a:
+    eco:player_name: alexisromors
+  00000000-0000-0000-0000-000000000000:
+    eco:local_server_id: 9db20602-e602-4053-ad39-84a12b388008
+
