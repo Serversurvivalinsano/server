@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733173016024
+  logout: 1733174575240
   login: 1733173032856
 money: '0'
 last-account-name: pepito
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 67.57797666259087
-  y: 38.0
-  z: 277.122024760812
-  yaw: 152.995361328125
-  pitch: 48.44990539550781
+  x: 70.67229840737969
+  y: 29.0
+  z: 277.7568102025904
+  yaw: 100.792724609375
+  pitch: -16.79995346069336

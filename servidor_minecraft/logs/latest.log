@@ -848,3 +848,11 @@ Caused by: java.lang.NullPointerException
 [21:19:58] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/43158, uuid='9dd7f830-af4b-49c7-8eb5-c6cff2eb1a8c', l='ServerLevel[world]', x=102.50, y=-48.00, z=205.50, cpos=[6, 12], tl=589, v=true] died: Skeletal Knight suffocated in a wall
 [21:20:34] [Server thread/INFO]: NISEXX100 was shot by Lvl 6 | Skeleton
 [21:20:51] [Server thread/INFO]: NISEXX100 issued server command: /tpa pepito
+[21:21:23] [Server thread/INFO]: Mateo2009MC has made the advancement [Isn't It Iron Pick]
+[21:21:43] [Server thread/INFO]: pepito issued server command: /tpaccept NISEXX100
+[21:22:29] [Server thread/INFO]: NISEXX100 lost connection: Timed out
+[21:22:29] [Server thread/INFO]: NISEXX100 left the game
+[21:22:55] [Server thread/INFO]: pepito lost connection: Timed out
+[21:22:55] [Server thread/INFO]: pepito left the game
+[21:25:48] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/44901, uuid='0d32188e-cfc5-41f1-a509-be9fd60171f4', l='ServerLevel[world]', x=2305.50, y=51.00, z=2796.50, cpos=[144, 174], tl=577, v=true] died: Skeletal Knight suffocated in a wall
+[21:29:17] [Server thread/INFO]: Mateo2009MC has made the advancement [Not Today, Thank You]
