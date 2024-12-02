@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1733173238360
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733171870396
-  login: 1733172100277
+  logout: 1733173105081
+  login: 1733173054038
 money: '0'
 last-account-name: alexisromors
 lastlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 40.5
-  y: 83.0
-  z: -8.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 57.861491322064346
+  y: 76.21470252961905
+  z: 276.1462485415703
+  yaw: 130.3465576171875
+  pitch: 5.6998419761657715
 logoutlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 21.94986645447217
-  y: 66.0
-  z: 243.19639033490353
-  yaw: 70.64450073242188
-  pitch: 5.700260162353516
+  x: -571.3000000119209
+  y: 80.0
+  z: 1244.699999988079
+  yaw: -144.30584716796875
+  pitch: 80.85002899169922

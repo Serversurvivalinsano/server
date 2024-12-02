@@ -381,3 +381,420 @@
 [20:49:49] [Server thread/INFO]: pepito has made the advancement [Stone Age]
 [20:49:49] [Server thread/INFO]: alexisromors was poked to death by a sweet berry bush
 [20:50:25] [Server thread/INFO]: Mateo2009MC issued server command: /delhome home
+[20:50:30] [Server thread/INFO]: Mateo2009MC issued server command: /sethome arboles
+[20:50:46] [Server thread/INFO]: Mateo2009MC has made the advancement [Stone Age]
+[20:51:23] [Server thread/INFO]: alexisromors issued server command: /gmc
+[20:51:30] [Server thread/INFO]: alexisromors issued server command: /gms
+[20:53:15] [Server thread/WARN]: alexisromors moved too quickly! 4.161654773598627,-0.2046003784434305,9.169474050661961
+[20:53:21] [Server thread/INFO]: alexisromors was shot by Lvl 1 | Skeleton
+[20:53:41] [Server thread/INFO]: alexisromors issued server command: /tp Mateo2009MC
+[20:54:04] [Server thread/INFO]: alexisromors issued server command: /gmc
+[20:54:11] [Server thread/INFO]: alexisromors issued server command: /gms
+[20:54:36] [Server thread/INFO]: NISEXX100 has made the advancement [Acquire Hardware]
+[20:54:42] [Server thread/INFO]: pepito has made the advancement [Acquire Hardware]
+[20:56:36] [Server thread/INFO]: alexisromors issued server command: /relaod
+[20:56:38] [Server thread/INFO]: alexisromors issued server command: /reload
+[20:56:38] [Server thread/INFO]: alexisromors: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[20:56:41] [Server thread/INFO]: alexisromors issued server command: /reload confirm
+[20:56:41] [Server thread/INFO]: alexisromors: Please note that this command is not supported and may cause issues when using some plugins.
+[20:56:41] [Server thread/INFO]: alexisromors: If you encounter any issues please use the /stop command to restart your server.
+[20:56:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:56:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:56:41] [Server thread/INFO]: [CombatWeaponryPlus] Disabling CombatWeaponryPlus v1.5.7
+[20:56:41] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.1.3
+[20:56:41] [Server thread/INFO]: [TNTAlert] Disabling TNTAlert v1.0
+[20:56:41] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.6
+[20:56:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[20:56:41] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[20:56:42] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[20:56:42] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[20:56:42] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[20:56:42] [Server thread/INFO]: [Elevators] Disabling Elevators v4.0.18
+[20:56:42] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[20:56:42] [Server thread/INFO]: [bloodmoon-advanced] Disabling bloodmoon-advanced v4.5.7
+[20:56:42] [Server thread/INFO]: [eco] Disabling eco v6.74.3
+[20:56:42] [Server thread/INFO]: [eco] Saving player data...
+[20:56:42] [Server thread/INFO]: [eco] Saved player data! Took 1ms
+[20:56:42] [Server thread/INFO]: [eco] Cleaning up...
+[20:56:42] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
+[20:56:42] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.4.1 b78
+[20:56:42] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[20:56:42] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[20:56:42] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 2ms)
+[20:56:42] [Craft Scheduler Thread - 6 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[20:56:42] [Server thread/INFO]: [Matrix] Disabling Matrix v7.4.18
+[20:56:42] [Server thread/INFO]: [Matrix] Disabled Matrix AntiCheat.
+[20:56:42] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:56:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:56:42] [Server thread/INFO]: [MythicMobs] - 
+[20:56:42] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[20:56:42] [Server thread/INFO]: [MythicMobs] - 
+[20:56:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:56:42] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[20:56:42] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[20:56:42] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:56:42] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:56:42] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[20:56:42] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[20:56:42] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[20:56:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:56:42] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:56:42] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:56:42] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+144-d31ff55
+[20:56:42] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[20:56:42] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[20:56:42] [Server thread/ERROR]: *****************************************************************
+[20:56:42] [Server thread/ERROR]: *** WARNING                                                   ***
+[20:56:42] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
+[20:56:42] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
+[20:56:42] [Server thread/ERROR]: ***                                                           ***
+[20:56:42] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
+[20:56:42] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
+[20:56:42] [Server thread/ERROR]: *** on GitHub!                                                ***
+[20:56:42] [Server thread/ERROR]: *****************************************************************
+[20:56:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
+[20:56:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:56:42] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:56:42] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:56:43] [Server thread/INFO]: Loaded 7 recipes
+[20:56:46] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[20:56:46] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[20:56:46] [Craft Scheduler Thread - 4 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[20:56:46] [Server thread/WARN]: [PluginInitializerManager] ======== WARNING ========
+[20:56:46] [Server thread/WARN]: [PluginInitializerManager] You are reloading while having Paper plugins installed on your server.
+[20:56:46] [Server thread/WARN]: [PluginInitializerManager] Paper plugins do NOT support being reloaded. This will cause some unexpected issues.
+[20:56:46] [Server thread/WARN]: [PluginInitializerManager] =========================
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[20:56:46] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[20:56:46] [Server thread/INFO]: [eco] Initializing eco
+[20:56:46] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
+[20:56:46] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[20:56:47] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[20:56:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
+[20:56:47] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:56:47] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:56:47] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[20:56:47] [Server thread/INFO]: [Matrix] Loading server plugin Matrix v7.4.18
+[20:56:47] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.4.1 b78
+[20:56:47] [Server thread/INFO]: [LevelledMobs] Loading commands
+[20:56:47] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
+[20:56:47] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
+[20:56:47] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
+[20:56:47] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
+[20:56:47] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
+[20:56:47] [Server thread/INFO]: [EliteMobs] Sanity check!
+[20:56:47] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[20:56:47] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[20:56:47] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
+[20:56:47] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
+[20:56:47] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
+[20:56:47] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[20:56:47] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
+[20:56:47] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
+[20:56:47] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
+[20:56:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:56:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[20:56:48] [Server thread/INFO]:         __    
+[20:56:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[20:56:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:56:48] [Server thread/INFO]: 
+[20:56:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:56:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:56:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:56:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:56:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 903ms)
+[20:56:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[20:56:48] [Server thread/INFO]: [eco] Enabling eco v6.74.3
+[20:56:48] [Server thread/INFO]: [eco] Loading eco
+[20:56:48] [Server thread/INFO]: [eco] Loaded integrations: Matrix, MythicMobs, Essentials
+[20:56:48] [Server thread/INFO]: [eco] Scanning for conflicts...
+[20:56:48] [Server thread/INFO]: [eco] No conflicts found!
+[20:56:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
+[20:56:49] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:56:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:56:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:56:49] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[20:56:49] [Server thread/INFO]: [Essentials] Using locale en
+[20:56:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:56:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:56:49] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[20:56:49] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[20:56:49] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:56:49] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:56:49] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
+[20:56:49] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[20:56:50] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
+[20:56:50] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data
+[20:56:50] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data/worlds
+[20:56:51] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:56:52] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[20:56:52] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[20:56:52] [Server thread/INFO]: [Matrix] Enabling Matrix v7.4.18
+[20:56:52] [Server thread/INFO]: [Matrix] [STDOUT] [Spigotunlocked.com] - Wqfire
+[20:56:52] [Server thread/WARN]: Nag author(s): '[RE]' of 'Matrix v7.4.18' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[20:56:52] [Server thread/INFO]: *   __  __       _        _
+[20:56:52] [Server thread/INFO]: *  |  \/  |     | |      (_)
+[20:56:52] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
+[20:56:52] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
+[20:56:52] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
+[20:56:52] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
+[20:56:52] [Server thread/INFO]: *  
+[20:56:52] [Server thread/INFO]: *  Cracked by LuckerCracker
+[20:56:52] [Server thread/INFO]: * Matrix AntiCheat v7.4.18 | git-Paper-17 (MC: 1.20)
+[20:56:52] [Server thread/INFO]: [Matrix] Checking Environment...
+[20:56:52] [Server thread/INFO]: [Matrix] Passed all environment checks
+[20:56:53] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
+[20:56:53] [Server thread/INFO]: [Matrix] Enabled 15 checks, Disabled 0 checks
+[20:56:53] [Server thread/INFO]: [Matrix] Loaded all configuration files
+[20:56:53] [Server thread/INFO]: [Matrix] Scanning outdated log files....
+[20:56:53] [Server thread/INFO]: [Matrix] Deleted 0 outdated log files!
+[20:56:53] [Server thread/INFO]: [Matrix] Welcome to Matrix!
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.4.1 b78
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Using NMS version v1_20_R1 for nametag support
+[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[20:56:53] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 106ms)
+[20:56:53] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
+[20:56:53] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
+[20:56:53] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
+[20:56:53] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
+[20:56:53] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[20:56:53] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[20:56:53] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[20:56:53] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[20:56:53] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[20:56:53] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[20:56:53] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
+[20:56:53] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
+[20:56:53] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
+[20:56:53] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[20:56:53] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[20:56:53] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[20:56:53] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[20:56:53] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[20:56:53] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[20:56:53] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[20:56:53] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
+[20:56:53] [Server thread/WARN]: [Elevators] V120R1NMS
+[20:56:53] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[20:56:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
+[20:56:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
+[20:56:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[20:56:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[20:56:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[20:56:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[20:56:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[20:56:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1039)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:950)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929)
+[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+[20:56:53] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:324)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:308)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2298)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$20(PlayerConnection.java:2258)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1339)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1316)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1309)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.bp(IAsyncTaskHandler.java:114)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1425)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
+[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:56:53] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
+[20:56:53] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[20:56:53] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[20:56:53] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[20:56:53] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[20:56:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[20:56:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[20:56:54] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[20:56:54] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[20:56:54] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[20:56:54] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[20:56:54] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[20:56:54] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[20:56:54] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[20:56:54] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[20:56:54] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[20:56:54] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[20:56:54] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[20:56:54] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 17 ms
+[20:56:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[20:56:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[20:56:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[20:56:54] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[20:56:54] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:56:54] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
+[20:56:54] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
+[20:56:54] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
+[20:56:54] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
+[20:56:55] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
+[20:56:55] [Server thread/INFO]: alexisromors: Reload complete.
+[20:56:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13819ms or 276 ticks behind
+[20:56:55] [Server thread/INFO]: Timings Reset
+[20:56:55] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:56:55] [Craft Scheduler Thread - 12 - Matrix/INFO]: [Matrix] Successfully fetched your license.
+[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: [Matrix] Start checking update....
+[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: | There is a new version of Matrix available! (7.11.12)
+[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: | * Fixed a rare console NPE error
+[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: | You can download it by using /matrix update
+[20:56:56] [Server thread/INFO]: [eco] Loaded eco
+[20:56:56] [Server thread/WARN]: [Matrix] Task #279434 for Matrix v7.4.18 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing command 'matrix' in plugin Matrix v7.4.18
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1000) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at me.rerere.matrix.internal.qe.AK(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.qe.invoke(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.misc.compatibility.FoliaSupport.runAtGlobalScheduler$lambda$0(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException
+	at me.rerere.matrix.internal.zd.JM(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.uf.Xm(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.zd.Wn(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.mi.tM(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.wf.EM(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.wf.onCommand(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	... 14 more
+[20:56:56] [Server thread/WARN]: [Matrix] Task #279435 for Matrix v7.4.18 generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing command 'matrix' in plugin Matrix v7.4.18
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1000) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at me.rerere.matrix.internal.qe.AK(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.qe.invoke(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.misc.compatibility.FoliaSupport.runAtGlobalScheduler$lambda$0(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException
+	at me.rerere.matrix.internal.zd.JM(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.uf.Xm(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.zd.Wn(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.mi.tM(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.wf.EM(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at me.rerere.matrix.internal.wf.onCommand(Unknown Source) ~[Matrix_7.4.18.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	... 14 more
+[20:56:56] [Server thread/INFO]: pepito lost connection: Move Abnormally
+[20:56:56] [Server thread/INFO]: pepito left the game
+[20:56:56] [Server thread/INFO]: [Matrix] player pepito was kicked because of cheating!
+[20:56:56] [Server thread/WARN]: Mateo2009MC moved too quickly! 308.4396752247198,-60.0,-1156.7020465028472
+[20:56:56] [Server thread/WARN]: NISEXX100 moved wrongly!
+[20:56:59] [User Authenticator #3/INFO]: UUID of player pepito is 3b6eece8-baa9-3e51-8999-07090befd51e
+[20:56:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@58a233aa[id=3b6eece8-baa9-3e51-8999-07090befd51e,name=pepito,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:55074): Please wait 1 seconds before logging back in!
+[20:56:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@58a233aa[id=3b6eece8-baa9-3e51-8999-07090befd51e,name=pepito,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:55074) lost connection: Please wait 1 seconds before logging back in!
+[20:57:10] [Async Chat Thread - #2/INFO]: [Not Secure] <NISEXX100> ???
+[20:57:12] [User Authenticator #3/INFO]: UUID of player pepito is 3b6eece8-baa9-3e51-8999-07090befd51e
+[20:57:12] [Server thread/INFO]: pepito joined the game
+[20:57:12] [Server thread/INFO]: pepito[/[0:0:0:0:0:0:0:1%0]:49610] logged in with entity id 18027 at ([world]67.57797666259087, 38.0, 277.122024760812)
+[20:57:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> mira el chat
+[20:57:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> del grupo
+[20:57:33] [User Authenticator #3/INFO]: UUID of player alexisromors is 343fb479-c22f-316e-a665-dea3a7ee2b1a
+[20:57:33] [Server thread/INFO]: alexisromors lost connection: You logged in from another location
+[20:57:34] [Server thread/INFO]: alexisromors left the game
+[20:57:34] [Server thread/INFO]: alexisromors joined the game
+[20:57:34] [Server thread/INFO]: alexisromors[/[0:0:0:0:0:0:0:1%0]:39368] logged in with entity id 18134 at ([world]-571.3000000119209, 80.0, 1244.699999988079)
+[20:57:54] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/18121, uuid='942ff1ec-309b-47cd-b64a-619fac401f61', l='ServerLevel[world]', x=51.50, y=-23.00, z=165.50, cpos=[3, 10], tl=431, v=true] died: Skeletal Knight suffocated in a wall
+[20:58:26] [Server thread/INFO]: alexisromors issued server command: /vanish
+[20:58:27] [Server thread/INFO]: alexisromors issued server command: /gmc
+[20:58:32] [Server thread/INFO]: alexisromors issued server command: /gamemode spectator
+[20:58:38] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[20:58:39] [Server thread/INFO]: pepito has made the advancement [Suit Up]
+[20:58:47] [Server thread/INFO]: alexisromors issued server command: /tp pepito
+[20:59:03] [Server thread/INFO]: alexisromors issued server command: /gmc
+[20:59:10] [Server thread/INFO]: alexisromors issued server command: /gamemode spectator
+[20:59:29] [Server thread/INFO]: Mateo2009MC has made the advancement [Ice Bucket Challenge]
+[20:59:48] [Server thread/INFO]: alexisromors issued server command: /tp Mateo2009MC
+[20:59:58] [Server thread/WARN]: alexisromors moved too quickly! 12.815846967975062,-0.7501168512433551,8.848246440787307
+[21:00:02] [Server thread/INFO]: alexisromors issued server command: /tp pepito
+[21:00:22] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/20792, uuid='df2e192a-1cd7-435f-bdfc-8ceff7291652', l='ServerLevel[world]', x=99.50, y=1.00, z=1501.50, cpos=[6, 93], tl=432, v=true] died: Skeletal Knight suffocated in a wall
+[21:00:23] [Server thread/INFO]: NISEXX100 lost connection: Timed out
+[21:00:23] [Server thread/INFO]: NISEXX100 left the game
+[21:00:23] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
+[21:00:27] [Server thread/INFO]: alexisromors issued server command: /
+[21:00:38] [Server thread/INFO]: alexisromors issued server command: /tp pepito

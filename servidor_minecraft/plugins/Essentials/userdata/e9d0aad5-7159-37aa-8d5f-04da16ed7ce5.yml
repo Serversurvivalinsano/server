@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733173223089
   login: 1733172206982
 money: '0'
 last-account-name: NISEXX100
@@ -28,3 +28,11 @@ lastlocation:
   z: -21.5
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 4d530142-f3f4-414e-9853-fded7966017c
+  world-name: world
+  x: 46.33653572351205
+  y: 23.0
+  z: 258.37986279464025
+  yaw: -54.58390808105469
+  pitch: 23.099365234375
