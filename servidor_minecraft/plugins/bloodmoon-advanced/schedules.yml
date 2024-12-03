@@ -4,6 +4,6 @@ schedules:
     chance: 100.0
     broadcast: true
     days-left-message: '&e%días &falta% &fdías ¡habrá una posible luna de sangre!'
-    tonight-message: '&fThere is a &e%chance%% &fchance that Tonight will be a bloodmoon!'
+    tonight-message: 'Hay una &e%chance%% &fchance que ¡Esta noche habrá una luna de sangre!'
     random-days: true
     repeating: true

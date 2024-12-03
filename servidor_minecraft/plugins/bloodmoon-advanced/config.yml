@@ -116,7 +116,7 @@ scary-sounds:
 # NOTE: a headset might be required in order to experience the full effect
 bell-warning:
   enabled: true
-  count: 20
+  count: 2
   sound: BLOCK_BELL_USE
 
 # if you want you can apply a custom resource pack when the bloodmoon is rising

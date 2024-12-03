@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733190164046
+  logout: 1733195981248
   login: 1733190090080
 money: '0'
 last-account-name: alexisromors
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 130.13321722116586
-  y: -23.498281063741153
-  z: 275.82432757531126
-  yaw: 106.19747924804688
-  pitch: -1.0497328042984009
+  x: 21.94986645447217
+  y: 66.0
+  z: 243.19639033490353
+  yaw: 65.24471282958984
+  pitch: 5.250261306762695
 homes:
   home:
     world: 4d530142-f3f4-414e-9853-fded7966017c

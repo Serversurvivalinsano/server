@@ -754,3 +754,27 @@
 [03:12:05] [Server thread/INFO]: alexisromors was slain by Mateo2009MC using [Iron Katana]
 [03:12:16] [Server thread/INFO]: alexisromors issued server command: /kill Mateo2009MC
 [03:12:16] [Server thread/INFO]: Mateo2009MC died
+[03:12:43] [Server thread/INFO]: Mateo2009MC lost connection: Timed out
+[03:12:43] [Server thread/INFO]: Mateo2009MC left the game
+[03:13:18] [Server thread/INFO]: alexisromors issued server command: /bloodmoon reload
+[03:15:14] [Server thread/INFO]: alexisromors issued server command: /bloodmoon start
+[03:15:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45294, uuid='2cf7d70b-0635-42a5-b90c-69ef99df0a72', l='ServerLevel[world]', x=-27.78, y=-3.00, z=180.69, cpos=[-2, 11], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45480, uuid='82615c49-b5ce-47af-bd3c-29364bc7bb38', l='ServerLevel[world]', x=-28.16, y=-2.50, z=180.31, cpos=[-2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45481, uuid='8c7f174c-7aa1-4982-b45b-bac0a09ff900', l='ServerLevel[world]', x=-27.41, y=-2.50, z=180.31, cpos=[-2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45482, uuid='5b6d9944-b660-4f94-906d-8ea03420b1b8', l='ServerLevel[world]', x=-28.16, y=-2.50, z=181.06, cpos=[-2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[03:15:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45318, uuid='e62833c6-57c1-4fa0-9ab1-9e8a6a88c98b', l='ServerLevel[world]', x=-77.98, y=67.00, z=243.22, cpos=[-5, 15], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[03:15:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45505, uuid='34b6e379-15ff-4a03-957c-a9f5c6c2cbdb', l='ServerLevel[world]', x=-78.58, y=67.02, z=242.84, cpos=[-5, 15], tl=11, v=true] died: Blazing Cube suffocated in a wall
+[03:15:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45352, uuid='942debff-45a9-4506-86ef-46bf569b3e82', l='ServerLevel[world]', x=50.56, y=-18.79, z=216.22, cpos=[3, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[03:15:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45539, uuid='32865d3b-8d7a-44e2-8338-0423f7c9c1a7', l='ServerLevel[world]', x=50.02, y=-19.00, z=216.08, cpos=[3, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
+[03:15:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45540, uuid='a750df28-9b4b-40ac-9468-f5fe0a2c2214', l='ServerLevel[world]', x=50.81, y=-18.98, z=215.62, cpos=[3, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
+[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45375, uuid='a3b2cc96-19f8-477c-a28b-591e58c161fd', l='ServerLevel[world]', x=-91.22, y=66.00, z=272.81, cpos=[-6, 17], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
+[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45543, uuid='240dc248-ed9e-4eba-8b58-0242b71828da', l='ServerLevel[world]', x=-91.59, y=66.50, z=272.44, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45544, uuid='7c5b03e9-9239-4915-8f9a-fc7892ad5197', l='ServerLevel[world]', x=-90.84, y=66.50, z=272.44, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45545, uuid='5267a3e5-1fe4-4bc5-9fab-5002d5fb68c3', l='ServerLevel[world]', x=-91.59, y=66.50, z=273.19, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
+[03:15:25] [Server thread/INFO]: alexisromors issued server command: /bloodmoon cancel
+[03:15:33] [Server thread/INFO]: alexisromors issued server command: /bloodmoon stop
+[03:17:17] [Server thread/INFO]: alexisromors was slain by Lvl 4 | Zombie
+[03:19:16] [Server thread/INFO]: alexisromors was slain by Lvl 1 | Zombie
+[03:19:41] [Server thread/INFO]: alexisromors lost connection: Timed out
+[03:19:41] [Server thread/INFO]: alexisromors left the game
