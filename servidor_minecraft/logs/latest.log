@@ -299,3 +299,12 @@
 [01:53:15] [Server thread/INFO]: luchito suffocated in a wall
 [01:54:44] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/5798, uuid='87b3420d-17ec-4d50-9903-a2ee91f7bfda', l='ServerLevel[world]', x=71.88, y=23.00, z=170.50, cpos=[4, 10], tl=577, v=true] died: Skeletal Knight suffocated in a wall
 [02:00:39] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/7980, uuid='70fa1668-f8ef-448b-9c6a-ea10008dae95', l='ServerLevel[world]', x=-115.50, y=-46.00, z=603.50, cpos=[-8, 37], tl=432, v=true] died: Skeletal Knight suffocated in a wall
+[02:02:36] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/9081, uuid='324b4bec-f7bc-43e5-8a5a-fd926f5b986b', l='ServerLevel[world]', x=-122.50, y=-16.00, z=1009.50, cpos=[-8, 63], tl=455, v=true] died: Skeletal Knight suffocated in a wall
+[02:03:14] [Server thread/INFO]: alexisromors has made the advancement [Suit Up]
+[02:03:22] [Server thread/INFO]: alexisromors issued server command: /gms
+[02:04:15] [User Authenticator #2/INFO]: UUID of player Mateo2009MC is ca063eb7-f8b9-3bb6-abfb-5a103eb7d6f3
+[02:04:15] [Server thread/INFO]: Mateo2009MC joined the game
+[02:04:15] [Server thread/INFO]: Mateo2009MC[/[0:0:0:0:0:0:0:1%0]:37088] logged in with entity id 10375 at ([world]2472.400518551327, 72.0, 2735.182134587421)
+[02:09:20] [Async Chat Thread - #1/INFO]: [Not Secure] <luchito> oee mateo ay aldeas
+[02:09:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Mateo2009MC> si
+[02:10:18] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/16772, uuid='aae32d69-fbd7-4a99-88ba-4c1b42550f3a', l='ServerLevel[world]', x=2462.50, y=14.00, z=2637.50, cpos=[153, 164], tl=432, v=true] died: Skeletal Knight suffocated in a wall
