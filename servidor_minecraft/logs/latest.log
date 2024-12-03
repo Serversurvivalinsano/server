@@ -778,3 +778,81 @@
 [03:19:16] [Server thread/INFO]: alexisromors was slain by Lvl 1 | Zombie
 [03:19:41] [Server thread/INFO]: alexisromors lost connection: Timed out
 [03:19:41] [Server thread/INFO]: alexisromors left the game
+[03:53:18] [Server thread/INFO]: Stopping the server
+[03:53:18] [Server thread/INFO]: Stopping server
+[03:53:18] [Server thread/INFO]: [libreforge] Disabling libreforge v4.71.6
+[03:53:18] [Server thread/INFO]: [libreforge] Cleaning up...
+[03:53:18] [Server thread/INFO]: [Talismans] Disabling Talismans v6.69.6
+[03:53:18] [Server thread/INFO]: [Talismans] Cleaning up...
+[03:53:18] [Server thread/INFO]: [CombatWeaponryPlus] Disabling CombatWeaponryPlus v1.5.7
+[03:53:18] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.1.3
+[03:53:18] [Server thread/INFO]: [TNTAlert] Disabling TNTAlert v1.0
+[03:53:18] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[03:53:18] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[03:53:19] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[03:53:19] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[03:53:19] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
+[03:53:19] [Server thread/INFO]: [Elevators] Disabling Elevators v4.0.18
+[03:53:19] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[03:53:19] [Server thread/INFO]: [bloodmoon-advanced] Disabling bloodmoon-advanced v4.5.7
+[03:53:19] [Server thread/INFO]: [DeathCoordinates] Disabling DeathCoordinates v1.12.1
+[03:53:19] [Server thread/INFO]: [DeathCoordinates] Has been disabled! Version: 1.12.1
+[03:53:19] [Server thread/INFO]: [AdvancedEnchantments] Disabling AdvancedEnchantments v9.11.4
+[03:53:19] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
+[03:53:19] [Server thread/INFO]: [eco] Disabling eco v6.74.3
+[03:53:19] [Server thread/INFO]: [eco] Saving player data...
+[03:53:19] [Server thread/INFO]: [eco] Saved player data! Took 0ms
+[03:53:19] [Server thread/INFO]: [eco] Cleaning up...
+[03:53:19] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.4.1 b78
+[03:53:19] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[03:53:19] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[03:53:19] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 1ms)
+[03:53:19] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[03:53:19] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[03:53:19] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.6
+[03:53:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+144-d31ff55
+[03:53:19] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[03:53:19] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[03:53:19] [Server thread/INFO]: [MythicMobs] - 
+[03:53:19] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[03:53:19] [Server thread/INFO]: [MythicMobs] - 
+[03:53:19] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[03:53:19] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[03:53:19] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[03:53:19] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:53:19] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:53:19] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[03:53:19] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[03:53:19] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[03:53:19] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[03:53:19] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:53:19] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:53:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[03:53:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
+[03:53:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:53:19] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:53:19] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:53:19] [Server thread/INFO]: Saving players
+[03:53:19] [Server thread/INFO]: Saving worlds
+[03:53:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:53:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:53:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 126 block chunks, 179 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:53:20] [Server thread/INFO]: Flushing Chunk IO
+[03:53:20] [Server thread/INFO]: Closing Thread Pool
+[03:53:20] [Server thread/INFO]: Closing Server
