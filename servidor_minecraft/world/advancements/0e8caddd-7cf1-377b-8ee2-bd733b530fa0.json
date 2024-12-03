@@ -59,6 +59,12 @@
     },
     "done": false
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-12-03 02:11:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_logs": "2024-12-03 01:46:51 +0000"
@@ -79,7 +85,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -92,6 +98,12 @@
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2024-12-03 01:54:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2024-12-03 02:11:33 +0000"
     },
     "done": true
   },
@@ -119,9 +131,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-03 02:10:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2024-12-03 02:00:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
     },
     "done": true
   },
@@ -133,7 +157,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -149,6 +173,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-03 01:53:12 +0000"
@@ -157,9 +193,15 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-12-03 02:10:50 +0000"
+    },
+    "done": true
   },
   "incendium:technical/using/ragnarok": {
     "criteria": {
@@ -194,6 +236,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2024-12-03 01:50:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_axe": "2024-12-03 02:06:58 +0000"
     },
     "done": true
   },
@@ -275,6 +323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-12-03 01:48:23 +0000"
@@ -305,9 +359,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-03 02:10:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-03 02:10:36 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -319,7 +385,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -347,9 +413,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_axe": "2024-12-03 02:06:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-03 01:53:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
     },
     "done": true
   },
@@ -365,9 +443,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-03 02:10:39 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -461,6 +551,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-03 02:16:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2024-12-03 01:53:36 +0000"
@@ -470,6 +566,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-03 01:48:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
     },
     "done": true
   },
@@ -494,6 +596,18 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-03 01:53:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-12-03 02:16:28 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
     },
     "done": true
   },
@@ -545,9 +659,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-12-03 02:10:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2024-12-03 02:00:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2024-12-03 02:11:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-12-03 02:16:28 +0000"
     },
     "done": true
   },
@@ -559,7 +691,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -567,10 +699,13 @@
     "criteria": {
       "minecraft:taiga": "2024-12-03 01:59:30 +0000",
       "minecraft:birch_forest": "2024-12-03 01:57:28 +0000",
+      "minecraft:beach": "2024-12-03 02:10:13 +0000",
       "minecraft:dark_forest": "2024-12-03 01:57:30 +0000",
       "minecraft:river": "2024-12-03 01:46:25 +0000",
       "minecraft:cold_ocean": "2024-12-03 02:06:11 +0000",
+      "minecraft:forest": "2024-12-03 02:08:26 +0000",
       "minecraft:lush_caves": "2024-12-03 01:50:34 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-03 02:06:32 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-03 01:46:47 +0000"
     },
     "done": false
@@ -589,7 +724,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -601,7 +736,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -614,6 +749,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2024-12-03 02:00:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-03 02:10:37 +0000"
     },
     "done": true
   },
@@ -640,6 +781,12 @@
       "log_spam_fixer": "2024-12-03 01:46:25 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-03 02:10:37 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
@@ -673,7 +820,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
@@ -731,6 +878,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2024-12-03 02:08:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2024-12-03 01:48:23 +0000"
@@ -752,6 +905,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-12-03 01:49:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:10:32 +0000"
     },
     "done": true
   },
@@ -781,13 +940,13 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-03 02:06:14 +0000"
+      "log_spam_fixer": "2024-12-03 02:21:14 +0000"
     },
     "done": false
   },

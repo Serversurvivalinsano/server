@@ -308,3 +308,37 @@
 [02:09:20] [Async Chat Thread - #1/INFO]: [Not Secure] <luchito> oee mateo ay aldeas
 [02:09:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Mateo2009MC> si
 [02:10:18] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/16772, uuid='aae32d69-fbd7-4a99-88ba-4c1b42550f3a', l='ServerLevel[world]', x=2462.50, y=14.00, z=2637.50, cpos=[153, 164], tl=432, v=true] died: Skeletal Knight suffocated in a wall
+[02:11:33] [Server thread/INFO]: luchito has made the advancement [Suit Up]
+[02:12:49] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> oe
+[02:12:52] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> una pregunta
+[02:12:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> q
+[02:12:56] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> q
+[02:12:57] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> esta es tu aldea
+[02:13:04] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> es de mateo
+[02:13:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> cual?
+[02:13:13] [Async Chat Thread - #3/INFO]: [Not Secure] <Mateo2009MC> donde estas
+[02:13:15] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> la de taiga
+[02:13:24] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> a buneo
+[02:13:32] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> ahhh mateo tu en cual estas ?
+[02:13:34] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> entoces me voy a buscar otra aldea
+[02:13:42] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> quedate con esta
+[02:13:46] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> mateo creo que esta en otra
+[02:13:49] [Server thread/INFO]: alexisromors issued server command: /tp Mateo2009MC
+[02:13:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> deja ver si es esta
+[02:13:56] [Server thread/INFO]: Mateo2009MC issued server command: /tpa luchito
+[02:13:59] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> esta es otra
+[02:14:02] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> luchi
+[02:14:07] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> quedate con esa
+[02:14:27] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> oe me uedo con estya aldea
+[02:14:31] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> me quedo
+[02:15:28] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> confrima alexis
+[02:15:33] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> me quedo con esta aldea
+[02:15:39] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> si
+[02:15:42] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> yap
+[02:16:28] [Server thread/INFO]: luchito has made the advancement [Monster Hunter]
+[02:16:34] [Server thread/INFO]: luchito has made the advancement [Sweet Dreams]
+[02:16:41] [Server thread/INFO]: Villager EntityVillager['Villager'/4435, uuid='4f9611c6-b397-4b38-9ab8-579f73829ce6', l='ServerLevel[world]', x=-346.30, y=73.00, z=850.70, cpos=[-22, 53], tl=32394, v=true] died, message: 'Villager was slain by Zombie'
+[02:17:15] [Server thread/INFO]: Villager EntityVillager['Villager'/4430, uuid='1b2846e8-818d-4124-b7f4-807a977fd953', l='ServerLevel[world]', x=-346.85, y=73.00, z=850.30, cpos=[-22, 53], tl=32418, v=true] died, message: 'Villager was slain by Zombie'
+[02:17:17] [Server thread/INFO]: Villager EntityVillager['Villager'/4429, uuid='3584372f-9cc4-4255-8be6-c20ef96c9683', l='ServerLevel[world]', x=-346.71, y=73.00, z=850.45, cpos=[-22, 53], tl=32471, v=true] died, message: 'Villager was slain by Zombie'
+[02:17:20] [Server thread/INFO]: Villager EntityVillager['Butcher'/4440, uuid='b5ed96a0-be22-4acf-b59e-e53ed5f86e14', l='ServerLevel[world]', x=-348.59, y=73.00, z=850.70, cpos=[-22, 53], tl=32469, v=true] died, message: 'Butcher was slain by Zombie'
+[02:17:41] [Server thread/INFO]: Mateo2009MC has made the advancement [Blindfolded]
