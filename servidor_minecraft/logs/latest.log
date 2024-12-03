@@ -276,3 +276,6 @@
 [21:59:35] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/2915, uuid='04c1f93d-e970-4d5d-851e-45ca07d01885', l='ServerLevel[world]', x=2495.50, y=-1.00, z=2796.50, cpos=[155, 174], tl=441, v=true] died: Skeletal Knight suffocated in a wall
 [22:01:23] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/3095, uuid='a290de42-6133-4b88-bec7-15a0081ab257', l='ServerLevel[world]', x=2381.50, y=28.00, z=2721.50, cpos=[148, 170], tl=584, v=true] died: Skeletal Knight suffocated in a wall
 [22:02:20] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/3197, uuid='5ccf29c2-eaed-4f75-b4a9-dbfa7b395b1c', l='ServerLevel[world]', x=2414.50, y=-43.00, z=2778.50, cpos=[150, 173], tl=447, v=true] died: Skeletal Knight suffocated in a wall
+[22:18:05] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[22:24:35] [Server thread/INFO]: Mateo2009MC lost connection: Timed out
+[22:24:35] [Server thread/INFO]: Mateo2009MC left the game
