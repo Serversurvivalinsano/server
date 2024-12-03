@@ -1,858 +1,275 @@
-[01:40:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:40:46] [ServerMain/WARN]: Invalid path in datapack: fokastudio:worldgen/biome/README.md, ignoring
-[01:40:49] [ServerMain/INFO]: Loaded 7 recipes
-[01:40:49] [Server thread/INFO]: Starting minecraft server version 1.20
-[01:40:49] [Server thread/INFO]: Loading properties
-[01:40:49] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[01:40:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:40:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:40:49] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:46:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:46:52] [ServerMain/WARN]: Invalid path in datapack: fokastudio:worldgen/biome/README.md, ignoring
+[21:46:57] [ServerMain/INFO]: Loaded 7 recipes
+[21:46:58] [Server thread/INFO]: Starting minecraft server version 1.20
+[21:46:58] [Server thread/INFO]: Loading properties
+[21:46:58] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[21:46:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:46:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:46:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:40:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:40:50] [Server thread/INFO]: Default game type: SURVIVAL
-[01:40:50] [Server thread/INFO]: Generating keypair
-[01:40:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:40:50] [Server thread/INFO]: Using epoll channel type
-[01:40:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:40:50] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[01:40:51] [Server thread/INFO]: [eco] Initializing eco
-[01:40:51] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[01:40:51] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[01:40:54] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
-[01:40:54] [Server thread/INFO]: [Talismans] Initializing Talismans
-[01:40:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[01:40:55] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[01:40:55] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[01:40:55] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[01:40:55] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[01:40:55] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
-[01:40:55] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[01:40:55] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.4.1 b78
-[01:40:55] [Server thread/INFO]: [LevelledMobs] Loading commands
-[01:40:55] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
-[01:40:55] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
-[01:40:55] [Server thread/INFO]: [AdvancedEnchantments] Loading server plugin AdvancedEnchantments v9.11.4
-[01:40:55] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
-[01:40:55] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
-[01:40:55] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
-[01:40:55] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
-[01:40:55] [Server thread/INFO]: [EliteMobs] Sanity check!
-[01:40:55] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[01:40:55] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[01:40:55] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
-[01:40:55] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
-[01:40:55] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
-[01:40:55] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
-[01:40:55] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
-[01:40:55] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
-[01:40:55] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.69.6
-[01:40:55] [Server thread/INFO]: [libreforge] Initializing libreforge
-[01:40:55] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.71.6
-[01:40:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:40:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[01:40:56] [Server thread/INFO]:         __    
-[01:40:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[01:40:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:40:56] [Server thread/INFO]: 
-[01:40:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:40:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:40:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:40:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:40:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1711ms)
-[01:40:57] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[01:40:57] [Server thread/INFO]: [eco] Enabling eco v6.74.3
-[01:40:57] [Server thread/INFO]: [eco] Loading eco
-[01:40:57] [Server thread/INFO]: [eco] Loaded integrations: MythicMobs, Essentials
-[01:40:57] [Server thread/INFO]: [eco] Scanning for conflicts...
-[01:40:57] [Server thread/INFO]: [eco] No conflicts found!
-[01:40:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:40:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:40:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:40:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:40:57] [Server thread/INFO]: Preparing level "world"
-[01:40:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:40:59] [Server thread/INFO]: Time elapsed: 255 ms
-[01:40:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:40:59] [Server thread/INFO]: Time elapsed: 129 ms
-[01:40:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:40:59] [Server thread/INFO]: Time elapsed: 69 ms
-[01:40:59] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[01:40:59] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
-[01:40:59] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[01:41:02] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
-[01:41:02] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data
-[01:41:02] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data/worlds
-[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Items...
-[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[01:41:06] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[01:41:06] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[01:41:06] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[01:41:06] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[01:41:06] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[01:41:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
-[01:41:06] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[01:41:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:41:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:41:07] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[01:41:07] [Server thread/INFO]: [Essentials] Using locale en
-[01:41:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:41:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:41:07] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[01:41:07] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[01:41:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[01:41:07] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[01:41:08] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[01:41:09] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[01:41:09] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[01:41:09] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
-[01:41:09] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 45 ms
-[01:41:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[01:41:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[01:41:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[01:41:09] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[01:41:09] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.4.1 b78
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Using NMS version v1_20_R1 for nametag support
-[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[01:41:09] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 242ms)
-[01:41:09] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
-[01:41:10] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v9.11.4
-[01:41:10] [Server thread/INFO]: Thank you for installing AdvancedEnchantments! 
-[01:41:10] [Server thread/INFO]: - To get help, join our discord server: https://discord.gg/advancedplugins
-[01:41:10] [Server thread/INFO]: - We recommend installing https://ae.advancedplugins.net/advancedenchantments-ui to enhance your experience with our UI overhaul!
-[01:41:11] [Server thread/INFO]: [AdvancedEnchantments] Loading Minecraft Version MC1_20_R1
-[01:41:11] [Server thread/INFO]: [AdvancedEnchantments] Loaded 7 armor sets.
-[01:41:11] [Server thread/INFO]: [AdvancedEnchantments] Loaded 5 weapons.
-[01:41:11] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
-[01:41:11] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
-[01:41:11] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
-[01:41:12] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
-[01:41:12] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
-[01:41:12] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
-[01:41:12] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[01:41:12] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[01:41:12] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[01:41:12] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[01:41:12] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[01:41:12] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[01:41:12] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
-[01:41:12] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
-[01:41:12] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
-[01:41:12] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[01:41:12] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[01:41:12] [Server thread/INFO]: [EliteMobs] All done! Good night.
-[01:41:12] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[01:41:12] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
-[01:41:12] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[01:41:12] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
-[01:41:12] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
-[01:41:12] [Server thread/WARN]: [Elevators] V120R1NMS
-[01:41:12] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
-[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[01:41:12] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
-[01:41:12] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
-[01:41:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[01:41:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-[01:41:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-[01:41:12] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
-[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
-[01:41:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
-[01:41:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[01:41:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
-[01:41:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
-[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
-[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
-[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
-[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
-[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[01:41:12] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
-[01:41:12] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
-[01:41:12] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[01:41:12] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[01:41:12] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
-[01:41:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[01:41:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[01:41:13] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[01:41:13] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[01:41:13] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
-[01:41:13] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
-[01:41:13] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
-[01:41:13] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[01:41:13] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
-[01:41:13] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
-[01:41:13] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
-[01:41:13] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
-[01:41:13] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
-[01:41:13] [Server thread/INFO]: [Talismans] Enabling Talismans v6.69.6
-[01:41:13] [Server thread/INFO]: [Talismans] Loading Talismans
-[01:41:13] [Server thread/INFO]: [libreforge] Enabling libreforge v4.71.6
-[01:41:13] [Server thread/INFO]: [libreforge] Loading libreforge
-[01:41:13] [Server thread/INFO]: [libreforge] Loaded integrations: AuraSkills, LevelledMobs
-[01:41:13] [Server thread/INFO]: [libreforge] 
-[01:41:13] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
-[01:41:13] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
-[01:41:13] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
-[01:41:13] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
-[01:41:13] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
-[01:41:13] [Server thread/INFO]: [libreforge] 
-[01:41:13] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
-[01:41:13] [Server thread/INFO]: [libreforge] 
-[01:41:14] [Server thread/INFO]: Running delayed init tasks
-[01:41:14] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:41:14] [Craft Scheduler Thread - 9 - Talismans/WARN]: [Talismans] Talismans is out of date! (Version 6.69.6)
-[01:41:14] [Craft Scheduler Thread - 9 - Talismans/WARN]: [Talismans] The newest version is 6.70.2
-[01:41:14] [Craft Scheduler Thread - 9 - Talismans/WARN]: [Talismans] Download the new version!
-[01:41:14] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
-[01:41:14] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[01:41:15] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[01:41:15] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[01:41:15] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:41:15] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[01:41:15] [Server thread/INFO]: Done (26.013s)! For help, type "help"
-[01:41:15] [Server thread/INFO]: Timings Reset
-[01:41:15] [Server thread/INFO]: [eco] Loaded eco
-[01:41:15] [Server thread/INFO]: [Talismans] Loaded Talismans
-[01:41:15] [Server thread/INFO]: [libreforge] Loaded libreforge
-[01:41:16] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into ProtocolLib, AuraSkills, AdvancedEnchantments, MythicMobs, Essentials, LuckPerms.
-[01:41:27] [User Authenticator #0/INFO]: UUID of player alexisromors is 343fb479-c22f-316e-a665-dea3a7ee2b1a
-[01:41:30] [Server thread/INFO]: alexisromors joined the game
-[01:41:30] [Server thread/INFO]: alexisromors[/[0:0:0:0:0:0:0:1%0]:43710] logged in with entity id 149 at ([world]130.13321722116586, -23.498281063741153, 275.82432757531126)
-[01:42:46] [Server thread/INFO]: alexisromors issued server command: /vanish
-[01:42:50] [Server thread/WARN]: alexisromors moved too quickly! 2.1390836790096444,-5.994333133397092,13.230640604469443
-[01:42:52] [Server thread/INFO]: alexisromors issued server command: /gmsp
-[01:42:54] [Server thread/INFO]: alexisromors issued server command: /vanish
-[01:42:58] [Server thread/INFO]: alexisromors issued server command: /gmc
-[01:46:10] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set essentials.sethome.
-[01:46:10] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[01:46:10] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome. true
-[01:46:14] [Server thread/INFO]: alexisromors issued server command: /sethome
-[01:46:24] [User Authenticator #1/INFO]: UUID of player luchito is 0e8caddd-7cf1-377b-8ee2-bd733b530fa0
-[01:46:24] [Server thread/INFO]: luchito joined the game
-[01:46:24] [Server thread/INFO]: luchito[/[0:0:0:0:0:0:0:1%0]:60810] logged in with entity id 1079 at ([world]33.5, 84.0, -17.5)
-[01:46:25] [Server thread/INFO]: luchito has made the advancement [Getting an Upgrade]
-[01:46:59] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set essentials.sethome.multiple.vip
-[01:47:05] [Server thread/INFO]: alexisromors issued server command: /gm
-[01:47:06] [Server thread/INFO]: alexisromors issued server command: /gms
-[01:47:53] [Server thread/WARN]: Skipping BlockEntity with id 
-[01:47:53] [Server thread/WARN]: Skipping BlockEntity with id 
-[01:47:54] [Server thread/WARN]: Skipping BlockEntity with id 
-[01:48:23] [Server thread/INFO]: luchito has made the advancement [Stone Age]
-[01:49:30] [Server thread/INFO]: alexisromors issued server command: /gmc
-[01:49:38] [Server thread/INFO]: Villager EntityVillager['Villager'/2593, uuid='26e497b8-e720-4a55-b512-c4fb2923f474', l='ServerLevel[world]', x=-352.89, y=73.31, z=870.15, cpos=[-23, 54], tl=51, v=true] died, message: 'Villager tried to swim in lava'
-[01:49:46] [Server thread/INFO]: alexisromors issued server command: /gms
-[01:49:52] [Server thread/INFO]: alexisromors issued server command: /sethome aldea
-[01:49:52] [Server thread/INFO]: alexisromors issued server command: /gmc
-[01:51:04] [Server thread/WARN]: alexisromors moved too quickly! -9.350706742635964,9.171753960130502,4.566382413758902
-[01:51:07] [Server thread/INFO]: alexisromors issued server command: /home aldae
-[01:51:09] [Server thread/INFO]: alexisromors issued server command: /home aldea
-[01:51:45] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/4689, uuid='e4a41688-1fa7-4b57-af68-ab505977fcd7', l='ServerLevel[world]', x=-40.50, y=-28.00, z=285.50, cpos=[-3, 17], tl=573, v=true] died: Skeletal Knight suffocated in a wall
-[01:53:12] [Server thread/INFO]: alexisromors has made the advancement [Sweet Dreams]
-[01:53:15] [Server thread/INFO]: luchito suffocated in a wall
-[01:54:44] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/5798, uuid='87b3420d-17ec-4d50-9903-a2ee91f7bfda', l='ServerLevel[world]', x=71.88, y=23.00, z=170.50, cpos=[4, 10], tl=577, v=true] died: Skeletal Knight suffocated in a wall
-[02:00:39] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/7980, uuid='70fa1668-f8ef-448b-9c6a-ea10008dae95', l='ServerLevel[world]', x=-115.50, y=-46.00, z=603.50, cpos=[-8, 37], tl=432, v=true] died: Skeletal Knight suffocated in a wall
-[02:02:36] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/9081, uuid='324b4bec-f7bc-43e5-8a5a-fd926f5b986b', l='ServerLevel[world]', x=-122.50, y=-16.00, z=1009.50, cpos=[-8, 63], tl=455, v=true] died: Skeletal Knight suffocated in a wall
-[02:03:14] [Server thread/INFO]: alexisromors has made the advancement [Suit Up]
-[02:03:22] [Server thread/INFO]: alexisromors issued server command: /gms
-[02:04:15] [User Authenticator #2/INFO]: UUID of player Mateo2009MC is ca063eb7-f8b9-3bb6-abfb-5a103eb7d6f3
-[02:04:15] [Server thread/INFO]: Mateo2009MC joined the game
-[02:04:15] [Server thread/INFO]: Mateo2009MC[/[0:0:0:0:0:0:0:1%0]:37088] logged in with entity id 10375 at ([world]2472.400518551327, 72.0, 2735.182134587421)
-[02:09:20] [Async Chat Thread - #1/INFO]: [Not Secure] <luchito> oee mateo ay aldeas
-[02:09:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Mateo2009MC> si
-[02:10:18] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/16772, uuid='aae32d69-fbd7-4a99-88ba-4c1b42550f3a', l='ServerLevel[world]', x=2462.50, y=14.00, z=2637.50, cpos=[153, 164], tl=432, v=true] died: Skeletal Knight suffocated in a wall
-[02:11:33] [Server thread/INFO]: luchito has made the advancement [Suit Up]
-[02:12:49] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> oe
-[02:12:52] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> una pregunta
-[02:12:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> q
-[02:12:56] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> q
-[02:12:57] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> esta es tu aldea
-[02:13:04] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> es de mateo
-[02:13:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> cual?
-[02:13:13] [Async Chat Thread - #3/INFO]: [Not Secure] <Mateo2009MC> donde estas
-[02:13:15] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> la de taiga
-[02:13:24] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> a buneo
-[02:13:32] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> ahhh mateo tu en cual estas ?
-[02:13:34] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> entoces me voy a buscar otra aldea
-[02:13:42] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> quedate con esta
-[02:13:46] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> mateo creo que esta en otra
-[02:13:49] [Server thread/INFO]: alexisromors issued server command: /tp Mateo2009MC
-[02:13:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> deja ver si es esta
-[02:13:56] [Server thread/INFO]: Mateo2009MC issued server command: /tpa luchito
-[02:13:59] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> esta es otra
-[02:14:02] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> luchi
-[02:14:07] [Async Chat Thread - #2/INFO]: [Not Secure] <alexisromors> quedate con esa
-[02:14:27] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> oe me uedo con estya aldea
-[02:14:31] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> me quedo
-[02:15:28] [Async Chat Thread - #3/INFO]: [Not Secure] <luchito> confrima alexis
-[02:15:33] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> me quedo con esta aldea
-[02:15:39] [Async Chat Thread - #3/INFO]: [Not Secure] <alexisromors> si
-[02:15:42] [Async Chat Thread - #2/INFO]: [Not Secure] <luchito> yap
-[02:16:28] [Server thread/INFO]: luchito has made the advancement [Monster Hunter]
-[02:16:34] [Server thread/INFO]: luchito has made the advancement [Sweet Dreams]
-[02:16:41] [Server thread/INFO]: Villager EntityVillager['Villager'/4435, uuid='4f9611c6-b397-4b38-9ab8-579f73829ce6', l='ServerLevel[world]', x=-346.30, y=73.00, z=850.70, cpos=[-22, 53], tl=32394, v=true] died, message: 'Villager was slain by Zombie'
-[02:17:15] [Server thread/INFO]: Villager EntityVillager['Villager'/4430, uuid='1b2846e8-818d-4124-b7f4-807a977fd953', l='ServerLevel[world]', x=-346.85, y=73.00, z=850.30, cpos=[-22, 53], tl=32418, v=true] died, message: 'Villager was slain by Zombie'
-[02:17:17] [Server thread/INFO]: Villager EntityVillager['Villager'/4429, uuid='3584372f-9cc4-4255-8be6-c20ef96c9683', l='ServerLevel[world]', x=-346.71, y=73.00, z=850.45, cpos=[-22, 53], tl=32471, v=true] died, message: 'Villager was slain by Zombie'
-[02:17:20] [Server thread/INFO]: Villager EntityVillager['Butcher'/4440, uuid='b5ed96a0-be22-4acf-b59e-e53ed5f86e14', l='ServerLevel[world]', x=-348.59, y=73.00, z=850.70, cpos=[-22, 53], tl=32469, v=true] died, message: 'Butcher was slain by Zombie'
-[02:17:41] [Server thread/INFO]: Mateo2009MC has made the advancement [Blindfolded]
-[02:21:32] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/20533, uuid='a0deeb00-af28-4187-a2e6-08e362c2d5b1', l='ServerLevel[world]', x=2474.50, y=42.00, z=2868.50, cpos=[154, 179], tl=441, v=true] died: Skeletal Knight suffocated in a wall
-[02:28:13] [Server thread/INFO]: Villager EntityVillager['Villager'/4432, uuid='6e2ff3b9-9f3d-47d1-b437-584d55cd0a02', l='ServerLevel[world]', x=-344.50, y=80.00, z=876.30, cpos=[-22, 54], tl=45583, v=true] died, message: 'Villager was slain by Zombie'
-[02:29:50] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/22945, uuid='bd0ca21d-4196-4f19-b40d-8c2aa006b467', l='ServerLevel[world]', x=-345.50, y=45.00, z=871.50, cpos=[-22, 54], tl=585, v=true] died: Skeletal Knight suffocated in a wall
-[02:30:21] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/23109, uuid='76c4f170-57de-4eb4-a61f-4cbf0bfdff23', l='ServerLevel[world]', x=-343.50, y=11.00, z=840.50, cpos=[-22, 52], tl=431, v=true] died: Skeletal Knight suffocated in a wall
-[02:32:23] [Async Chat Thread - #4/INFO]: [Not Secure] <alexisromors> con /ce pueden comprar encantamientos con xp
-[02:32:40] [Server thread/INFO]: Mateo2009MC issued server command: /ce
-[02:32:52] [Server thread/INFO]: Mateo2009MC issued server command: /tinkerer
-[02:33:00] [Server thread/INFO]: Mateo2009MC issued server command: /ce
-[02:33:20] [Async Chat Thread - #5/INFO]: [Not Secure] <Mateo2009MC> una mrd
-[02:35:06] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/24267, uuid='e88a362d-6713-4543-bb44-8e6c68895fe4', l='ServerLevel[world]', x=-295.50, y=-20.00, z=811.50, cpos=[-19, 50], tl=449, v=true] died: Skeletal Knight suffocated in a wall
-[02:38:23] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/25328, uuid='9e62a025-f3fe-48c8-ac3d-360576e19997', l='ServerLevel[world]', x=-317.50, y=-6.00, z=867.50, cpos=[-20, 54], tl=548, v=true] died: Skeletal Knight suffocated in a wall
-[02:39:06] [Server thread/INFO]: luchito was shot by Lvl 7 | Skeleton
-[02:39:30] [Server thread/INFO]: luchito issued server command: /sethome
-[02:40:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26686, uuid='0f81e494-bd9c-4cce-ac22-824ba1cfd34f', l='ServerLevel[world]', x=93.59, y=-21.94, z=215.54, cpos=[5, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26698, uuid='ba6e8d83-239d-4260-8298-e1d447807d2f', l='ServerLevel[world]', x=23.78, y=-13.00, z=161.68, cpos=[1, 10], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26963, uuid='f1ad739f-c11f-4635-b36e-88b7aa05cacb', l='ServerLevel[world]', x=23.41, y=-12.50, z=161.30, cpos=[1, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26964, uuid='9c7988cb-2774-4963-a8ad-21a0357c032f', l='ServerLevel[world]', x=24.16, y=-12.50, z=161.30, cpos=[1, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26965, uuid='7f104e31-da04-484c-bf9e-b21729f33a1d', l='ServerLevel[world]', x=23.41, y=-12.50, z=162.05, cpos=[1, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26966, uuid='d72fe494-e842-4078-8781-aee83af4ab72', l='ServerLevel[world]', x=24.16, y=-12.50, z=162.05, cpos=[1, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26906, uuid='15d2c75e-b3da-4985-9f0b-39b0a8867e4f', l='ServerLevel[world]', x=93.13, y=-21.94, z=214.76, cpos=[5, 13], tl=17, v=true] died: Blazing Cube suffocated in a wall
-[02:40:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26753, uuid='71dcf8f7-bfe9-4751-9dbe-c46577602338', l='ServerLevel[world]', x=-27.21, y=8.00, z=303.78, cpos=[-2, 18], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26994, uuid='b1c35a14-6147-4bd4-9872-3b30b841f2b4', l='ServerLevel[world]', x=-27.59, y=8.50, z=303.41, cpos=[-2, 18], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26995, uuid='c9483314-8a1d-4bc4-b46b-60d27ea5e047', l='ServerLevel[world]', x=-26.84, y=8.50, z=303.41, cpos=[-2, 18], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26996, uuid='5a71d08c-897f-4409-a91a-b0ad2d697df3', l='ServerLevel[world]', x=-27.59, y=8.50, z=304.16, cpos=[-2, 19], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26770, uuid='e2f0a1b7-0e06-47ad-8e13-2d78a6295279', l='ServerLevel[world]', x=87.57, y=24.00, z=189.59, cpos=[5, 11], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26999, uuid='788d9563-9517-46e2-8e07-68ad6c52fb72', l='ServerLevel[world]', x=87.94, y=24.50, z=189.22, cpos=[5, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:05] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26732, uuid='b87ddd36-9e15-4880-be84-5ee9c144024e', l='ServerLevel[world]', x=-27.22, y=-41.00, z=236.22, cpos=[-2, 14], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:05] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27026, uuid='081cee67-9e2a-4bf4-8dfe-bbd691233160', l='ServerLevel[world]', x=-27.59, y=-40.50, z=235.84, cpos=[-2, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:05] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27027, uuid='4bffd2d7-a290-4d0b-b178-251a3dceff5a', l='ServerLevel[world]', x=-26.84, y=-40.50, z=235.84, cpos=[-2, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26844, uuid='0bed854a-d94b-4715-8701-7bb07134b747', l='ServerLevel[world]', x=46.78, y=-14.00, z=207.96, cpos=[2, 12], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27057, uuid='ea9ef78b-e3a1-467b-97a5-3b2869a24e50', l='ServerLevel[world]', x=46.41, y=-13.50, z=207.58, cpos=[2, 12], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27058, uuid='234d83e3-f960-459c-b39d-1b1b3ecd963b', l='ServerLevel[world]', x=47.16, y=-13.50, z=207.58, cpos=[2, 12], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27059, uuid='ae73e967-e918-4864-b675-e69e28d2cca2', l='ServerLevel[world]', x=46.41, y=-13.50, z=208.33, cpos=[2, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27007, uuid='636abd83-08f0-423d-a2b4-e1f038aa2a47', l='ServerLevel[world]', x=82.87, y=-5.00, z=258.33, cpos=[5, 16], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27079, uuid='05c9d8da-fae0-48c9-85ad-5286cd6b2b3c', l='ServerLevel[world]', x=83.24, y=-4.50, z=257.96, cpos=[5, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26947, uuid='003dbca7-97ea-4195-9e70-e3b3ebc50cd2', l='ServerLevel[world]', x=44.22, y=0.00, z=281.86, cpos=[2, 17], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27083, uuid='56e1aaed-788a-4f3a-9e99-91c00fdba492', l='ServerLevel[world]', x=43.84, y=0.50, z=281.48, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27084, uuid='de9cfacd-b9ad-449b-978a-a90957c08a75', l='ServerLevel[world]', x=44.59, y=0.50, z=281.48, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27085, uuid='7497f2ca-038a-4033-838b-0fc5c36eded0', l='ServerLevel[world]', x=43.84, y=0.50, z=282.23, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26931, uuid='6a3b0673-5e2f-4074-b5dc-b6ef29c9f059', l='ServerLevel[world]', x=2491.78, y=40.00, z=2724.79, cpos=[155, 170], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27089, uuid='caf1c8b5-bc07-44ce-87b3-3bdce9fe72a3', l='ServerLevel[world]', x=2491.41, y=40.50, z=2725.17, cpos=[155, 170], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27013, uuid='7d6ac542-e2a3-4fed-bd92-c12713aeb172', l='ServerLevel[world]', x=-1.61, y=19.00, z=180.78, cpos=[-1, 11], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26986, uuid='0af22b45-f970-4362-b8b2-2b63797bc152', l='ServerLevel[world]', x=91.37, y=28.00, z=233.22, cpos=[5, 14], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27092, uuid='64cd320a-88fa-4406-b3ee-c2dac5318d26', l='ServerLevel[world]', x=-0.81, y=19.00, z=180.35, cpos=[-1, 11], tl=16, v=true] died: Blazing Cube suffocated in a wall
-[02:40:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27067, uuid='d4c8b053-864a-420f-b8e9-ce639aa0b007', l='ServerLevel[world]', x=93.95, y=25.00, z=255.22, cpos=[5, 15], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27131, uuid='633ea990-d475-4ada-9539-0a52bdad2d65', l='ServerLevel[world]', x=94.32, y=25.50, z=254.84, cpos=[5, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27112, uuid='33a3e8af-ddca-4332-a629-2b766dfa1c70', l='ServerLevel[world]', x=91.05, y=28.02, z=232.60, cpos=[5, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:40:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27113, uuid='d75ee379-276b-4e9b-8ca3-94a3247c3d87', l='ServerLevel[world]', x=92.09, y=28.00, z=232.92, cpos=[5, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:40:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/26600, uuid='c9a0d2e5-50a0-4a60-b76e-740ad89fd963', l='ServerLevel[world]', x=2632.88, y=22.00, z=2646.78, cpos=[164, 165], tl=342, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27158, uuid='6142f295-87fc-4d52-b683-7f8978420ee2', l='ServerLevel[world]', x=2632.50, y=22.50, z=2646.41, cpos=[164, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27160, uuid='11805bb0-032f-48f6-bc80-51be5672af01', l='ServerLevel[world]', x=2632.50, y=22.50, z=2647.16, cpos=[164, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:12] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/26342, uuid='3e67ee62-ec3f-452b-a406-4ad23bc54ea2', l='ServerLevel[world]', x=92.50, y=52.71, z=242.50, cpos=[5, 15], tl=401, v=false, removed=DISCARDED] died: fire warden drowned
-[02:40:15] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/26611, uuid='cf829814-c55f-4f65-8b83-88d55838744e', l='ServerLevel[world]', x=91.50, y=-4.00, z=214.50, cpos=[5, 13], tl=392, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:40:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27204, uuid='9b085030-c043-4bfd-9964-b8c9e89473bc', l='ServerLevel[world]', x=2480.42, y=42.00, z=2535.78, cpos=[155, 158], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27316, uuid='d75ce405-c1f3-4e88-a5d0-140b93da011e', l='ServerLevel[world]', x=2480.80, y=42.50, z=2535.41, cpos=[155, 158], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:20] [Server thread/INFO]: alexisromors issued server command: /ce
-[02:40:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27289, uuid='70701549-571d-40d6-b114-55c22522b9c9', l='ServerLevel[world]', x=28.22, y=-13.00, z=160.43, cpos=[1, 10], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27339, uuid='98ff6d6b-038c-43ed-82b8-a35a0f54f9d8', l='ServerLevel[world]', x=27.84, y=-12.50, z=160.05, cpos=[1, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27340, uuid='749f2758-9da4-4f28-85aa-4cc4e301d35b', l='ServerLevel[world]', x=28.59, y=-12.50, z=160.05, cpos=[1, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:27] [Server thread/INFO]: [Not Secure] [Server] luchito got killed during a bloodmoon!
-[02:40:27] [Server thread/INFO]: luchito drowned
-[02:40:28] [Server thread/INFO]: luchito lost connection: Timed out
-[02:40:28] [Server thread/INFO]: luchito left the game
-[02:40:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27346, uuid='d4d5dc64-1486-4ea0-9836-a06b52657aaf', l='ServerLevel[world]', x=2475.59, y=34.00, z=2840.14, cpos=[154, 177], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27694, uuid='0c78a5b8-33d8-415e-b164-82c7c8cacc9e', l='ServerLevel[world]', x=2475.22, y=34.50, z=2840.51, cpos=[154, 177], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27692, uuid='43076271-da08-4d0a-8075-7fea174310b3', l='ServerLevel[world]', x=2474.95, y=34.00, z=2840.10, cpos=[154, 177], tl=15, v=true] died: Blazing Cube suffocated in a wall
-[02:40:35] [Server thread/INFO]: alexisromors issued server command: /gmc
-[02:40:37] [Server thread/INFO]: alexisromors issued server command: /g,s
-[02:40:39] [Server thread/INFO]: alexisromors issued server command: /gms
-[02:40:40] [Async Chat Thread - #6/INFO]: [Not Secure] <alexisromors> jaja
-[02:40:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27750, uuid='334b7db9-d499-4c81-a706-42ad018129ed', l='ServerLevel[world]', x=2517.78, y=26.00, z=2824.05, cpos=[157, 176], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27850, uuid='ef38ec1d-37f6-4fdd-b595-acdba7a9b1ff', l='ServerLevel[world]', x=2517.41, y=26.50, z=2823.68, cpos=[157, 176], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27851, uuid='b1f26f8c-5a4b-4d20-9efc-0e045bca4871', l='ServerLevel[world]', x=2518.16, y=26.50, z=2823.68, cpos=[157, 176], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27852, uuid='28532873-4bf2-4711-aeb9-b0a4b7718f4b', l='ServerLevel[world]', x=2517.41, y=26.50, z=2824.43, cpos=[157, 176], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27853, uuid='b8e84b54-35eb-4b95-9ea0-fcf1ea11c54f', l='ServerLevel[world]', x=2518.16, y=26.50, z=2824.43, cpos=[157, 176], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:53] [Server thread/INFO]: Mateo2009MC has made the advancement [Take Aim]
-[02:40:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/27995, uuid='48aed48e-6674-4240-a989-3f4f4978b9b2', l='ServerLevel[world]', x=2407.08, y=-16.00, z=2807.22, cpos=[150, 175], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:40:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28032, uuid='21f5579e-9e0c-493b-bf90-f9b1dda69538', l='ServerLevel[world]', x=2407.46, y=-15.50, z=2806.84, cpos=[150, 175], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:40:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28034, uuid='49eeada9-ab62-4121-bf02-5cb1a567c895', l='ServerLevel[world]', x=2407.46, y=-15.50, z=2807.59, cpos=[150, 175], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:41:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28012, uuid='9aff6e2e-1911-421d-b577-99961e20dbc5', l='ServerLevel[world]', x=2616.22, y=25.00, z=2639.94, cpos=[163, 164], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:41:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28059, uuid='181b2dce-18a7-47d9-b9fd-5be16932b899', l='ServerLevel[world]', x=2615.84, y=25.50, z=2639.56, cpos=[163, 164], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:41:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28060, uuid='708e723d-93a4-4fa4-bac2-90ed7d1a6907', l='ServerLevel[world]', x=2616.59, y=25.50, z=2639.56, cpos=[163, 164], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:41:40] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28428, uuid='95f7422d-148f-4e6f-83f9-4478644caf68', l='ServerLevel[world]', x=2468.79, y=-34.00, z=2543.97, cpos=[154, 158], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:41:41] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28473, uuid='22ddb675-782a-4aa0-a142-71f826367830', l='ServerLevel[world]', x=2468.41, y=-33.50, z=2543.60, cpos=[154, 158], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:41:41] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28474, uuid='25123175-96b6-4f7d-bcc8-4a8b9cf6431f', l='ServerLevel[world]', x=2469.16, y=-33.50, z=2543.60, cpos=[154, 158], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:41:41] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28475, uuid='31a687bc-b49a-40a9-953a-1ef8191f9da4', l='ServerLevel[world]', x=2468.41, y=-33.50, z=2544.35, cpos=[154, 159], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:41:44] [Server thread/INFO]: Villager EntityVillager['Butcher'/10376, uuid='69e55951-85f0-45b1-9281-6effd36ba9ef', l='ServerLevel[world]', x=2458.60, y=72.94, z=2739.82, cpos=[153, 171], tl=93713, v=true] died, message: 'Butcher was slain by Zombie'
-[02:41:45] [Server thread/INFO]: alexisromors issued server command: /gmsp
-[02:41:53] [Server thread/INFO]: alexisromors issued server command: /gms
-[02:42:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28688, uuid='210e992e-1211-4001-be48-b0785656b5a5', l='ServerLevel[world]', x=2481.17, y=-22.00, z=2653.22, cpos=[155, 165], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28777, uuid='baa6b8ab-ccd9-4340-af91-917d9f7b4661', l='ServerLevel[world]', x=2381.18, y=-24.94, z=2783.10, cpos=[148, 173], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28944, uuid='e897b6e6-c51b-4490-8a1e-08341457ab8f', l='ServerLevel[world]', x=2381.04, y=-24.94, z=2783.31, cpos=[148, 173], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:42:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28923, uuid='925d088f-d3cb-4f93-9189-24fc15826e41', l='ServerLevel[world]', x=2480.81, y=-22.00, z=2652.49, cpos=[155, 165], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[02:42:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28925, uuid='d12b929c-77b2-4b5a-a9ba-1b857887937a', l='ServerLevel[world]', x=2481.08, y=-22.00, z=2653.39, cpos=[155, 165], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[02:42:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28886, uuid='d3d1e1bb-32ba-446e-a643-7f605eeb9e2a', l='ServerLevel[world]', x=2483.03, y=-13.00, z=2809.14, cpos=[155, 175], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28762, uuid='c33303bc-defc-42ec-8183-b2c0032f4932', l='ServerLevel[world]', x=2455.93, y=32.00, z=2832.90, cpos=[153, 177], tl=219, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:08] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/28697, uuid='f61a9073-7ac6-485d-a527-5607652f44c9', l='ServerLevel[world]', x=2424.50, y=40.00, z=2803.50, cpos=[151, 175], tl=301, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:42:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28956, uuid='a1eca6ed-c9bf-4f9b-aef9-9430d6cda8d1', l='ServerLevel[world]', x=2610.83, y=9.00, z=2567.93, cpos=[163, 160], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28985, uuid='d53ad0f2-0139-4a39-898b-6329b6300cd7', l='ServerLevel[world]', x=2610.45, y=9.50, z=2567.56, cpos=[163, 160], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28986, uuid='7bf955c3-900e-4eb5-890d-eb235ea1c0ba', l='ServerLevel[world]', x=2611.20, y=9.50, z=2567.56, cpos=[163, 160], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28987, uuid='d64eb6aa-c62e-44ef-8580-af848b442ab6', l='ServerLevel[world]', x=2610.45, y=9.50, z=2568.31, cpos=[163, 160], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28988, uuid='8e13050b-a614-46a1-b43c-14ea3af36b49', l='ServerLevel[world]', x=2611.20, y=9.50, z=2568.31, cpos=[163, 160], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:17] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/28995, uuid='696dc1c3-63c0-4219-a319-18df1be628a7', l='ServerLevel[world]', x=2528.53, y=-24.00, z=2714.83, cpos=[158, 169], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:17] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29041, uuid='107bb2e9-5b73-4679-aa1b-6b7ffa7d2160', l='ServerLevel[world]', x=2528.90, y=-23.50, z=2714.46, cpos=[158, 169], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:17] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29043, uuid='a4e227b0-343c-4c11-97df-271a2ddfd068', l='ServerLevel[world]', x=2528.90, y=-23.50, z=2715.21, cpos=[158, 169], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:37] [Server thread/INFO]: Mateo2009MC was slain by Soldier
-[02:42:37] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[02:42:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29475, uuid='7502c9e8-b04d-4454-b34d-c92c22df9998', l='ServerLevel[world]', x=2413.02, y=25.00, z=2649.78, cpos=[150, 165], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29937, uuid='965e6be1-b7a5-4693-89bf-e54ab9a16ba1', l='ServerLevel[world]', x=2412.64, y=25.50, z=2649.41, cpos=[150, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:44] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/29163, uuid='dacd8ba7-d6d1-406f-8fa6-701a28b4a7a2', l='ServerLevel[world]', x=2398.50, y=-35.00, z=2766.50, cpos=[149, 172], tl=291, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:42:45] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29350, uuid='c7a96783-88d0-4825-9ae1-7c0a10927bce', l='ServerLevel[world]', x=2439.16, y=-30.00, z=2682.22, cpos=[152, 167], tl=161, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:46] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29989, uuid='759f7e12-0b41-4767-929b-660348e5ffb3', l='ServerLevel[world]', x=2438.42, y=-30.00, z=2682.62, cpos=[152, 167], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[02:42:48] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29908, uuid='87c8b26c-97e0-4116-9442-e8d73822efde', l='ServerLevel[world]', x=-16.60, y=26.00, z=262.06, cpos=[-2, 16], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/29959, uuid='e61fd032-9294-4d42-a185-202af4ffd103', l='ServerLevel[world]', x=97.62, y=-11.94, z=287.22, cpos=[6, 17], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:50] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30226, uuid='906655f7-a4df-41c7-8ef5-98e645fca5b8', l='ServerLevel[world]', x=96.82, y=-12.00, z=287.74, cpos=[6, 17], tl=16, v=true] died: Blazing Cube suffocated in a wall
-[02:42:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30356, uuid='c0863245-e385-4ebb-8402-1d1cb89aa224', l='ServerLevel[world]', x=106.80, y=-8.00, z=285.36, cpos=[6, 17], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:42:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30423, uuid='b10926d5-20ba-4054-aa58-1e29956e9f8f', l='ServerLevel[world]', x=107.18, y=-7.50, z=284.98, cpos=[6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:42:58] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/29895, uuid='90535457-d642-479c-945b-3fd8d09cf8a2', l='ServerLevel[world]', x=58.50, y=28.00, z=300.50, cpos=[3, 18], tl=311, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:43:01] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/30437, uuid='c2234881-b746-4212-bb58-9540f45a7ab6', l='ServerLevel[world]', x=2468.02, y=72.00, z=2745.90, cpos=[154, 171], tl=52, v=false, removed=DISCARDED] died: Soldier was slain by Iron Golem
-[02:43:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30450, uuid='1b02a6e4-ec47-4fb1-8fce-8275a0da0e28', l='ServerLevel[world]', x=114.22, y=-5.00, z=180.03, cpos=[7, 11], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30521, uuid='6ca88386-70e5-4240-a624-7ad4dc0b74ec', l='ServerLevel[world]', x=113.68, y=-5.00, z=179.93, cpos=[7, 11], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30522, uuid='02f8044d-f485-4cce-b7bc-81969c521633', l='ServerLevel[world]', x=114.74, y=-4.98, z=179.50, cpos=[7, 11], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30439, uuid='3ad14d95-9bdd-4083-a97a-2ee626584ca6', l='ServerLevel[world]', x=2468.21, y=71.00, z=2754.21, cpos=[154, 172], tl=117, v=false, removed=DISCARDED] died: Blazing Cube was slain by Iron Golem
-[02:43:05] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30528, uuid='273321b4-4d73-40bf-ad38-38e113d30f1d', l='ServerLevel[world]', x=2467.14, y=71.00, z=2753.80, cpos=[154, 172], tl=20, v=true] died: Blazing Cube was slain by Iron Golem
-[02:43:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30529, uuid='ae32deb7-a578-4c90-9fa3-a8c628ebc9e3', l='ServerLevel[world]', x=2468.27, y=71.00, z=2753.17, cpos=[154, 172], tl=40, v=true] died: Blazing Cube was slain by Iron Golem
-[02:43:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30530, uuid='240a60be-0b47-4fa7-bd16-f95a1513b8ff', l='ServerLevel[world]', x=2468.49, y=71.00, z=2754.24, cpos=[154, 172], tl=61, v=true] died: Blazing Cube was slain by Iron Golem
-[02:43:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30497, uuid='eaa7dfba-51a5-4c55-a621-5da5b3709e68', l='ServerLevel[world]', x=66.96, y=24.00, z=302.13, cpos=[4, 18], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30518, uuid='3b37e622-8ba3-43eb-9d6d-0e6a881165db', l='ServerLevel[world]', x=43.83, y=63.00, z=197.00, cpos=[2, 12], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30598, uuid='c5f74d31-adc1-4c93-ad21-a815e7855185', l='ServerLevel[world]', x=44.21, y=63.50, z=196.63, cpos=[2, 12], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30593, uuid='2f1700e4-3417-4ec2-840d-8d9ee78ceff5', l='ServerLevel[world]', x=66.53, y=24.00, z=301.49, cpos=[4, 18], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:15] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/30448, uuid='53a7c70c-ceb7-4679-873b-f002559827ca', l='ServerLevel[world]', x=112.35, y=-5.00, z=181.65, cpos=[7, 11], tl=322, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:43:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30642, uuid='22af3232-9aef-4318-ad95-79f1367ca501', l='ServerLevel[world]', x=-0.92, y=68.00, z=336.08, cpos=[-1, 21], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:18] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/30441, uuid='0bb27ae1-aa39-4e48-8a5b-201996e58624', l='ServerLevel[world]', x=2483.50, y=-5.00, z=2783.50, cpos=[155, 173], tl=397, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:43:22] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/30490, uuid='a076101a-7033-4a8b-9d74-8eb27bfd079b', l='ServerLevel[world]', x=2551.50, y=57.59, z=2764.50, cpos=[159, 172], tl=430, v=false, removed=DISCARDED] died: fire warden drowned
-[02:43:23] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/30557, uuid='743d3608-cc10-4a7a-a2bb-0df91da8ea9d', l='ServerLevel[world]', x=205.50, y=60.04, z=255.50, cpos=[12, 15], tl=349, v=false, removed=DISCARDED] died: fire warden drowned
-[02:43:26] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30859, uuid='f498908b-8ea1-4bc9-9df1-07ccbe2d029e', l='ServerLevel[world]', x=97.78, y=-27.00, z=310.74, cpos=[6, 19], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:27] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30911, uuid='c3b6cdd5-7307-4490-9b38-d706227be8cf', l='ServerLevel[world]', x=228.90, y=65.00, z=297.22, cpos=[14, 18], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30957, uuid='02f947c2-c6e7-4c1b-8c03-ec0440746220', l='ServerLevel[world]', x=2444.86, y=56.00, z=2803.08, cpos=[152, 175], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31122, uuid='f1adbe94-82ed-4f62-95a7-32afda20ed51', l='ServerLevel[world]', x=2444.48, y=56.50, z=2802.70, cpos=[152, 175], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31124, uuid='eb5b856b-b11e-4805-8cec-bc1062356b2e', l='ServerLevel[world]', x=2444.48, y=56.50, z=2803.45, cpos=[152, 175], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31125, uuid='3d394b4b-14f4-45d8-abad-0c792633431a', l='ServerLevel[world]', x=2445.23, y=56.50, z=2803.45, cpos=[152, 175], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31123, uuid='d9060d51-7d9f-4c10-8df6-7ace2a0e35fb', l='ServerLevel[world]', x=2444.97, y=56.00, z=2802.74, cpos=[152, 175], tl=15, v=true] died: Blazing Cube suffocated in a wall
-[02:43:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30948, uuid='65e14504-04e0-4fd4-a746-a57ed9d92a8f', l='ServerLevel[world]', x=2472.12, y=26.00, z=2667.78, cpos=[154, 166], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31191, uuid='4b7800b3-ea3f-4e6f-b8e2-77ecd87424c1', l='ServerLevel[world]', x=2471.75, y=26.50, z=2668.16, cpos=[154, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/30939, uuid='e893eb7d-7704-46bb-901a-f881e49aaf32', l='ServerLevel[world]', x=2510.63, y=71.00, z=2722.78, cpos=[156, 170], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31182, uuid='311dc788-aa72-4621-a404-a7005eda41c7', l='ServerLevel[world]', x=115.98, y=33.00, z=418.19, cpos=[7, 26], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31302, uuid='4a21e036-3ab8-4e28-9615-c8600bde7fbe', l='ServerLevel[world]', x=115.61, y=33.50, z=417.82, cpos=[7, 26], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31303, uuid='24c073ce-da3e-4962-8806-7b52ea7bc0f8', l='ServerLevel[world]', x=116.36, y=33.50, z=417.82, cpos=[7, 26], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31304, uuid='66e9f29b-944e-4266-8fbc-974a2066376c', l='ServerLevel[world]', x=115.61, y=33.50, z=418.57, cpos=[7, 26], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31305, uuid='7e32746e-94ec-4b19-bfd3-cc83a25dc2b6', l='ServerLevel[world]', x=116.36, y=33.50, z=418.57, cpos=[7, 26], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31083, uuid='522166e9-ed5d-4003-92df-5f71c81f22c7', l='ServerLevel[world]', x=2455.78, y=-32.00, z=2756.76, cpos=[153, 172], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31312, uuid='db260f4e-8207-4392-8cc5-c85a3948359b', l='ServerLevel[world]', x=2455.41, y=-31.50, z=2756.38, cpos=[153, 172], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31313, uuid='b5a055f2-e5ca-4614-adc6-fdff29a53e64', l='ServerLevel[world]', x=2456.16, y=-31.50, z=2756.38, cpos=[153, 172], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31314, uuid='a252c131-bf5a-4505-a32b-d435d90bb95c', l='ServerLevel[world]', x=2455.41, y=-31.50, z=2757.13, cpos=[153, 172], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31315, uuid='ee480c17-b9ed-42df-aa31-a76bc3094e37', l='ServerLevel[world]', x=2456.16, y=-31.50, z=2757.13, cpos=[153, 172], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:39] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31259, uuid='dcf2634a-0d8e-490e-9b85-66ac2b38ba1c', l='ServerLevel[world]', x=2397.78, y=11.00, z=2647.78, cpos=[149, 165], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:39] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31483, uuid='384bbe69-515a-487d-800e-2fd202fe15a8', l='ServerLevel[world]', x=2397.41, y=11.50, z=2647.41, cpos=[149, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:39] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31484, uuid='6619af4c-7af0-49d0-a379-2445d3f21a15', l='ServerLevel[world]', x=2398.16, y=11.50, z=2647.41, cpos=[149, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31433, uuid='38457f32-43eb-477c-a7f9-7dcccf9b9a18', l='ServerLevel[world]', x=147.60, y=-10.00, z=391.22, cpos=[9, 24], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31410, uuid='f6914f89-a724-4882-9d54-340a320ed81c', l='ServerLevel[world]', x=144.61, y=10.00, z=442.22, cpos=[9, 27], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31639, uuid='562bb5cb-3d16-42c2-9080-a1e93368b204', l='ServerLevel[world]', x=144.24, y=10.50, z=441.84, cpos=[9, 27], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31640, uuid='41c2f9db-16e3-4f16-b057-9de733441222', l='ServerLevel[world]', x=144.99, y=10.50, z=441.84, cpos=[9, 27], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31641, uuid='c942ff63-ab59-4fda-b0da-d45f4ca74e82', l='ServerLevel[world]', x=144.24, y=10.50, z=442.59, cpos=[9, 27], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31642, uuid='32584383-c9a5-48d2-ae3e-7c4ccc09ae87', l='ServerLevel[world]', x=144.99, y=10.50, z=442.59, cpos=[9, 27], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31634, uuid='fbb1913b-ea24-45d0-acb7-786cca956077', l='ServerLevel[world]', x=147.34, y=-10.00, z=391.01, cpos=[9, 24], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31635, uuid='ff22c0e0-54b3-4c28-84f8-4436c1fe0348', l='ServerLevel[world]', x=147.91, y=-9.98, z=390.91, cpos=[9, 24], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31636, uuid='015c960a-3cea-45d7-96ac-663c59d76bf1', l='ServerLevel[world]', x=147.49, y=-10.00, z=391.68, cpos=[9, 24], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31637, uuid='69f82c95-54c9-401d-9fa1-741daee8f19e', l='ServerLevel[world]', x=148.17, y=-9.98, z=391.61, cpos=[9, 24], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:45] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/30999, uuid='b9d0d621-03f0-4690-b678-4427bb877812', l='ServerLevel[world]', x=2425.50, y=18.00, z=2649.50, cpos=[151, 165], tl=403, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:43:46] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/30113, uuid='17385a99-8853-4982-b7ab-3b8a5a34e691', l='ServerLevel[world]', x=117.54, y=61.52, z=301.53, cpos=[7, 18], tl=1172, v=false, removed=DISCARDED] died: fire warden drowned
-[02:43:51] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31672, uuid='88153ba8-c0da-4a5e-b488-c582953b519d', l='ServerLevel[world]', x=2409.29, y=75.00, z=2771.16, cpos=[150, 173], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:43:51] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31820, uuid='27109676-d853-4ac0-99c3-43e5ea8e89bf', l='ServerLevel[world]', x=2408.91, y=75.50, z=2770.78, cpos=[150, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:43:51] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/31821, uuid='038ec681-8a33-4b9f-a1d2-b887677215f5', l='ServerLevel[world]', x=2409.82, y=75.00, z=2770.53, cpos=[150, 173], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:43:56] [Server thread/INFO]: Mateo2009MC was shot by Magic Skeleton
-[02:43:56] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[02:44:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32378, uuid='a095a480-c66f-4118-92c4-aef543560b32', l='ServerLevel[world]', x=46.61, y=-2.00, z=276.22, cpos=[2, 17], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32594, uuid='9490fa21-dae5-4ad1-8140-c6607de36aa5', l='ServerLevel[world]', x=46.98, y=-1.50, z=275.84, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32422, uuid='6f49331d-74dd-4f5e-b199-00e1cb297309', l='ServerLevel[world]', x=-54.69, y=64.00, z=227.90, cpos=[-4, 14], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32459, uuid='e5e3533b-6010-4b59-a3a4-006b75fab45c', l='ServerLevel[world]', x=69.78, y=-9.00, z=224.78, cpos=[4, 14], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32774, uuid='99e66dbd-ff53-4125-9094-24e02d6ebebf', l='ServerLevel[world]', x=69.41, y=-8.50, z=224.41, cpos=[4, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32775, uuid='0ec49b9c-70ea-4119-a44c-8c2ab7687aaf', l='ServerLevel[world]', x=70.16, y=-8.50, z=224.41, cpos=[4, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32560, uuid='82c5df87-8187-466e-8c3e-43c0c01d3d05', l='ServerLevel[world]', x=2350.85, y=38.00, z=2815.08, cpos=[146, 175], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:08] [Server thread/INFO]: Mateo2009MC issued server command: /tpa alexisromors
-[02:44:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32797, uuid='2748d76a-e6af-4692-8113-75231a48449f', l='ServerLevel[world]', x=2350.51, y=38.02, z=2814.76, cpos=[146, 175], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:44:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32798, uuid='20d5e45d-1266-4540-9e3d-cfc4d4e0a0d2', l='ServerLevel[world]', x=2351.21, y=38.00, z=2814.94, cpos=[146, 175], tl=15, v=true] died: Blazing Cube suffocated in a wall
-[02:44:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32621, uuid='abd7ac51-6242-4203-a0f6-2aab9e78a11c', l='ServerLevel[world]', x=-1.42, y=-39.00, z=292.78, cpos=[-1, 18], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32629, uuid='18d5148f-95bd-47fd-80d4-2bf414a8c2cd', l='ServerLevel[world]', x=-83.24, y=66.00, z=285.78, cpos=[-6, 17], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32849, uuid='f28b6f7b-8ea5-4794-9f7f-23ca7f4efe9c', l='ServerLevel[world]', x=-82.86, y=66.50, z=285.41, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32851, uuid='f00c9032-7f07-4f9a-8648-164996e769cd', l='ServerLevel[world]', x=-82.86, y=66.50, z=286.16, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:09] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32649, uuid='3943e7c8-f92b-4bc2-a70e-0e1b43af6f7e', l='ServerLevel[world]', x=66.62, y=-10.00, z=199.78, cpos=[4, 12], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32853, uuid='99823ff6-a707-46b5-aef5-2a4b6d817203', l='ServerLevel[world]', x=65.97, y=-10.00, z=199.62, cpos=[4, 12], tl=17, v=true] died: Blazing Cube suffocated in a wall
-[02:44:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32668, uuid='89e3c0fd-e13e-48c8-8ef9-b1388bbd590c', l='ServerLevel[world]', x=2423.04, y=44.00, z=2779.78, cpos=[151, 173], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32923, uuid='3796f8c8-f25a-434d-98d6-ff102f66d2ce', l='ServerLevel[world]', x=2422.67, y=44.50, z=2779.41, cpos=[151, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:10] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32924, uuid='b8230193-0c2c-4b41-a07f-a57261538e97', l='ServerLevel[world]', x=2423.42, y=44.50, z=2779.41, cpos=[151, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32745, uuid='1c1d5426-90fc-495d-8920-6ac5116f740c', l='ServerLevel[world]', x=82.38, y=-41.00, z=284.22, cpos=[5, 17], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32738, uuid='7ecdd1b5-6ac2-4d3f-915a-5fa376cf1416', l='ServerLevel[world]', x=4.38, y=69.00, z=342.22, cpos=[0, 21], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32991, uuid='feee6aea-f9d4-4daf-aa27-6aa2a547b22f', l='ServerLevel[world]', x=4.00, y=69.50, z=341.84, cpos=[0, 21], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32992, uuid='0ba43826-372c-4c57-88e3-c4025dae9167', l='ServerLevel[world]', x=4.75, y=69.50, z=341.84, cpos=[0, 21], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32993, uuid='c81fa56e-2c1f-4c34-9f22-023e536aa209', l='ServerLevel[world]', x=4.00, y=69.50, z=342.59, cpos=[0, 21], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32789, uuid='e6be2192-c8a3-41d3-99ed-ce1c78df93fa', l='ServerLevel[world]', x=44.10, y=74.00, z=282.78, cpos=[2, 17], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32997, uuid='66abca65-b298-4979-b2eb-eff0cfe23bed', l='ServerLevel[world]', x=43.73, y=74.50, z=282.41, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32999, uuid='8806c130-74de-4c7e-9954-d87e577a60dc', l='ServerLevel[world]', x=43.73, y=74.50, z=283.16, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33000, uuid='720dd790-44cf-49cd-b6cc-43ac9426ea53', l='ServerLevel[world]', x=44.48, y=74.50, z=283.16, cpos=[2, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32863, uuid='16cc0097-419a-4941-ae81-2f6eac8863c7', l='ServerLevel[world]', x=-66.78, y=75.00, z=220.53, cpos=[-5, 13], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/32872, uuid='199019fd-591c-4228-ac38-a84cfa8e0290', l='ServerLevel[world]', x=43.74, y=-49.00, z=243.22, cpos=[2, 15], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33011, uuid='f474fd4c-658c-4363-b3e8-5e37c35698fe', l='ServerLevel[world]', x=44.12, y=-48.50, z=242.84, cpos=[2, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33007, uuid='918cabaa-0e9b-4a83-8730-d379396cf778', l='ServerLevel[world]', x=-66.97, y=75.00, z=220.14, cpos=[-5, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:44:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33008, uuid='652f9c7c-d142-4e72-bb08-975960700d61', l='ServerLevel[world]', x=-66.40, y=75.02, z=219.97, cpos=[-5, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:44:16] [Async Chat Thread - #9/INFO]: [Not Secure] <Mateo2009MC> oeee
-[02:44:24] [Async Chat Thread - #10/INFO]: [Not Secure] <Mateo2009MC> as que pase la boodmoon
-[02:44:26] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33032, uuid='868e7af4-d5f2-45df-b8e3-ca1e526cf0e5', l='ServerLevel[world]', x=2413.78, y=9.00, z=2635.70, cpos=[150, 164], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33050, uuid='81c23789-bd48-401c-b7ba-730175b8e470', l='ServerLevel[world]', x=2488.68, y=8.00, z=2820.77, cpos=[155, 176], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33115, uuid='ab284e67-09e8-41e5-9cd0-d88d03f218dc', l='ServerLevel[world]', x=2489.05, y=8.50, z=2821.15, cpos=[155, 176], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:44:45] [Server thread/INFO]: Mateo2009MC was impaled by Lvl 7 | Drowned
-[02:44:45] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[02:44:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33681, uuid='c60c7eeb-65b2-4e24-a259-e06594c9ea6a', l='ServerLevel[world]', x=56.74, y=25.00, z=273.22, cpos=[3, 17], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33674, uuid='ac9b5ab4-aaa6-46fb-94cf-6a03a2b38092', l='ServerLevel[world]', x=50.78, y=26.00, z=270.68, cpos=[3, 16], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:44:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33917, uuid='a5b68db8-c373-4678-8e25-ae994ef43543', l='ServerLevel[world]', x=56.93, y=25.00, z=272.85, cpos=[3, 17], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:44:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33919, uuid='4411843d-765f-441f-ae29-96f3d964bdaa', l='ServerLevel[world]', x=57.52, y=25.00, z=273.62, cpos=[3, 17], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/33937, uuid='dbc1453b-b15b-4359-a238-802bc8ed57c7', l='ServerLevel[world]', x=15.62, y=29.00, z=262.22, cpos=[0, 16], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34022, uuid='4b056da7-fb15-4ae0-b61d-d73656453839', l='ServerLevel[world]', x=2486.22, y=29.00, z=2643.41, cpos=[155, 165], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34031, uuid='1aaaab2f-e04c-4a6f-a461-80bd11039fc4', l='ServerLevel[world]', x=88.00, y=24.44, z=246.22, cpos=[5, 15], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34197, uuid='f9b46f35-91a0-47be-beee-8b658116c251', l='ServerLevel[world]', x=16.02, y=29.00, z=262.09, cpos=[1, 16], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34198, uuid='0676b16d-2dfd-4b38-b10a-8d615b5341bb', l='ServerLevel[world]', x=15.40, y=29.02, z=262.33, cpos=[0, 16], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34201, uuid='57c60422-9990-4a07-8530-3f365d1e077a', l='ServerLevel[world]', x=2486.53, y=29.02, z=2643.27, cpos=[155, 165], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34203, uuid='d32cea00-59ab-4d6a-ada3-88b300468276', l='ServerLevel[world]', x=87.59, y=24.25, z=246.04, cpos=[5, 15], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34057, uuid='2faa197f-0bfc-4295-b430-ab2ebfe44873', l='ServerLevel[world]', x=78.16, y=30.00, z=307.78, cpos=[4, 19], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34214, uuid='5c24a6e6-2dfe-4642-a447-b7ae85864ff6', l='ServerLevel[world]', x=77.79, y=30.50, z=307.41, cpos=[4, 19], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:45:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34216, uuid='b876e329-d700-4ae7-9381-408b23230381', l='ServerLevel[world]', x=77.79, y=30.50, z=308.16, cpos=[4, 19], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:45:03] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/33684, uuid='c749fea9-ec2f-436b-80bb-a6eddc4b1e94', l='ServerLevel[world]', x=48.50, y=73.00, z=134.50, cpos=[3, 8], tl=300, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:45:10] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/33757, uuid='15d4f834-c6bb-4dea-b1c1-4826d4fc82f8', l='ServerLevel[world]', x=2417.50, y=25.00, z=2647.50, cpos=[151, 165], tl=409, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:45:26] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34308, uuid='82644805-2867-4328-b9f4-ed4bdd835513', l='ServerLevel[world]', x=2.00, y=66.00, z=340.83, cpos=[0, 21], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:35] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34445, uuid='aca4bd73-8065-452a-aa2a-de513690502e', l='ServerLevel[world]', x=50.00, y=-9.00, z=307.41, cpos=[3, 19], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:36] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34521, uuid='af31db32-7be4-48d2-821d-02bbdb65b375', l='ServerLevel[world]', x=50.51, y=-8.98, z=307.27, cpos=[3, 19], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:36] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34523, uuid='68f90e81-be01-493a-a347-34a6aad7f929', l='ServerLevel[world]', x=50.08, y=-8.98, z=307.86, cpos=[3, 19], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:45:36] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34520, uuid='443965e6-7217-4b98-bb8c-60b63274c99c', l='ServerLevel[world]', x=49.32, y=-8.48, z=307.03, cpos=[3, 19], tl=12, v=true] died: Blazing Cube suffocated in a wall
-[02:45:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34460, uuid='2d52f005-c8a0-4933-a15a-325130811adf', l='ServerLevel[world]', x=-77.78, y=63.00, z=219.15, cpos=[-5, 13], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34553, uuid='228b2872-1487-4344-86cd-badc8a26a2b2', l='ServerLevel[world]', x=-78.16, y=63.50, z=218.77, cpos=[-5, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:45:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34554, uuid='63b65b29-a332-4e41-9d45-442980c3e919', l='ServerLevel[world]', x=-77.41, y=63.50, z=218.77, cpos=[-5, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:45:46] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34619, uuid='b153f9ad-5998-47a6-af35-d57788e36828', l='ServerLevel[world]', x=-51.78, y=0.00, z=170.00, cpos=[-4, 10], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:45:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34664, uuid='cd345979-a63c-49e0-bc46-60a3e55a5431', l='ServerLevel[world]', x=-52.16, y=0.50, z=169.63, cpos=[-4, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:45:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34665, uuid='dd5e17d1-e23e-4ed4-986a-2a324aa46761', l='ServerLevel[world]', x=-51.41, y=0.50, z=169.63, cpos=[-4, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:45:52] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/34531, uuid='a5bb2c1d-ce7f-4752-ae54-7064c8eb2b20', l='ServerLevel[world]', x=75.50, y=21.00, z=280.50, cpos=[4, 17], tl=327, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:46:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34773, uuid='a5c917d6-0301-4c3a-b310-8c5abdb9048b', l='ServerLevel[world]', x=17.21, y=76.00, z=356.61, cpos=[1, 22], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:08] [Async Chat Thread - #11/INFO]: [Not Secure] <alexisromors> no pene
-[02:46:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34876, uuid='36ee43b8-8e46-494f-b48b-35cd7245f37a', l='ServerLevel[world]', x=106.78, y=24.00, z=227.86, cpos=[6, 14], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:12] [Async Chat Thread - #12/INFO]: [Not Secure] <Mateo2009MC> xd
-[02:46:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/34923, uuid='09da19a8-b08c-40d5-915c-549c888b21cc', l='ServerLevel[world]', x=13.87, y=-22.00, z=322.78, cpos=[0, 20], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35069, uuid='88f8ba5f-e09d-4ddd-ac3c-a03974f77197', l='ServerLevel[world]', x=14.24, y=-21.50, z=322.41, cpos=[0, 20], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:46:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35071, uuid='df22fc7c-2a1c-4cbe-abdd-ffb9a6829bd0', l='ServerLevel[world]', x=14.24, y=-21.50, z=323.16, cpos=[0, 20], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:46:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35212, uuid='aad05eb1-c24a-4741-8ead-308c194ec09d', l='ServerLevel[world]', x=37.78, y=-51.00, z=246.98, cpos=[2, 15], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35319, uuid='13fe90e4-be85-4c1d-a724-de4ee8bd615d', l='ServerLevel[world]', x=37.41, y=-50.50, z=246.61, cpos=[2, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:46:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35320, uuid='ad22e3ff-0d8a-40e4-aa0e-c79ad2defd38', l='ServerLevel[world]', x=38.16, y=-50.50, z=246.61, cpos=[2, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:46:33] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35299, uuid='ef35d930-b69a-4644-bb56-ab8e00604044', l='ServerLevel[world]', x=61.85, y=-8.00, z=174.14, cpos=[3, 10], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:33] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35396, uuid='89028fe3-c191-4b13-ad96-c1641b51f883', l='ServerLevel[world]', x=62.23, y=-7.50, z=174.51, cpos=[3, 10], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:46:45] [Server thread/INFO]: Villager EntityVillager['Toolsmith'/10377, uuid='89808d9c-a9ed-4cdc-89c2-27ad26f674da', l='ServerLevel[world]', x=2399.44, y=75.00, z=2700.13, cpos=[149, 168], tl=100265, v=true] died, message: 'Toolsmith was slain by Zombie'
-[02:46:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35637, uuid='103b8456-217a-4097-97fb-eaa0bb2a56bf', l='ServerLevel[world]', x=50.88, y=76.00, z=340.78, cpos=[3, 21], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35756, uuid='7a781b13-0f5a-428f-aba2-8b1a5985db09', l='ServerLevel[world]', x=50.50, y=76.50, z=340.41, cpos=[3, 21], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:46:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35757, uuid='4dd575eb-ec5a-4d73-b8d1-53bff0000da2', l='ServerLevel[world]', x=50.79, y=76.00, z=340.43, cpos=[3, 21], tl=16, v=true] died: Blazing Cube suffocated in a wall
-[02:46:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35736, uuid='0153c9fd-6a1e-4501-afde-ff47ad9ec7c0', l='ServerLevel[world]', x=81.45, y=31.00, z=320.35, cpos=[5, 20], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:46:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35864, uuid='2f09e79d-d3cc-4865-a1da-4685a3928dda', l='ServerLevel[world]', x=81.82, y=31.50, z=319.97, cpos=[5, 19], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:03] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/35647, uuid='2f08f20f-14e1-41af-a944-e993f99f0b1a', l='ServerLevel[world]', x=59.44, y=14.22, z=251.63, cpos=[3, 15], tl=311, v=false, removed=DISCARDED] died: fire warden drowned
-[02:47:04] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35461, uuid='ed90b338-0321-4793-8da9-2f1a4557f40d', l='ServerLevel[world]', x=100.78, y=40.41, z=257.22, cpos=[6, 16], tl=495, v=false, removed=DISCARDED] died: Blazing Cube drowned
-[02:47:05] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35879, uuid='c3e6f12f-66bf-45e1-a241-05d7c31f0653', l='ServerLevel[world]', x=96.78, y=24.00, z=227.44, cpos=[6, 14], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36077, uuid='133a02dc-7d27-4fe7-bb09-efeb5ae9c40f', l='ServerLevel[world]', x=96.26, y=24.00, z=228.09, cpos=[6, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:47:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36078, uuid='86625ce3-b8e0-4c33-a0c5-4e7159ee36f9', l='ServerLevel[world]', x=96.91, y=24.02, z=227.97, cpos=[6, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:47:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/35997, uuid='6cb5460e-61ac-4e79-87ca-48cb5ef59315', l='ServerLevel[world]', x=117.22, y=1.00, z=352.63, cpos=[7, 22], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36139, uuid='1695a6fe-1fee-4808-8253-f3d867b25cf0', l='ServerLevel[world]', x=116.84, y=1.50, z=352.25, cpos=[7, 22], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36140, uuid='171c2bc7-f88c-46d4-bc96-bc5cf6350d3d', l='ServerLevel[world]', x=117.59, y=1.50, z=352.25, cpos=[7, 22], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36083, uuid='dc0410c7-22b2-4a30-81ec-210078d92591', l='ServerLevel[world]', x=86.03, y=24.00, z=242.78, cpos=[5, 15], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36239, uuid='8bfbca66-3ab9-42a8-9e03-c430ab2b5b94', l='ServerLevel[world]', x=85.65, y=24.50, z=242.41, cpos=[5, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36240, uuid='fc5da9be-7983-4dd8-870b-dfe9791402c3', l='ServerLevel[world]', x=86.40, y=24.50, z=242.41, cpos=[5, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36235, uuid='133c2a35-1394-46a3-85df-bd3f6c73f655', l='ServerLevel[world]', x=2366.80, y=78.00, z=2679.06, cpos=[147, 167], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36470, uuid='5ae9aac9-fd86-4acc-9cdb-11d783995a8a', l='ServerLevel[world]', x=2366.42, y=78.50, z=2678.69, cpos=[147, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36471, uuid='340bdfed-a788-49fd-8fad-e2b6fd46b77d', l='ServerLevel[world]', x=2367.17, y=78.50, z=2678.69, cpos=[147, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36050, uuid='d36dd008-b6ef-4d06-82b9-1268bd3361ba', l='ServerLevel[world]', x=100.28, y=41.48, z=257.74, cpos=[6, 16], tl=320, v=true] died: Blazing Cube drowned
-[02:47:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36051, uuid='ee782d7f-85af-4520-ae90-122c8e465d27', l='ServerLevel[world]', x=105.74, y=41.48, z=255.42, cpos=[6, 15], tl=320, v=true] died: Blazing Cube drowned
-[02:47:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36372, uuid='869bc884-6ead-4c97-9cac-67599adc1e38', l='ServerLevel[world]', x=221.78, y=64.00, z=296.71, cpos=[13, 18], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36425, uuid='564ff665-dabd-4d16-8749-f120c4e0a49f', l='ServerLevel[world]', x=140.38, y=74.00, z=272.78, cpos=[8, 17], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36550, uuid='7aace985-7c90-4391-aea9-80af95a703bb', l='ServerLevel[world]', x=140.01, y=74.50, z=272.41, cpos=[8, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36552, uuid='1f01f857-ed6a-4672-9914-cdb56f00bd25', l='ServerLevel[world]', x=140.01, y=74.50, z=273.16, cpos=[8, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36410, uuid='bcdfb3fe-9e0a-4d16-8272-374d9672b2dc', l='ServerLevel[world]', x=2432.78, y=-30.00, z=2687.22, cpos=[152, 167], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36616, uuid='43624237-4791-4939-897f-97983864fe39', l='ServerLevel[world]', x=2432.26, y=-30.00, z=2686.85, cpos=[152, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:47:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36617, uuid='89ef95d2-7632-45ac-8daa-c20047fb21cb', l='ServerLevel[world]', x=2432.92, y=-29.98, z=2686.80, cpos=[152, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:47:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36618, uuid='fd70e310-b981-421d-91f4-95fe927834b1', l='ServerLevel[world]', x=2432.73, y=-30.00, z=2687.74, cpos=[152, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:47:27] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36519, uuid='a9353eab-48a4-433a-a9e1-41a2381e0815', l='ServerLevel[world]', x=2430.36, y=-45.00, z=2760.78, cpos=[151, 172], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:27] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36706, uuid='23fafc7e-dafe-42d4-aafb-55eec4b022c9', l='ServerLevel[world]', x=2429.99, y=-44.50, z=2760.41, cpos=[151, 172], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:27] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36707, uuid='eb261779-bf13-4634-89ff-a6040c1c4f92', l='ServerLevel[world]', x=2430.74, y=-44.50, z=2760.41, cpos=[151, 172], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:29] [Server thread/INFO]: Mateo2009MC was shot by Magic Skeleton
-[02:47:29] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[02:47:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36563, uuid='76458ab7-0749-4605-9625-81817a670444', l='ServerLevel[world]', x=2462.18, y=-26.00, z=2711.22, cpos=[153, 169], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36994, uuid='3a5e7301-3550-4bcc-bf2d-e72a0ca9b688', l='ServerLevel[world]', x=2461.80, y=-25.50, z=2710.84, cpos=[153, 169], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36995, uuid='f7ec8379-b8d2-486e-934f-4ab1a3584f79', l='ServerLevel[world]', x=2462.55, y=-25.50, z=2710.84, cpos=[153, 169], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:30] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/36996, uuid='9bd9ca3d-c085-4a2c-9fb0-75e543581122', l='ServerLevel[world]', x=2461.80, y=-25.50, z=2711.59, cpos=[153, 169], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37097, uuid='82e4236c-c61c-4c9f-8c00-2e7df59d235a', l='ServerLevel[world]', x=50.22, y=24.00, z=265.73, cpos=[3, 16], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37293, uuid='806b27a6-e47a-4928-8c2e-a9cb89239da8', l='ServerLevel[world]', x=49.84, y=24.50, z=265.36, cpos=[3, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37294, uuid='4df3065b-8cd0-4798-9086-e73968eac1a8', l='ServerLevel[world]', x=50.59, y=24.50, z=265.36, cpos=[3, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37295, uuid='05b7d91d-4820-4dcb-aa0b-0198da363bf7', l='ServerLevel[world]', x=49.84, y=24.50, z=266.11, cpos=[3, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37296, uuid='4da3aeee-b9b7-4543-b033-a611d6d27806', l='ServerLevel[world]', x=50.59, y=24.50, z=266.11, cpos=[3, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:40] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37229, uuid='676936a7-5342-404a-989f-530b846bd241', l='ServerLevel[world]', x=39.48, y=63.00, z=191.61, cpos=[2, 11], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:41] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37519, uuid='5d50b9ea-38b3-4b5f-a4dc-d5cc2753571b', l='ServerLevel[world]', x=39.11, y=63.50, z=191.24, cpos=[2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:41] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37521, uuid='d0c35c22-a527-4591-8f62-7696abd79fa2', l='ServerLevel[world]', x=39.11, y=63.50, z=191.99, cpos=[2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37205, uuid='ba881fc6-e9aa-47b0-8871-d3ed382f04a8', l='ServerLevel[world]', x=2351.22, y=51.00, z=2810.78, cpos=[146, 175], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37302, uuid='a3402c58-6b4a-43f3-9bdf-61ba75cb9020', l='ServerLevel[world]', x=84.22, y=23.00, z=240.84, cpos=[5, 15], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:46] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37559, uuid='2f1d621e-d0b1-44dd-aaa5-11920dbef6f1', l='ServerLevel[world]', x=82.78, y=89.00, z=367.12, cpos=[5, 22], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37568, uuid='2d94c0df-58f1-4cf3-b033-a360ee997bfe', l='ServerLevel[world]', x=42.00, y=67.00, z=297.14, cpos=[2, 18], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37612, uuid='da3b4153-52dd-4585-a278-7902fcd87259', l='ServerLevel[world]', x=97.61, y=-30.00, z=231.22, cpos=[6, 14], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37747, uuid='37ea3e2a-163a-4457-a9c4-faca8ffa32f7', l='ServerLevel[world]', x=97.80, y=-29.98, z=230.96, cpos=[6, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:47:48] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37565, uuid='86190031-6094-46b7-9a31-6d5cf639966d', l='ServerLevel[world]', x=45.78, y=67.00, z=293.78, cpos=[2, 18], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:48] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/36656, uuid='b4e148ab-36eb-4e6a-b48a-7ca5d7bcdf93', l='ServerLevel[world]', x=2431.50, y=36.00, z=2787.50, cpos=[151, 174], tl=442, v=true] died: Skeletal Knight suffocated in a wall
-[02:47:48] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37555, uuid='6c0213e0-94ca-4def-a524-fd49115f1c49', l='ServerLevel[world]', x=76.90, y=-41.00, z=286.21, cpos=[4, 17], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37710, uuid='cd1f7382-049e-4d56-b793-b5031451ca46', l='ServerLevel[world]', x=80.39, y=80.00, z=397.73, cpos=[5, 24], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:47:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37786, uuid='757cb5d8-f557-48b4-a157-cb79ea955989', l='ServerLevel[world]', x=80.01, y=80.50, z=397.35, cpos=[5, 24], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37787, uuid='cbafb66d-0b96-40a7-96f4-804a8aeee0c7', l='ServerLevel[world]', x=80.76, y=80.50, z=397.35, cpos=[5, 24], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:47:53] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/37049, uuid='3cc575c5-db95-49ce-a75f-f063f4c62215', l='ServerLevel[world]', x=75.50, y=21.00, z=280.50, cpos=[4, 17], tl=431, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:47:58] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/37589, uuid='0d7490e6-7b01-4851-880c-a831f4f5993d', l='ServerLevel[world]', x=89.50, y=28.00, z=238.50, cpos=[5, 14], tl=317, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:47:58] [Server thread/INFO]: alexisromors issued server command: /bloodmoon reload
-[02:48:03] [Server thread/INFO]: alexisromors issued server command: /lp group }s-}
-[02:48:04] [Server thread/INFO]: alexisromors issued server command: /gmc
-[02:48:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/37993, uuid='e541d22c-b4b8-4135-9ca6-a4914fc41b2b', l='ServerLevel[world]', x=104.75, y=-15.00, z=244.92, cpos=[6, 15], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:11] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38181, uuid='1fc34c6d-a65c-4a62-a490-cdba50c40ea7', l='ServerLevel[world]', x=53.51, y=26.00, z=267.78, cpos=[3, 16], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38331, uuid='eb68f58c-051d-4677-a291-5c3d1d52a126', l='ServerLevel[world]', x=53.15, y=26.02, z=267.70, cpos=[3, 16], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38332, uuid='e11002f6-e0f7-4320-9750-f9b0959fafc6', l='ServerLevel[world]', x=53.96, y=26.00, z=267.26, cpos=[3, 16], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38183, uuid='5e72161e-adca-4ed0-8dbe-901bf27bfb41', l='ServerLevel[world]', x=241.86, y=16.00, z=318.09, cpos=[15, 19], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38352, uuid='f0136cc0-2bc0-4637-b956-83c596c99d8c', l='ServerLevel[world]', x=241.50, y=16.00, z=317.70, cpos=[15, 19], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38354, uuid='4f393f55-f83b-4457-9571-ee361f4fcf6e', l='ServerLevel[world]', x=241.34, y=16.00, z=318.74, cpos=[15, 19], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:13] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38355, uuid='a75ab12a-4a2b-4b34-99eb-5ed3ad16f4e2', l='ServerLevel[world]', x=242.09, y=16.00, z=318.74, cpos=[15, 19], tl=15, v=true] died: Blazing Cube suffocated in a wall
-[02:48:14] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set deathcoordinates.message
-[02:48:14] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[02:48:14] [luckperms-command-executor/INFO]: [LP] LOG > permission set deathcoordinates.message true
-[02:48:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38301, uuid='5e8b571a-13f4-4dd9-864b-b8c9853ce011', l='ServerLevel[world]', x=95.78, y=-11.94, z=283.57, cpos=[5, 17], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:18] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set deathcoordinates.use
-[02:48:18] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[02:48:18] [luckperms-command-executor/INFO]: [LP] LOG > permission set deathcoordinates.use true
-[02:48:18] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38367, uuid='e1e010da-e797-470a-8c71-c37e5ef3e7e1', l='ServerLevel[world]', x=65.78, y=28.00, z=284.54, cpos=[4, 17], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:18] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38625, uuid='4f4d75a3-9483-493f-8171-2d9790c5fb35', l='ServerLevel[world]', x=65.41, y=28.50, z=284.16, cpos=[4, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:18] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38626, uuid='0790ddfa-9657-43c9-a2d5-2acf072ab087', l='ServerLevel[world]', x=66.16, y=28.50, z=284.16, cpos=[4, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:18] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38627, uuid='e2f1202a-60f2-4a30-be90-0bd988d79a8f', l='ServerLevel[world]', x=65.41, y=28.50, z=284.91, cpos=[4, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:20] [Server thread/INFO]: alexisromors issued server command: /gms
-[02:48:22] [Server thread/INFO]: alexisromors issued server command: /gmc
-[02:48:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38612, uuid='b359a580-1f7b-4ad0-b836-5af95fe0aa27', l='ServerLevel[world]', x=64.78, y=86.00, z=368.94, cpos=[4, 23], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38788, uuid='8ce95700-0822-44d4-b030-fe84491c587b', l='ServerLevel[world]', x=64.41, y=86.50, z=368.56, cpos=[4, 23], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38789, uuid='895f41eb-8b59-4a5f-8e36-c18b683d6b28', l='ServerLevel[world]', x=65.16, y=86.50, z=368.56, cpos=[4, 23], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38790, uuid='145434b9-7ad4-4a1c-81da-c75e6bbc221a', l='ServerLevel[world]', x=64.41, y=86.50, z=369.31, cpos=[4, 23], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38791, uuid='140f2df3-049f-49b3-914a-3d6c0dea87ac', l='ServerLevel[world]', x=65.16, y=86.50, z=369.31, cpos=[4, 23], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:24] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38563, uuid='93ad6ff3-8601-4b18-a215-bb228d3a0669', l='ServerLevel[world]', x=2418.22, y=2.36, z=2806.49, cpos=[151, 175], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:24] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38648, uuid='76f6f889-57d9-4487-930b-80855966984f', l='ServerLevel[world]', x=226.13, y=16.00, z=304.92, cpos=[14, 19], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/38694, uuid='5cbc2072-fbc2-4c91-88f8-71e73105cdb8', l='ServerLevel[world]', x=275.78, y=67.00, z=331.81, cpos=[17, 20], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:26] [Server thread/INFO]: alexisromors issued server command: /gmc
-[02:48:29] [Server thread/INFO]: alexisromors issued server command: /gms
-[02:48:31] [Server thread/INFO]: alexisromors fell from a high place
-[02:48:31] [Server thread/INFO]: [Not Secure] [Server] alexisromors got killed during a bloodmoon!
-[02:48:33] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39024, uuid='a806b8b0-b204-4405-8a7e-d08fb3d9d0db', l='ServerLevel[world]', x=248.62, y=43.00, z=423.20, cpos=[15, 26], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39009, uuid='3c31d27d-f778-40b7-9252-f1b1c0bb9f42', l='ServerLevel[world]', x=267.22, y=0.00, z=372.22, cpos=[16, 23], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39385, uuid='721daa49-1343-4b2c-a3c9-1595406b3e27', l='ServerLevel[world]', x=267.63, y=0.00, z=371.97, cpos=[16, 23], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39386, uuid='ec333135-7d1b-464e-82b4-47d46f7c8df1', l='ServerLevel[world]', x=266.91, y=0.02, z=372.59, cpos=[16, 23], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:34] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39387, uuid='55511025-5838-4d66-b896-6ae40b6093ea', l='ServerLevel[world]', x=267.59, y=0.00, z=372.60, cpos=[16, 23], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:39] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39403, uuid='c13677be-fa8e-4486-b17f-2bdfbc0fa75f', l='ServerLevel[world]', x=28.13, y=80.00, z=336.93, cpos=[1, 21], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:39] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set deathcoordinates.teleport
-[02:48:39] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[02:48:39] [luckperms-command-executor/INFO]: [LP] LOG > permission set deathcoordinates.teleport true
-[02:48:42] [Server thread/INFO]: alexisromors issued server command: /dc tp
-[02:48:45] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39578, uuid='8abdca01-42c3-48e6-aa6f-1b007932524f', l='ServerLevel[world]', x=272.35, y=38.00, z=398.78, cpos=[17, 24], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:45] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39951, uuid='c270fd8a-a13f-47a0-a581-dffa0573297e', l='ServerLevel[world]', x=271.71, y=38.02, z=399.10, cpos=[16, 24], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:48] [Async Chat Thread - #14/INFO]: [Not Secure] <alexisromors> ya hay el mensajito
-[02:48:51] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39906, uuid='cb06692c-ab79-4e7e-a358-265dcb828924', l='ServerLevel[world]', x=2395.18, y=-17.00, z=2685.95, cpos=[149, 167], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:51] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40049, uuid='7119ec87-29bf-4a11-ac1a-8412ee75c72f', l='ServerLevel[world]', x=2406.22, y=13.00, z=2647.26, cpos=[150, 165], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40453, uuid='4278132c-189a-49b6-8000-13b8514b3673', l='ServerLevel[world]', x=2405.84, y=13.50, z=2646.88, cpos=[150, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40454, uuid='cc237116-d1e3-4ca0-8ac1-5f19f8a3e054', l='ServerLevel[world]', x=2406.59, y=13.50, z=2646.88, cpos=[150, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40436, uuid='1488e0a2-054e-4a33-a1c3-139df412551d', l='ServerLevel[world]', x=2394.89, y=-17.00, z=2685.67, cpos=[149, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40437, uuid='4ee42cd3-6cf0-4c67-941b-1db6f04d93e6', l='ServerLevel[world]', x=2395.65, y=-16.98, z=2685.49, cpos=[149, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40144, uuid='222ed421-c558-4949-a0ec-6e69f78718e1', l='ServerLevel[world]', x=2392.78, y=50.00, z=2668.72, cpos=[149, 166], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40483, uuid='12f6ee9e-62d0-4799-a1fb-d7c777ad8cb5', l='ServerLevel[world]', x=2392.41, y=50.50, z=2668.35, cpos=[149, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40484, uuid='8b51c5ff-a183-425c-9b1a-c3badf5b1cb0', l='ServerLevel[world]', x=2393.16, y=50.50, z=2668.35, cpos=[149, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40485, uuid='d7c1a3b9-cdac-48ab-bf37-a9642d723206', l='ServerLevel[world]', x=2392.41, y=50.50, z=2669.10, cpos=[149, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40486, uuid='9ac6693e-5cea-4aba-a3f2-b42fb59a0126', l='ServerLevel[world]', x=2393.16, y=50.50, z=2669.10, cpos=[149, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/39908, uuid='b7414db4-06ef-4f83-95b3-20788920904e', l='ServerLevel[world]', x=2387.95, y=-17.00, z=2683.78, cpos=[149, 167], tl=161, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40075, uuid='e4662ac1-35fb-455b-8b18-99a781ab1d74', l='ServerLevel[world]', x=2443.78, y=-33.00, z=2778.71, cpos=[152, 173], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40502, uuid='b98a38a7-971d-4b69-8551-3dd9ec570dd2', l='ServerLevel[world]', x=2387.87, y=-17.00, z=2683.54, cpos=[149, 167], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[02:48:53] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40504, uuid='8ac58fb2-634d-4879-b546-35cb3d3900b2', l='ServerLevel[world]', x=2387.30, y=-17.00, z=2684.40, cpos=[149, 167], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[02:48:54] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40203, uuid='cbe0ac04-58b9-451d-a194-e9a5c76a4552', l='ServerLevel[world]', x=273.22, y=37.00, z=441.22, cpos=[17, 27], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40216, uuid='acf5af8c-81db-4dad-9f2a-514a3cd271fa', l='ServerLevel[world]', x=2414.80, y=37.00, z=2686.04, cpos=[150, 167], tl=141, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40614, uuid='54d6ee47-647c-4a3c-8133-b655184944b2', l='ServerLevel[world]', x=2414.43, y=37.50, z=2685.67, cpos=[150, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40615, uuid='f49f3fb9-7bbc-408a-a7cc-423de292ea28', l='ServerLevel[world]', x=2415.18, y=37.50, z=2685.67, cpos=[150, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40616, uuid='ff965f56-3ae8-4b96-9f85-da9bb50b907f', l='ServerLevel[world]', x=2414.43, y=37.50, z=2686.42, cpos=[150, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40403, uuid='f924f196-391b-49bc-8210-c5ee4d459a56', l='ServerLevel[world]', x=2417.78, y=22.00, z=2636.13, cpos=[151, 164], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40634, uuid='93ab0771-88e6-42dc-9cd2-581a7c223cce', l='ServerLevel[world]', x=2417.41, y=22.50, z=2635.76, cpos=[151, 164], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40635, uuid='c4bd5af4-f5fb-406e-913f-9e5a673c2736', l='ServerLevel[world]', x=2418.16, y=22.50, z=2635.76, cpos=[151, 164], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40636, uuid='f7f4a4ce-94f0-4d2d-a3ce-8b68e2edf705', l='ServerLevel[world]', x=2417.41, y=22.50, z=2636.51, cpos=[151, 164], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40637, uuid='13142576-308c-400f-a723-1b87bfbacef6', l='ServerLevel[world]', x=2418.16, y=22.50, z=2636.51, cpos=[151, 164], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:56] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40417, uuid='2d669c82-35b6-4556-a3d5-ec43197b1f6e', l='ServerLevel[world]', x=2442.45, y=35.00, z=2728.78, cpos=[152, 170], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:56] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40647, uuid='7c5b1639-56a4-4663-953b-17687e0db378', l='ServerLevel[world]', x=2442.83, y=35.50, z=2728.41, cpos=[152, 170], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:56] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40646, uuid='845478fb-4ed6-47d5-b62d-163b307cd134', l='ServerLevel[world]', x=2442.35, y=35.00, z=2728.53, cpos=[152, 170], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:48:57] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/39745, uuid='3ac59ab2-2220-4ece-ae0f-7d6212072f4c', l='ServerLevel[world]', x=274.65, y=35.00, z=439.35, cpos=[17, 27], tl=293, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[02:48:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40331, uuid='9ce6c032-3bfe-4a1e-9eeb-151474bd323e', l='ServerLevel[world]', x=2390.26, y=-19.00, z=2676.22, cpos=[149, 167], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40695, uuid='bdf60c1a-5888-4bf7-9aef-7621e78f2bd8', l='ServerLevel[world]', x=2389.88, y=-18.50, z=2675.84, cpos=[149, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40696, uuid='83cc805a-c83a-49c3-8780-1db7abdcf003', l='ServerLevel[world]', x=2390.63, y=-18.50, z=2675.84, cpos=[149, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40697, uuid='0114d88a-10ae-4b03-985f-42d59d5582cf', l='ServerLevel[world]', x=2389.88, y=-18.50, z=2676.59, cpos=[149, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:48:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40432, uuid='fe597ef4-964a-4451-9bb5-1bb59d713f93', l='ServerLevel[world]', x=2428.96, y=23.00, z=2653.17, cpos=[151, 165], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:48:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40717, uuid='e75f4ee8-25b3-4a3b-a78b-b5a9fec5cb85', l='ServerLevel[world]', x=2429.34, y=23.50, z=2652.79, cpos=[151, 165], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[02:49:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40559, uuid='099eca08-0759-45dd-926a-9a9424701b4a', l='ServerLevel[world]', x=234.37, y=0.00, z=361.31, cpos=[14, 22], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[02:49:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/40777, uuid='f8f22cee-5b74-45a6-b84b-5c243e805382', l='ServerLevel[world]', x=234.19, y=0.00, z=361.17, cpos=[14, 22], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[02:49:07] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[02:50:55] [Server thread/INFO]: Mateo2009MC has made the advancement [Hot Stuff]
-[02:51:01] [Server thread/INFO]: Mateo2009MC has made the advancement [Diamonds!]
-[02:55:04] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/41878, uuid='f217f7b2-75d8-4111-8632-0d2ee252edda', l='ServerLevel[world]', x=2497.64, y=-31.00, z=2736.60, cpos=[156, 171], tl=2028, v=true] died: Skeletal Knight was slain by Mateo2009MC using [Iron Katana]
-[02:56:41] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[03:05:29] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/43728, uuid='f679412f-2ddc-454a-8353-eccaca69d363', l='ServerLevel[world]', x=2491.50, y=-12.00, z=2749.50, cpos=[155, 171], tl=432, v=true] died: Skeletal Knight suffocated in a wall
-[03:12:01] [Async Chat Thread - #16/INFO]: [Not Secure] <Mateo2009MC> ya mañana juego
-[03:12:05] [Server thread/INFO]: alexisromors was slain by Mateo2009MC using [Iron Katana]
-[03:12:16] [Server thread/INFO]: alexisromors issued server command: /kill Mateo2009MC
-[03:12:16] [Server thread/INFO]: Mateo2009MC died
-[03:12:43] [Server thread/INFO]: Mateo2009MC lost connection: Timed out
-[03:12:43] [Server thread/INFO]: Mateo2009MC left the game
-[03:13:18] [Server thread/INFO]: alexisromors issued server command: /bloodmoon reload
-[03:15:14] [Server thread/INFO]: alexisromors issued server command: /bloodmoon start
-[03:15:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45294, uuid='2cf7d70b-0635-42a5-b90c-69ef99df0a72', l='ServerLevel[world]', x=-27.78, y=-3.00, z=180.69, cpos=[-2, 11], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45480, uuid='82615c49-b5ce-47af-bd3c-29364bc7bb38', l='ServerLevel[world]', x=-28.16, y=-2.50, z=180.31, cpos=[-2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45481, uuid='8c7f174c-7aa1-4982-b45b-bac0a09ff900', l='ServerLevel[world]', x=-27.41, y=-2.50, z=180.31, cpos=[-2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[03:15:19] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45482, uuid='5b6d9944-b660-4f94-906d-8ea03420b1b8', l='ServerLevel[world]', x=-28.16, y=-2.50, z=181.06, cpos=[-2, 11], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[03:15:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45318, uuid='e62833c6-57c1-4fa0-9ab1-9e8a6a88c98b', l='ServerLevel[world]', x=-77.98, y=67.00, z=243.22, cpos=[-5, 15], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[03:15:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45505, uuid='34b6e379-15ff-4a03-957c-a9f5c6c2cbdb', l='ServerLevel[world]', x=-78.58, y=67.02, z=242.84, cpos=[-5, 15], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[03:15:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45352, uuid='942debff-45a9-4506-86ef-46bf569b3e82', l='ServerLevel[world]', x=50.56, y=-18.79, z=216.22, cpos=[3, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[03:15:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45539, uuid='32865d3b-8d7a-44e2-8338-0423f7c9c1a7', l='ServerLevel[world]', x=50.02, y=-19.00, z=216.08, cpos=[3, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[03:15:21] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45540, uuid='a750df28-9b4b-40ac-9468-f5fe0a2c2214', l='ServerLevel[world]', x=50.81, y=-18.98, z=215.62, cpos=[3, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45375, uuid='a3b2cc96-19f8-477c-a28b-591e58c161fd', l='ServerLevel[world]', x=-91.22, y=66.00, z=272.81, cpos=[-6, 17], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45543, uuid='240dc248-ed9e-4eba-8b58-0242b71828da', l='ServerLevel[world]', x=-91.59, y=66.50, z=272.44, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45544, uuid='7c5b03e9-9239-4915-8f9a-fc7892ad5197', l='ServerLevel[world]', x=-90.84, y=66.50, z=272.44, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[03:15:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/45545, uuid='5267a3e5-1fe4-4bc5-9fab-5002d5fb68c3', l='ServerLevel[world]', x=-91.59, y=66.50, z=273.19, cpos=[-6, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[03:15:25] [Server thread/INFO]: alexisromors issued server command: /bloodmoon cancel
-[03:15:33] [Server thread/INFO]: alexisromors issued server command: /bloodmoon stop
-[03:17:17] [Server thread/INFO]: alexisromors was slain by Lvl 4 | Zombie
-[03:19:16] [Server thread/INFO]: alexisromors was slain by Lvl 1 | Zombie
-[03:19:41] [Server thread/INFO]: alexisromors lost connection: Timed out
-[03:19:41] [Server thread/INFO]: alexisromors left the game
-[03:53:18] [Server thread/INFO]: Stopping the server
-[03:53:18] [Server thread/INFO]: Stopping server
-[03:53:18] [Server thread/INFO]: [libreforge] Disabling libreforge v4.71.6
-[03:53:18] [Server thread/INFO]: [libreforge] Cleaning up...
-[03:53:18] [Server thread/INFO]: [Talismans] Disabling Talismans v6.69.6
-[03:53:18] [Server thread/INFO]: [Talismans] Cleaning up...
-[03:53:18] [Server thread/INFO]: [CombatWeaponryPlus] Disabling CombatWeaponryPlus v1.5.7
-[03:53:18] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.1.3
-[03:53:18] [Server thread/INFO]: [TNTAlert] Disabling TNTAlert v1.0
-[03:53:18] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+144-d31ff55
-[03:53:18] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
-[03:53:19] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[03:53:19] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[03:53:19] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
-[03:53:19] [Server thread/INFO]: [Elevators] Disabling Elevators v4.0.18
-[03:53:19] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[03:53:19] [Server thread/INFO]: [bloodmoon-advanced] Disabling bloodmoon-advanced v4.5.7
-[03:53:19] [Server thread/INFO]: [DeathCoordinates] Disabling DeathCoordinates v1.12.1
-[03:53:19] [Server thread/INFO]: [DeathCoordinates] Has been disabled! Version: 1.12.1
-[03:53:19] [Server thread/INFO]: [AdvancedEnchantments] Disabling AdvancedEnchantments v9.11.4
-[03:53:19] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
-[03:53:19] [Server thread/INFO]: [eco] Disabling eco v6.74.3
-[03:53:19] [Server thread/INFO]: [eco] Saving player data...
-[03:53:19] [Server thread/INFO]: [eco] Saved player data! Took 0ms
-[03:53:19] [Server thread/INFO]: [eco] Cleaning up...
-[03:53:19] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.4.1 b78
-[03:53:19] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[03:53:19] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[03:53:19] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 1ms)
-[03:53:19] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[03:53:19] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[03:53:19] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.6
-[03:53:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+144-d31ff55
-[03:53:19] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[03:53:19] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[03:53:19] [Server thread/INFO]: [MythicMobs] - 
-[03:53:19] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[03:53:19] [Server thread/INFO]: [MythicMobs] - 
-[03:53:19] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[03:53:19] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[03:53:19] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[03:53:19] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[03:53:19] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[03:53:19] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[03:53:19] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[03:53:19] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[03:53:19] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[03:53:19] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[03:53:19] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[03:53:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[03:53:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
-[03:53:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:53:19] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:53:19] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:53:19] [Server thread/INFO]: Saving players
-[03:53:19] [Server thread/INFO]: Saving worlds
-[03:53:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:53:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:53:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:53:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 126 block chunks, 179 entity chunks, 0 poi chunks in world 'world' in 0.12s
-[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:53:20] [Server thread/INFO]: Flushing Chunk IO
-[03:53:20] [Server thread/INFO]: Closing Thread Pool
-[03:53:20] [Server thread/INFO]: Closing Server
+[21:46:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:46:58] [Server thread/INFO]: Default game type: SURVIVAL
+[21:46:58] [Server thread/INFO]: Generating keypair
+[21:46:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:46:58] [Server thread/INFO]: Using epoll channel type
+[21:46:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:46:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[21:46:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[21:47:01] [Server thread/INFO]: [eco] Initializing eco
+[21:47:01] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[21:47:01] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:47:05] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
+[21:47:05] [Server thread/INFO]: [Talismans] Initializing Talismans
+[21:47:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[21:47:06] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[21:47:06] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[21:47:06] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[21:47:06] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[21:47:06] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
+[21:47:06] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[21:47:06] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.4.1 b78
+[21:47:06] [Server thread/INFO]: [LevelledMobs] Loading commands
+[21:47:07] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
+[21:47:07] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
+[21:47:07] [Server thread/INFO]: [AdvancedEnchantments] Loading server plugin AdvancedEnchantments v9.11.4
+[21:47:07] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
+[21:47:07] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
+[21:47:07] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
+[21:47:07] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
+[21:47:07] [Server thread/INFO]: [EliteMobs] Sanity check!
+[21:47:07] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[21:47:07] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[21:47:07] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
+[21:47:07] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
+[21:47:07] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
+[21:47:07] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
+[21:47:07] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
+[21:47:07] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
+[21:47:07] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.69.6
+[21:47:07] [Server thread/INFO]: [libreforge] Initializing libreforge
+[21:47:07] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.71.6
+[21:47:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:47:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[21:47:08] [Server thread/INFO]:         __    
+[21:47:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[21:47:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:47:08] [Server thread/INFO]: 
+[21:47:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:47:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:47:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:47:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:47:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2569ms)
+[21:47:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[21:47:10] [Server thread/INFO]: [eco] Enabling eco v6.74.3
+[21:47:10] [Server thread/INFO]: [eco] Loading eco
+[21:47:10] [Server thread/INFO]: [eco] Loaded integrations: MythicMobs, Essentials
+[21:47:10] [Server thread/INFO]: [eco] Scanning for conflicts...
+[21:47:10] [Server thread/INFO]: [eco] No conflicts found!
+[21:47:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:47:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:47:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:47:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:47:10] [Server thread/INFO]: Preparing level "world"
+[21:47:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:47:12] [Server thread/INFO]: Time elapsed: 537 ms
+[21:47:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:47:12] [Server thread/INFO]: Time elapsed: 64 ms
+[21:47:12] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[21:47:13] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
+[21:47:13] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[21:47:18] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
+[21:47:18] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data
+[21:47:18] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data/worlds
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Items...
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[21:47:21] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[21:47:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[21:47:21] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[21:47:22] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[21:47:22] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[21:47:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
+[21:47:22] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:47:22] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:47:22] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:47:22] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[21:47:22] [Server thread/INFO]: [Essentials] Using locale en
+[21:47:22] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:47:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:47:22] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:47:22] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:47:22] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:47:22] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[21:47:23] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[21:47:24] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[21:47:24] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[21:47:24] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[21:47:24] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 38 ms
+[21:47:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[21:47:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[21:47:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[21:47:24] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[21:47:24] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[21:47:24] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.4.1 b78
+[21:47:24] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[21:47:24] [Server thread/INFO]: [LevelledMobs] Using NMS version v1_20_R1 for nametag support
+[21:47:24] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[21:47:24] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[21:47:24] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[21:47:24] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[21:47:24] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[21:47:25] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[21:47:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[21:47:25] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[21:47:25] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[21:47:25] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[21:47:25] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 161ms)
+[21:47:25] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
+[21:47:25] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v9.11.4
+[21:47:26] [Server thread/INFO]: [AdvancedEnchantments] Loading Minecraft Version MC1_20_R1
+[21:47:26] [Server thread/INFO]: [AdvancedEnchantments] Loaded 7 armor sets.
+[21:47:26] [Server thread/INFO]: [AdvancedEnchantments] Loaded 5 weapons.
+[21:47:26] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
+[21:47:26] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
+[21:47:26] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
+[21:47:26] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
+[21:47:27] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
+[21:47:27] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
+[21:47:27] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[21:47:27] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[21:47:27] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[21:47:27] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[21:47:27] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[21:47:27] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[21:47:27] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
+[21:47:27] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
+[21:47:27] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
+[21:47:27] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[21:47:27] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[21:47:27] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[21:47:27] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[21:47:27] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[21:47:27] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[21:47:27] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[21:47:27] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
+[21:47:27] [Server thread/WARN]: [Elevators] V120R1NMS
+[21:47:27] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
+[21:47:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
+[21:47:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[21:47:27] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[21:47:27] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[21:47:27] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[21:47:27] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
+[21:47:27] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
+[21:47:27] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[21:47:27] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[21:47:27] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[21:47:27] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[21:47:27] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[21:47:27] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
+[21:47:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[21:47:27] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[21:47:27] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[21:47:27] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[21:47:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
+[21:47:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
+[21:47:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[21:47:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[21:47:27] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[21:47:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[21:47:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[21:47:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[21:47:27] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
+[21:47:27] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[21:47:27] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[21:47:27] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[21:47:27] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[21:47:27] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[21:47:27] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[21:47:28] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[21:47:28] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[21:47:28] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[21:47:28] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[21:47:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[21:47:28] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[21:47:28] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
+[21:47:28] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
+[21:47:28] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
+[21:47:28] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
+[21:47:28] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
+[21:47:28] [Server thread/INFO]: [Talismans] Enabling Talismans v6.69.6
+[21:47:28] [Server thread/INFO]: [Talismans] Loading Talismans
+[21:47:28] [Server thread/INFO]: [libreforge] Enabling libreforge v4.71.6
+[21:47:28] [Server thread/INFO]: [libreforge] Loading libreforge
+[21:47:28] [Server thread/INFO]: [libreforge] Loaded integrations: AuraSkills, LevelledMobs
+[21:47:28] [Server thread/INFO]: [libreforge] 
+[21:47:28] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[21:47:28] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[21:47:28] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[21:47:28] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[21:47:28] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[21:47:28] [Server thread/INFO]: [libreforge] 
+[21:47:28] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[21:47:28] [Server thread/INFO]: [libreforge] 
+[21:47:29] [Server thread/INFO]: Running delayed init tasks
+[21:47:29] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:47:29] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[21:47:29] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:47:29] [Craft Scheduler Thread - 13 - Talismans/WARN]: [Talismans] Talismans is out of date! (Version 6.69.6)
+[21:47:29] [Craft Scheduler Thread - 13 - Talismans/WARN]: [Talismans] The newest version is 6.70.2
+[21:47:29] [Craft Scheduler Thread - 13 - Talismans/WARN]: [Talismans] Download the new version!
+[21:47:29] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[21:47:29] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[21:47:29] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[21:47:29] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[21:47:29] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:47:29] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[21:47:30] [Server thread/INFO]: Done (32.272s)! For help, type "help"
+[21:47:30] [Server thread/INFO]: Timings Reset
+[21:47:30] [Server thread/INFO]: [eco] Loaded eco
+[21:47:30] [Server thread/INFO]: [Talismans] Loaded Talismans
+[21:47:30] [Server thread/INFO]: [libreforge] Loaded libreforge
+[21:47:31] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into ProtocolLib, AuraSkills, AdvancedEnchantments, MythicMobs, Essentials, LuckPerms.
+[21:48:42] [User Authenticator #0/INFO]: UUID of player Mateo2009MC is ca063eb7-f8b9-3bb6-abfb-5a103eb7d6f3
+[21:48:45] [Server thread/INFO]: Mateo2009MC joined the game
+[21:48:45] [Server thread/INFO]: Mateo2009MC[/[0:0:0:0:0:0:0:1%0]:56124] logged in with entity id 132 at ([world]2473.100216072669, 72.0, 2735.699999988079)
+[21:49:04] [Server thread/INFO]: Mateo2009MC was slain by Lvl 8 | Zombie
+[21:49:15] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[21:49:27] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[21:51:23] [Server thread/INFO]: Mateo2009MC issued server command: /dc tp
+[21:51:30] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
+[21:52:34] [Server thread/INFO]: Mateo2009MC fell from a high place
+[21:52:38] [Server thread/INFO]: Mateo2009MC issued server command: /dc tp
+[21:52:40] [Server thread/INFO]: Mateo2009MC issued server command: /dc tp
+[21:52:42] [Server thread/INFO]: Mateo2009MC issued server command: /dc tp
+[21:52:49] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
