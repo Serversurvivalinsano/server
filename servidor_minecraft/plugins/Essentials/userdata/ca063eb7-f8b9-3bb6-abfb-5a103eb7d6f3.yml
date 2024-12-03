@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1733194147824
+  lastteleport: 1733194601936
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: Mateo2009MC
 lastlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 236.2810001510951
-  y: 64.0
-  z: 458.52100095519125
-  yaw: -124.05101013183594
-  pitch: -4.200285911560059
+  x: 2590.4022002330794
+  y: -40.0
+  z: 2816.699999988079
+  yaw: 105.1322021484375
+  pitch: 14.549842834472656
 homes:
   arboles:
     world: 4d530142-f3f4-414e-9853-fded7966017c
