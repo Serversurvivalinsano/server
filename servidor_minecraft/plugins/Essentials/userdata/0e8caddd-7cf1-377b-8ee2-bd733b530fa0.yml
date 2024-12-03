@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733193628662
   login: 1733190384955
 money: '0'
 last-account-name: luchito
@@ -28,3 +28,20 @@ lastlocation:
   z: -17.5
   yaw: 0.0
   pitch: 0.0
+homes:
+  home:
+    world: 4d530142-f3f4-414e-9853-fded7966017c
+    world-name: world
+    x: 21.54470524354287
+    y: 66.0
+    z: 241.07907898947457
+    yaw: -117.47779846191406
+    pitch: 32.6004524230957
+logoutlocation:
+  world: 4d530142-f3f4-414e-9853-fded7966017c
+  world-name: world
+  x: 7.439409501133986
+  y: 61.14723624249275
+  z: 216.05793411441283
+  yaw: 128.45945739746094
+  pitch: 0.845895528793335
