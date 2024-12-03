@@ -11,28 +11,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1733174160804
+  lastteleport: 1733190669170
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733173105081
-  login: 1733173054038
+  logout: 1733190164046
+  login: 1733190090080
 money: '0'
 last-account-name: alexisromors
 lastlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: 50.9879098683457
-  y: 59.741251883981384
-  z: 277.8717045844255
-  yaw: -72.35693359375
-  pitch: -34.50021743774414
+  x: -247.51583501651442
+  y: 87.54339028226471
+  z: 1241.026442181998
+  yaw: 144.73745727539062
+  pitch: 32.24957275390625
 logoutlocation:
   world: 4d530142-f3f4-414e-9853-fded7966017c
   world-name: world
-  x: -571.3000000119209
-  y: 80.0
-  z: 1244.699999988079
-  yaw: -144.30584716796875
-  pitch: 80.85002899169922
+  x: 130.13321722116586
+  y: -23.498281063741153
+  z: 275.82432757531126
+  yaw: 106.19747924804688
+  pitch: -1.0497328042984009
+homes:
+  home:
+    world: 4d530142-f3f4-414e-9853-fded7966017c
+    world-name: world
+    x: 85.36999560573321
+    y: 80.0
+    z: 398.47442592204015
+    yaw: 64.64379119873047
+    pitch: 20.549610137939453
+  aldea:
+    world: 4d530142-f3f4-414e-9853-fded7966017c
+    world-name: world
+    x: -337.1115350984893
+    y: 81.0
+    z: 854.2236679548427
+    yaw: 98.5343017578125
+    pitch: 35.5497932434082

@@ -1,1061 +1,301 @@
-[20:40:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:40:33] [ServerMain/WARN]: Invalid path in datapack: fokastudio:worldgen/biome/README.md, ignoring
-[20:40:37] [ServerMain/INFO]: Loaded 7 recipes
-[20:40:37] [Server thread/INFO]: Starting minecraft server version 1.20
-[20:40:37] [Server thread/INFO]: Loading properties
-[20:40:37] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[20:40:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:40:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:40:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:40:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:40:46] [ServerMain/WARN]: Invalid path in datapack: fokastudio:worldgen/biome/README.md, ignoring
+[01:40:49] [ServerMain/INFO]: Loaded 7 recipes
+[01:40:49] [Server thread/INFO]: Starting minecraft server version 1.20
+[01:40:49] [Server thread/INFO]: Loading properties
+[01:40:49] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[01:40:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:40:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:40:49] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:40:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:40:38] [Server thread/INFO]: Default game type: SURVIVAL
-[20:40:38] [Server thread/INFO]: Generating keypair
-[20:40:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:40:38] [Server thread/INFO]: Using epoll channel type
-[20:40:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:40:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[20:40:38] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:40:39] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
-[20:40:39] [Server thread/INFO]: [eco] Initializing eco
-[20:40:39] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[20:40:39] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[20:40:42] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
-[20:40:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[20:40:42] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[20:40:42] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
-[20:40:42] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:40:42] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[20:40:42] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[20:40:42] [Server thread/INFO]: [Matrix] Loading server plugin Matrix v7.4.18
-[20:40:42] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.4.1 b78
-[20:40:42] [Server thread/INFO]: [LevelledMobs] Loading commands
-[20:40:42] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
-[20:40:42] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
-[20:40:42] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
-[20:40:42] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
-[20:40:42] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
-[20:40:42] [Server thread/INFO]: [EliteMobs] Sanity check!
-[20:40:42] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[20:40:42] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[20:40:42] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
-[20:40:42] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
-[20:40:42] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
-[20:40:42] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[20:40:42] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
-[20:40:42] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
-[20:40:42] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
-[20:40:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:40:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[20:40:43] [Server thread/INFO]:         __    
-[20:40:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[20:40:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:40:43] [Server thread/INFO]: 
-[20:40:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:40:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:40:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:40:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:40:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1535ms)
-[20:40:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[20:40:44] [Server thread/INFO]: [eco] Enabling eco v6.74.3
-[20:40:44] [Server thread/INFO]: [eco] Loading eco
-[20:40:44] [Server thread/INFO]: [eco] Loaded integrations: Matrix, MythicMobs, Essentials
-[20:40:44] [Server thread/INFO]: [eco] Scanning for conflicts...
-[20:40:44] [Server thread/INFO]: [eco] No conflicts found!
-[20:40:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:40:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:40:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:40:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:40:44] [Server thread/INFO]: Preparing level "world"
-[20:40:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:40:45] [Server thread/INFO]: Time elapsed: 307 ms
-[20:40:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:40:46] [Server thread/INFO]: Time elapsed: 106 ms
-[20:40:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:40:46] [Server thread/INFO]: Time elapsed: 29 ms
-[20:40:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
-[20:40:46] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:40:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:40:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:40:46] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[20:40:46] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[20:40:46] [Server thread/INFO]: [Essentials] Converted 0/1
-[20:40:46] [Server thread/INFO]: [Essentials] Ban format update complete.
-[20:40:46] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[20:40:46] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[20:40:46] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[20:40:46] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[20:40:46] [Server thread/INFO]: [Essentials] Done converting mail list.
-[20:40:46] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:40:46] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[20:40:46] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[20:40:46] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[20:40:46] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[20:40:46] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[20:40:46] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[20:40:46] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[20:40:46] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[20:40:46] [Server thread/INFO]: [Essentials] 
-[20:40:46] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[20:40:46] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[20:40:46] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[20:40:46] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:40:46] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[20:40:46] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:40:46] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[20:40:46] [Server thread/INFO]: [Essentials] 
-[20:40:46] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[20:40:46] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[20:40:46] [Server thread/INFO]: [Essentials] 
-[20:40:46] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[20:40:46] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[20:40:46] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[20:40:46] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[20:40:46] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[20:40:46] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:40:46] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[20:40:46] [Server thread/INFO]: [Essentials] Using locale en
-[20:40:46] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:40:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:40:47] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[20:40:47] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[20:40:47] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:40:47] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:40:47] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
-[20:40:47] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[20:40:48] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
-[20:40:48] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data
-[20:40:48] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data/worlds
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Items...
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[20:40:50] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[20:40:50] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[20:40:50] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[20:40:50] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[20:40:50] [Server thread/INFO]: [Matrix] Enabling Matrix v7.4.18
-[20:40:50] [Server thread/INFO]: [Matrix] [STDOUT] [Spigotunlocked.com] - Wqfire
-[20:40:50] [Server thread/WARN]: Nag author(s): '[RE]' of 'Matrix v7.4.18' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:40:51] [Server thread/INFO]: *   __  __       _        _
-[20:40:51] [Server thread/INFO]: *  |  \/  |     | |      (_)
-[20:40:51] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
-[20:40:51] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
-[20:40:51] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
-[20:40:51] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
-[20:40:51] [Server thread/INFO]: *  
-[20:40:51] [Server thread/INFO]: *  Cracked by LuckerCracker
-[20:40:51] [Server thread/INFO]: * Matrix AntiCheat v7.4.18 | git-Paper-17 (MC: 1.20)
-[20:40:51] [Server thread/INFO]: [Matrix] Checking Environment...
-[20:40:51] [Server thread/INFO]: [Matrix] Passed all environment checks
-[20:40:51] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
-[20:40:51] [Server thread/INFO]: [Matrix] Enabled 15 checks, Disabled 0 checks
-[20:40:51] [Server thread/INFO]: [Matrix] Loaded all configuration files
-[20:40:52] [Server thread/INFO]: [Matrix] Scanning outdated log files....
-[20:40:52] [Server thread/INFO]: [Matrix] Deleted 0 outdated log files!
-[20:40:52] [Server thread/INFO]: [Matrix] Welcome to Matrix!
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.4.1 b78
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Using NMS version v1_20_R1 for nametag support
-[20:40:52] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[20:40:52] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[20:40:52] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 226ms)
-[20:40:52] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
-[20:40:52] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
-[20:40:53] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
-[20:40:53] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
-[20:40:53] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[20:40:53] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[20:40:53] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[20:40:53] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[20:40:53] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[20:40:53] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[20:40:53] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
-[20:40:53] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
-[20:40:53] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
-[20:40:53] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[20:40:53] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[20:40:53] [Server thread/INFO]: [EliteMobs] All done! Good night.
-[20:40:53] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[20:40:53] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
-[20:40:53] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[20:40:53] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
-[20:40:53] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
-[20:40:53] [Server thread/WARN]: [Elevators] V120R1NMS
-[20:40:53] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
-[20:40:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[20:40:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[20:40:53] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[20:40:53] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[20:40:53] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[20:40:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
-[20:40:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
-[20:40:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[20:40:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-[20:40:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[20:40:53] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-[20:40:53] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-[20:40:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
-[20:40:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
-[20:40:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
-[20:40:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[20:40:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[20:40:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
-[20:40:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
-[20:40:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
-[20:40:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
-[20:40:53] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
-[20:40:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
-[20:40:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:40:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[20:40:53] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
-[20:40:53] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
-[20:40:53] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[20:40:53] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[20:40:53] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
-[20:40:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[20:40:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[20:40:54] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[20:40:54] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[20:40:54] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
-[20:40:54] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
-[20:40:54] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
-[20:40:54] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[20:40:54] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[20:40:54] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[20:40:55] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[20:40:55] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[20:40:55] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
-[20:40:55] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 27 ms
-[20:40:55] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[20:40:55] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[20:40:55] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[20:40:55] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[20:40:55] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:40:55] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
-[20:40:55] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
-[20:40:55] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
-[20:40:55] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
-[20:40:55] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
-[20:40:56] [Server thread/INFO]: Running delayed init tasks
-[20:40:56] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:40:56] [Craft Scheduler Thread - 0 - Matrix/INFO]: [Matrix] Start checking update....
-[20:40:56] [Craft Scheduler Thread - 4 - Matrix/INFO]: [Matrix] Successfully fetched your license.
-[20:40:56] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
-[20:40:56] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[20:40:57] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[20:40:57] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[20:40:57] [Craft Scheduler Thread - 0 - Matrix/INFO]: | There is a new version of Matrix available! (7.11.12)
-[20:40:57] [Craft Scheduler Thread - 0 - Matrix/INFO]: | * Fixed a rare console NPE error
-[20:40:57] [Craft Scheduler Thread - 0 - Matrix/INFO]: | You can download it by using /matrix update
-[20:40:57] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:40:57] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[20:40:57] [Server thread/INFO]: Done (19.641s)! For help, type "help"
-[20:40:57] [Server thread/INFO]: Timings Reset
-[20:40:57] [Server thread/INFO]: [eco] Loaded eco
-[20:41:37] [User Authenticator #0/INFO]: UUID of player alexisromors is 343fb479-c22f-316e-a665-dea3a7ee2b1a
-[20:41:40] [Server thread/INFO]: alexisromors joined the game
-[20:41:40] [Server thread/INFO]: alexisromors[/[0:0:0:0:0:0:0:1%0]:60208] logged in with entity id 328 at ([world]21.94986645447217, 66.0, 243.19639033490353)
-[20:41:45] [User Authenticator #0/INFO]: UUID of player Mateo2009MC is ca063eb7-f8b9-3bb6-abfb-5a103eb7d6f3
-[20:41:45] [Server thread/INFO]: Mateo2009MC joined the game
-[20:41:45] [Server thread/INFO]: Mateo2009MC[/[0:0:0:0:0:0:0:1%0]:55970] logged in with entity id 518 at ([world]33.5, 84.0, -16.5)
-[20:41:45] [Server thread/INFO]: Mateo2009MC has made the advancement [Getting an Upgrade]
-[20:42:21] [Server thread/INFO]: alexisromors issued server command: /gms
-[20:42:36] [Server thread/INFO]: Named entity EntitySlime['Toxic Slime'/167, uuid='28441b3c-0d72-4a6a-9d5d-53895ce9efab', l='ServerLevel[world_nether]', x=130.21, y=-20.00, z=144.02, cpos=[8, 9], tl=2182, v=true] died: Toxic Slime was killed
-[20:42:36] [Server thread/INFO]: Named entity EntitySlime['Toxic Slime'/165, uuid='7d1b6cb7-c110-43ab-a31b-023226c0c5c2', l='ServerLevel[world_nether]', x=126.40, y=-20.00, z=117.23, cpos=[7, 7], tl=2987, v=true] died: Toxic Slime was killed
-[20:42:36] [Server thread/INFO]: Named entity EntitySlime['Toxic Slime'/166, uuid='b97aeec1-6ebc-42be-bf0c-944a8eac3879', l='ServerLevel[world_nether]', x=107.76, y=-20.00, z=123.74, cpos=[6, 7], tl=2986, v=true] died: Toxic Slime was killed
-[20:42:36] [Server thread/INFO]: Named entity EntitySlime['Toxic Slime'/164, uuid='e6fc1788-ab31-4ff9-8565-de2015f09d20', l='ServerLevel[world_nether]', x=105.29, y=-20.00, z=129.18, cpos=[6, 8], tl=2987, v=true] died: Toxic Slime was killed
-[20:42:36] [Server thread/INFO]: Named entity EntitySlime['Toxic Slime'/170, uuid='ba25a78b-7fb3-4e7a-b5c1-605fae939989', l='ServerLevel[world_nether]', x=163.33, y=-20.00, z=121.69, cpos=[10, 7], tl=2982, v=true] died: Toxic Slime was killed
-[20:42:36] [Server thread/INFO]: Named entity EntitySlime['Toxic Slime'/172, uuid='7bfd5316-785c-444a-a24c-cad3661f7f3b', l='ServerLevel[world_nether]', x=115.86, y=-20.00, z=157.86, cpos=[7, 9], tl=0, v=true] died: Toxic Slime was killed
-[20:42:50] [Server thread/INFO]: Mateo2009MC issued server command: /sethome arboles
-[20:42:59] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set essentials.sethome.multiple.vip
-[20:42:59] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[20:42:59] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome.multiple.vip true
-[20:43:05] [Server thread/INFO]: Mateo2009MC issued server command: /home home
-[20:43:15] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set essentials.delhome
-[20:43:26] [User Authenticator #1/INFO]: UUID of player NISEXX100 is e9d0aad5-7159-37aa-8d5f-04da16ed7ce5
-[20:43:26] [Server thread/INFO]: NISEXX100 joined the game
-[20:43:26] [Server thread/INFO]: NISEXX100[/[0:0:0:0:0:0:0:1%0]:48086] logged in with entity id 2087 at ([world]28.5, 85.0, -21.5)
-[20:43:27] [Server thread/INFO]: NISEXX100 has made the advancement [Getting an Upgrade]
-[20:43:27] [Server thread/INFO]: alexisromors issued server command: /gmc
-[20:43:29] [Server thread/INFO]: alexisromors issued server command: /g-
-[20:43:30] [Server thread/INFO]: alexisromors issued server command: /gms
-[20:43:48] [Server thread/INFO]: NISEXX100 was slain by Mateo2009MC
-[20:44:03] [Server thread/INFO]: Mateo2009MC has made the advancement [Monster Hunter]
-[20:44:03] [Server thread/INFO]: Named entity EntityZombie['NISEXX100's Zombie'/2156, uuid='779c6667-a4c0-423e-9f82-c4ee86bfa436', l='ServerLevel[world]', x=27.36, y=66.00, z=250.15, cpos=[1, 15], tl=233, v=true] died: NISEXX100's Zombie was slain by Mateo2009MC
-[20:44:32] [Server thread/INFO]: NISEXX100 was slain by Mateo2009MC
-[20:44:39] [Async Chat Thread - #1/INFO]: [Not Secure] <NISEXX100> quita mrd
-[20:44:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Mateo2009MC> ezzz
-[20:44:51] [Async Chat Thread - #1/INFO]: [Not Secure] <Mateo2009MC> bot
-[20:44:56] [Async Chat Thread - #0/INFO]: [Not Secure] <NISEXX100> ya veremos
-[20:45:10] [Async Chat Thread - #1/INFO]: [Not Secure] <NISEXX100> y ese alexis
-[20:45:16] [Async Chat Thread - #1/INFO]: [Not Secure] <alexisromors> soy tu papa
-[20:45:21] [Server thread/INFO]: alexisromors issued server command: /deop
-[20:45:23] [Async Chat Thread - #0/INFO]: [Not Secure] <NISEXX100> el joe?
-[20:45:25] [Async Chat Thread - #1/INFO]: [Not Secure] <alexisromors> ya me quite el op put
-[20:45:27] [Server thread/INFO]: alexisromors issued server command: /deop
-[20:45:29] [Server thread/INFO]: alexisromors issued server command: /deop alexisromors
-[20:45:29] [Server thread/INFO]: [alexisromors: Made alexisromors no longer a server operator]
-[20:45:30] [Server thread/INFO]: alexisromors issued server command: /deop
-[20:45:31] [Async Chat Thread - #1/INFO]: [Not Secure] <alexisromors> ahora si
-[20:45:35] [User Authenticator #2/INFO]: UUID of player pepito is 3b6eece8-baa9-3e51-8999-07090befd51e
-[20:45:35] [Server thread/INFO]: pepito joined the game
-[20:45:35] [Server thread/INFO]: pepito[/[0:0:0:0:0:0:0:1%0]:57754] logged in with entity id 3605 at ([world]38.5, 80.0, -22.5)
-[20:45:35] [Server thread/INFO]: pepito has made the advancement [Getting an Upgrade]
-[20:45:35] [Server thread/WARN]: alexisromors moved too quickly! 6.45363019665686,-0.5764407054569602,8.293700126827275
-[20:45:44] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=80, y=131, z=580}
-[20:45:44] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=73, y=131, z=583}
-[20:45:44] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=77, y=131, z=582}
-[20:45:44] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=78, y=131, z=585}
-[20:45:48] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/3138, uuid='30636d74-0ac3-4a83-8a97-976988b7e644', l='ServerLevel[world]', x=146.50, y=44.00, z=536.50, cpos=[9, 33], tl=589, v=true] died: Skeletal Knight suffocated in a wall
-[20:46:17] [Server thread/INFO]: NISEXX100 was slain by pepito
-[20:46:25] [Server thread/INFO]: alexisromors has made the advancement [Stone Age]
-[20:46:29] [Server thread/INFO]: alexisromors issued server command: /deat
-[20:46:35] [Server thread/INFO]: Made alexisromors a server operator
-[20:46:52] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set backpack.use
-[20:46:52] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[20:46:52] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.use true
-[20:47:00] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set backpack.size.6
-[20:47:00] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[20:47:00] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.size.6 true
-[20:47:06] [Tuinity Chunk System Worker #0/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-1657608553,-181188645,-1970306320,-21935466],type:"minecraft:entity",y_offset:0.36f}}]
-[20:47:06] [Tuinity Chunk System Worker #0/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-492208151,2130201996,-1638321847,-236952269],type:"minecraft:entity",y_offset:0.36f}}]
-[20:47:06] [Tuinity Chunk System Worker #0/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-1534938430,-1634907265,-1933425779,1714146874],type:"minecraft:entity",y_offset:0.36f}}]
-[20:47:08] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set backpack.keepondeath
-[20:47:08] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
-[20:47:08] [luckperms-command-executor/INFO]: [LP] LOG > permission set backpack.keepondeath true
-[20:47:12] [Tuinity Chunk System Worker #0/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-1657608553,-181188645,-1970306320,-21935466],type:"minecraft:entity",y_offset:0.36f}}]
-[20:47:12] [Tuinity Chunk System Worker #0/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-492208151,2130201996,-1638321847,-236952269],type:"minecraft:entity",y_offset:0.36f}}]
-[20:47:12] [Tuinity Chunk System Worker #0/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-1534938430,-1634907265,-1933425779,1714146874],type:"minecraft:entity",y_offset:0.36f}}]
-[20:48:02] [Server thread/INFO]: NISEXX100 has made the advancement [Stone Age]
-[20:48:14] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/6017, uuid='d6e120a7-96ea-4b3d-8c4a-ce89719a53fb', l='ServerLevel[world]', x=4.50, y=84.00, z=372.50, cpos=[0, 23], tl=437, v=true] died: Skeletal Knight suffocated in a wall
-[20:48:20] [Server thread/INFO]: alexisromors issued server command: /backpack reload
-[20:48:21] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[20:48:21] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[20:48:21] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[20:48:21] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
-[20:48:21] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[20:48:21] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[20:48:21] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[20:48:21] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[20:48:21] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
-[20:48:30] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/6224, uuid='3da3a916-7897-48c8-b565-429b287af932', l='ServerLevel[world]', x=-520.50, y=35.00, z=454.50, cpos=[-33, 28], tl=446, v=true] died: Skeletal Knight suffocated in a wall
-[20:49:38] [Server thread/INFO]: Mateo2009MC issued server command: /sethome arboles
-[20:49:49] [Server thread/INFO]: pepito has made the advancement [Stone Age]
-[20:49:49] [Server thread/INFO]: alexisromors was poked to death by a sweet berry bush
-[20:50:25] [Server thread/INFO]: Mateo2009MC issued server command: /delhome home
-[20:50:30] [Server thread/INFO]: Mateo2009MC issued server command: /sethome arboles
-[20:50:46] [Server thread/INFO]: Mateo2009MC has made the advancement [Stone Age]
-[20:51:23] [Server thread/INFO]: alexisromors issued server command: /gmc
-[20:51:30] [Server thread/INFO]: alexisromors issued server command: /gms
-[20:53:15] [Server thread/WARN]: alexisromors moved too quickly! 4.161654773598627,-0.2046003784434305,9.169474050661961
-[20:53:21] [Server thread/INFO]: alexisromors was shot by Lvl 1 | Skeleton
-[20:53:41] [Server thread/INFO]: alexisromors issued server command: /tp Mateo2009MC
-[20:54:04] [Server thread/INFO]: alexisromors issued server command: /gmc
-[20:54:11] [Server thread/INFO]: alexisromors issued server command: /gms
-[20:54:36] [Server thread/INFO]: NISEXX100 has made the advancement [Acquire Hardware]
-[20:54:42] [Server thread/INFO]: pepito has made the advancement [Acquire Hardware]
-[20:56:36] [Server thread/INFO]: alexisromors issued server command: /relaod
-[20:56:38] [Server thread/INFO]: alexisromors issued server command: /reload
-[20:56:38] [Server thread/INFO]: alexisromors: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[20:56:41] [Server thread/INFO]: alexisromors issued server command: /reload confirm
-[20:56:41] [Server thread/INFO]: alexisromors: Please note that this command is not supported and may cause issues when using some plugins.
-[20:56:41] [Server thread/INFO]: alexisromors: If you encounter any issues please use the /stop command to restart your server.
-[20:56:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:56:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:56:41] [Server thread/INFO]: [CombatWeaponryPlus] Disabling CombatWeaponryPlus v1.5.7
-[20:56:41] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.1.3
-[20:56:41] [Server thread/INFO]: [TNTAlert] Disabling TNTAlert v1.0
-[20:56:41] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.6
-[20:56:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+144-d31ff55
-[20:56:41] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
-[20:56:42] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[20:56:42] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[20:56:42] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
-[20:56:42] [Server thread/INFO]: [Elevators] Disabling Elevators v4.0.18
-[20:56:42] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[20:56:42] [Server thread/INFO]: [bloodmoon-advanced] Disabling bloodmoon-advanced v4.5.7
-[20:56:42] [Server thread/INFO]: [eco] Disabling eco v6.74.3
-[20:56:42] [Server thread/INFO]: [eco] Saving player data...
-[20:56:42] [Server thread/INFO]: [eco] Saved player data! Took 1ms
-[20:56:42] [Server thread/INFO]: [eco] Cleaning up...
-[20:56:42] [Server thread/INFO]: [BetterSleeping4] Disabling BetterSleeping4 v4.0.2
-[20:56:42] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.4.1 b78
-[20:56:42] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[20:56:42] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[20:56:42] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 2ms)
-[20:56:42] [Craft Scheduler Thread - 6 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[20:56:42] [Server thread/INFO]: [Matrix] Disabling Matrix v7.4.18
-[20:56:42] [Server thread/INFO]: [Matrix] Disabled Matrix AntiCheat.
-[20:56:42] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:56:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[20:56:42] [Server thread/INFO]: [MythicMobs] - 
-[20:56:42] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[20:56:42] [Server thread/INFO]: [MythicMobs] - 
-[20:56:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[20:56:42] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[20:56:42] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[20:56:42] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[20:56:42] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[20:56:42] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[20:56:42] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[20:56:42] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[20:56:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[20:56:42] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[20:56:42] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[20:56:42] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+144-d31ff55
-[20:56:42] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[20:56:42] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[20:56:42] [Server thread/ERROR]: *****************************************************************
-[20:56:42] [Server thread/ERROR]: *** WARNING                                                   ***
-[20:56:42] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
-[20:56:42] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
-[20:56:42] [Server thread/ERROR]: ***                                                           ***
-[20:56:42] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
-[20:56:42] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
-[20:56:42] [Server thread/ERROR]: *** on GitHub!                                                ***
-[20:56:42] [Server thread/ERROR]: *****************************************************************
-[20:56:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
-[20:56:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:56:42] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:56:42] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:56:43] [Server thread/INFO]: Loaded 7 recipes
-[20:56:46] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[20:56:46] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[20:56:46] [Craft Scheduler Thread - 4 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[20:56:46] [Server thread/WARN]: [PluginInitializerManager] ======== WARNING ========
-[20:56:46] [Server thread/WARN]: [PluginInitializerManager] You are reloading while having Paper plugins installed on your server.
-[20:56:46] [Server thread/WARN]: [PluginInitializerManager] Paper plugins do NOT support being reloaded. This will cause some unexpected issues.
-[20:56:46] [Server thread/WARN]: [PluginInitializerManager] =========================
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[20:56:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:56:46] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
-[20:56:46] [Server thread/INFO]: [eco] Initializing eco
-[20:56:46] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
-[20:56:46] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[20:56:47] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[20:56:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
-[20:56:47] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:56:47] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[20:56:47] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[20:56:47] [Server thread/INFO]: [Matrix] Loading server plugin Matrix v7.4.18
-[20:56:47] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.4.1 b78
-[20:56:47] [Server thread/INFO]: [LevelledMobs] Loading commands
-[20:56:47] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
-[20:56:47] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
-[20:56:47] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
-[20:56:47] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
-[20:56:47] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
-[20:56:47] [Server thread/INFO]: [EliteMobs] Sanity check!
-[20:56:47] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[20:56:47] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[20:56:47] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
-[20:56:47] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
-[20:56:47] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
-[20:56:47] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[20:56:47] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
-[20:56:47] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
-[20:56:47] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
-[20:56:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:56:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[20:56:48] [Server thread/INFO]:         __    
-[20:56:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[20:56:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:56:48] [Server thread/INFO]: 
-[20:56:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:56:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:56:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:56:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:56:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 903ms)
-[20:56:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[20:56:48] [Server thread/INFO]: [eco] Enabling eco v6.74.3
-[20:56:48] [Server thread/INFO]: [eco] Loading eco
-[20:56:48] [Server thread/INFO]: [eco] Loaded integrations: Matrix, MythicMobs, Essentials
-[20:56:48] [Server thread/INFO]: [eco] Scanning for conflicts...
-[20:56:48] [Server thread/INFO]: [eco] No conflicts found!
-[20:56:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
-[20:56:49] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:56:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:56:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:56:49] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[20:56:49] [Server thread/INFO]: [Essentials] Using locale en
-[20:56:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:56:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:56:49] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[20:56:49] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[20:56:49] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:56:49] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[20:56:49] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
-[20:56:49] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[20:56:50] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
-[20:56:50] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data
-[20:56:50] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data/worlds
-[20:56:51] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Items...
-[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[20:56:52] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[20:56:52] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[20:56:52] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[20:56:52] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[20:56:52] [Server thread/INFO]: [Matrix] Enabling Matrix v7.4.18
-[20:56:52] [Server thread/INFO]: [Matrix] [STDOUT] [Spigotunlocked.com] - Wqfire
-[20:56:52] [Server thread/WARN]: Nag author(s): '[RE]' of 'Matrix v7.4.18' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:56:52] [Server thread/INFO]: *   __  __       _        _
-[20:56:52] [Server thread/INFO]: *  |  \/  |     | |      (_)
-[20:56:52] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
-[20:56:52] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
-[20:56:52] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
-[20:56:52] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
-[20:56:52] [Server thread/INFO]: *  
-[20:56:52] [Server thread/INFO]: *  Cracked by LuckerCracker
-[20:56:52] [Server thread/INFO]: * Matrix AntiCheat v7.4.18 | git-Paper-17 (MC: 1.20)
-[20:56:52] [Server thread/INFO]: [Matrix] Checking Environment...
-[20:56:52] [Server thread/INFO]: [Matrix] Passed all environment checks
-[20:56:53] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
-[20:56:53] [Server thread/INFO]: [Matrix] Enabled 15 checks, Disabled 0 checks
-[20:56:53] [Server thread/INFO]: [Matrix] Loaded all configuration files
-[20:56:53] [Server thread/INFO]: [Matrix] Scanning outdated log files....
-[20:56:53] [Server thread/INFO]: [Matrix] Deleted 0 outdated log files!
-[20:56:53] [Server thread/INFO]: [Matrix] Welcome to Matrix!
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.4.1 b78
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Using NMS version v1_20_R1 for nametag support
-[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[20:56:53] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[20:56:53] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 106ms)
-[20:56:53] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
-[20:56:53] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
-[20:56:53] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
-[20:56:53] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
-[20:56:53] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[20:56:53] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[20:56:53] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[20:56:53] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[20:56:53] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[20:56:53] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[20:56:53] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
-[20:56:53] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
-[20:56:53] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
-[20:56:53] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[20:56:53] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[20:56:53] [Server thread/INFO]: [EliteMobs] All done! Good night.
-[20:56:53] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[20:56:53] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
-[20:56:53] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[20:56:53] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
-[20:56:53] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
-[20:56:53] [Server thread/WARN]: [Elevators] V120R1NMS
-[20:56:53] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[20:56:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
-[20:56:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
-[20:56:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[20:56:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-[20:56:53] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-[20:56:53] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
-[20:56:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
-[20:56:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1039)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:950)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929)
-[20:56:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
-[20:56:53] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:324)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:308)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2298)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$20(PlayerConnection.java:2258)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1339)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1316)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1309)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.bp(IAsyncTaskHandler.java:114)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1425)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1171)
-[20:56:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:56:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[20:56:53] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
-[20:56:53] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
-[20:56:53] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[20:56:53] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[20:56:53] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
-[20:56:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[20:56:53] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[20:56:54] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[20:56:54] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[20:56:54] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
-[20:56:54] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
-[20:56:54] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
-[20:56:54] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[20:56:54] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[20:56:54] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[20:56:54] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[20:56:54] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[20:56:54] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
-[20:56:54] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 17 ms
-[20:56:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[20:56:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[20:56:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[20:56:54] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[20:56:54] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:56:54] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
-[20:56:54] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
-[20:56:54] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
-[20:56:54] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
-[20:56:55] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
-[20:56:55] [Server thread/INFO]: alexisromors: Reload complete.
-[20:56:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13819ms or 276 ticks behind
-[20:56:55] [Server thread/INFO]: Timings Reset
-[20:56:55] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:56:55] [Craft Scheduler Thread - 12 - Matrix/INFO]: [Matrix] Successfully fetched your license.
-[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: [Matrix] Start checking update....
-[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
-[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[20:56:55] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: | There is a new version of Matrix available! (7.11.12)
-[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: | * Fixed a rare console NPE error
-[20:56:55] [Craft Scheduler Thread - 19 - Matrix/INFO]: | You can download it by using /matrix update
-[20:56:56] [Server thread/INFO]: [eco] Loaded eco
-[20:56:56] [Server thread/WARN]: [Matrix] Task #279434 for Matrix v7.4.18 generated an exception
-org.bukkit.command.CommandException: Unhandled exception executing command 'matrix' in plugin Matrix v7.4.18
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1000) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at me.rerere.matrix.internal.qe.AK(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.qe.invoke(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.misc.compatibility.FoliaSupport.runAtGlobalScheduler$lambda$0(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.NullPointerException
-	at me.rerere.matrix.internal.zd.JM(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.uf.Xm(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.zd.Wn(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.mi.tM(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.wf.EM(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.wf.onCommand(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	... 14 more
-[20:56:56] [Server thread/WARN]: [Matrix] Task #279435 for Matrix v7.4.18 generated an exception
-org.bukkit.command.CommandException: Unhandled exception executing command 'matrix' in plugin Matrix v7.4.18
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1000) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	at me.rerere.matrix.internal.qe.AK(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.qe.invoke(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.misc.compatibility.FoliaSupport.runAtGlobalScheduler$lambda$0(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.NullPointerException
-	at me.rerere.matrix.internal.zd.JM(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.uf.Xm(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.zd.Wn(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.mi.tM(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.wf.EM(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at me.rerere.matrix.internal.wf.onCommand(Unknown Source) ~[Matrix_7.4.18.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
-	... 14 more
-[20:56:56] [Server thread/INFO]: pepito lost connection: Move Abnormally
-[20:56:56] [Server thread/INFO]: pepito left the game
-[20:56:56] [Server thread/INFO]: [Matrix] player pepito was kicked because of cheating!
-[20:56:56] [Server thread/WARN]: Mateo2009MC moved too quickly! 308.4396752247198,-60.0,-1156.7020465028472
-[20:56:56] [Server thread/WARN]: NISEXX100 moved wrongly!
-[20:56:59] [User Authenticator #3/INFO]: UUID of player pepito is 3b6eece8-baa9-3e51-8999-07090befd51e
-[20:56:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@58a233aa[id=3b6eece8-baa9-3e51-8999-07090befd51e,name=pepito,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:55074): Please wait 1 seconds before logging back in!
-[20:56:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@58a233aa[id=3b6eece8-baa9-3e51-8999-07090befd51e,name=pepito,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:55074) lost connection: Please wait 1 seconds before logging back in!
-[20:57:10] [Async Chat Thread - #2/INFO]: [Not Secure] <NISEXX100> ???
-[20:57:12] [User Authenticator #3/INFO]: UUID of player pepito is 3b6eece8-baa9-3e51-8999-07090befd51e
-[20:57:12] [Server thread/INFO]: pepito joined the game
-[20:57:12] [Server thread/INFO]: pepito[/[0:0:0:0:0:0:0:1%0]:49610] logged in with entity id 18027 at ([world]67.57797666259087, 38.0, 277.122024760812)
-[20:57:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> mira el chat
-[20:57:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Mateo2009MC> del grupo
-[20:57:33] [User Authenticator #3/INFO]: UUID of player alexisromors is 343fb479-c22f-316e-a665-dea3a7ee2b1a
-[20:57:33] [Server thread/INFO]: alexisromors lost connection: You logged in from another location
-[20:57:34] [Server thread/INFO]: alexisromors left the game
-[20:57:34] [Server thread/INFO]: alexisromors joined the game
-[20:57:34] [Server thread/INFO]: alexisromors[/[0:0:0:0:0:0:0:1%0]:39368] logged in with entity id 18134 at ([world]-571.3000000119209, 80.0, 1244.699999988079)
-[20:57:54] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/18121, uuid='942ff1ec-309b-47cd-b64a-619fac401f61', l='ServerLevel[world]', x=51.50, y=-23.00, z=165.50, cpos=[3, 10], tl=431, v=true] died: Skeletal Knight suffocated in a wall
-[20:58:26] [Server thread/INFO]: alexisromors issued server command: /vanish
-[20:58:27] [Server thread/INFO]: alexisromors issued server command: /gmc
-[20:58:32] [Server thread/INFO]: alexisromors issued server command: /gamemode spectator
-[20:58:38] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[20:58:39] [Server thread/INFO]: pepito has made the advancement [Suit Up]
-[20:58:47] [Server thread/INFO]: alexisromors issued server command: /tp pepito
-[20:59:03] [Server thread/INFO]: alexisromors issued server command: /gmc
-[20:59:10] [Server thread/INFO]: alexisromors issued server command: /gamemode spectator
-[20:59:29] [Server thread/INFO]: Mateo2009MC has made the advancement [Ice Bucket Challenge]
-[20:59:48] [Server thread/INFO]: alexisromors issued server command: /tp Mateo2009MC
-[20:59:58] [Server thread/WARN]: alexisromors moved too quickly! 12.815846967975062,-0.7501168512433551,8.848246440787307
-[21:00:02] [Server thread/INFO]: alexisromors issued server command: /tp pepito
-[21:00:22] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/20792, uuid='df2e192a-1cd7-435f-bdfc-8ceff7291652', l='ServerLevel[world]', x=99.50, y=1.00, z=1501.50, cpos=[6, 93], tl=432, v=true] died: Skeletal Knight suffocated in a wall
-[21:00:23] [Server thread/INFO]: NISEXX100 lost connection: Timed out
-[21:00:23] [Server thread/INFO]: NISEXX100 left the game
-[21:00:23] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[21:00:27] [Server thread/INFO]: alexisromors issued server command: /
-[21:00:38] [Server thread/INFO]: alexisromors issued server command: /tp pepito
-[21:01:19] [Server thread/WARN]: alexisromors moved too quickly! -14.434862814630389,1.6724040883466103,-0.7214359985334795
-[21:01:42] [Server thread/INFO]: alexisromors issued server command: /feed
-[21:02:21] [Server thread/INFO]: pepito was blown up by Lvl 3 | Creeper
-[21:02:38] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/23023, uuid='9fb40ac0-4c2f-4540-acb3-e2876f11f3fc', l='ServerLevel[world]', x=426.65, y=-11.00, z=1782.65, cpos=[26, 111], tl=459, v=true] died: Skeletal Knight suffocated in a wall
-[21:02:40] [User Authenticator #4/INFO]: UUID of player NISEXX100 is e9d0aad5-7159-37aa-8d5f-04da16ed7ce5
-[21:02:40] [Server thread/INFO]: NISEXX100 joined the game
-[21:02:40] [Server thread/INFO]: NISEXX100[/[0:0:0:0:0:0:0:1%0]:55920] logged in with entity id 23772 at ([world]46.33653572351205, 23.0, 258.37986279464025)
-[21:02:48] [Server thread/INFO]: alexisromors issued server command: /tp pepito
-[21:02:58] [Server thread/INFO]: Mateo2009MC has made the advancement [Acquire Hardware]
-[21:03:16] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[21:04:23] [Server thread/INFO]: alexisromors issued server command: /
-[21:04:26] [Server thread/INFO]: alexisromors issued server command: /matrix
-[21:04:33] [Server thread/INFO]: alexisromors issued server command: /matrix notigy
-[21:04:34] [Server thread/INFO]: alexisromors issued server command: /matrix notify
-[21:04:39] [Server thread/INFO]: alexisromors issued server command: /matrix notify NISEXX100
-[21:04:39] [Server thread/INFO]: [Matrix] NISEXX100
-[21:04:44] [Server thread/INFO]: alexisromors issued server command: /matrix notify pepito r
-[21:04:44] [Server thread/INFO]: [Matrix] pepito r
-[21:04:52] [Server thread/INFO]: alexisromors issued server command: /matrix notify Mateo2009MC t
-[21:04:52] [Server thread/INFO]: [Matrix] Mateo2009MC t
-[21:05:04] [Server thread/INFO]: pepito has made the advancement [Monster Hunter]
-[21:05:07] [Server thread/INFO]: alexisromors issued server command: /matrix status
-[21:05:12] [Server thread/INFO]: alexisromors issued server command: /matrix status pepito
-[21:06:17] [Server thread/INFO]: alexisromors issued server command: /tp pepito
-[21:07:16] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[21:07:27] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/28671, uuid='8cd1d3b1-4bf2-44dc-b582-31739151cf3e', l='ServerLevel[world]', x=84.50, y=-37.00, z=193.50, cpos=[5, 12], tl=450, v=true] died: Skeletal Knight suffocated in a wall
-[21:07:41] [Server thread/INFO]: alexisromors issued server command: /skills
-[21:08:11] [Server thread/INFO]: pepito was shot by Lvl 7 | Skeleton
-[21:09:04] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/31627, uuid='151bdec2-c3e1-4b5d-972a-370417da626b', l='ServerLevel[world]', x=1188.50, y=40.00, z=2458.50, cpos=[74, 153], tl=431, v=true] died: Skeletal Knight suffocated in a wall
-[21:09:08] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/30077, uuid='42ae95d8-ce5a-453c-a91f-536c82fd8fef', l='ServerLevel[world]', x=1257.64, y=67.00, z=2520.48, cpos=[78, 157], tl=782, v=true] died: Skeletal Knight was slain by Mateo2009MC
-[21:09:48] [Server thread/INFO]: pepito issued server command: /tpa NISEXX100
-[21:10:03] [Server thread/INFO]: NISEXX100 issued server command: /tpaccept
-[21:11:12] [Server thread/INFO]: NISEXX100 was shot by Lvl 1 | Skeleton
-[21:11:39] [Server thread/INFO]: pepito was shot by Lvl 1 | Skeleton
-[21:12:30] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[21:12:33] [Server thread/INFO]: alexisromors issued server command: /tp pepito
-[21:12:36] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[21:13:42] [Server thread/INFO]: NISEXX100 was slain by pepito
-[21:13:47] [Server thread/INFO]: pepito was slain by NISEXX100's Zombie
-[21:14:08] [Server thread/INFO]: pepito was slain by NISEXX100's Zombie
-[21:14:12] [Server thread/INFO]: NISEXX100 was slain by NISEXX100's Zombie
-[21:14:15] [Server thread/INFO]: alexisromors issued server command: /gmc
-[21:14:19] [Server thread/INFO]: alexisromors issued server command: /gmsp
-[21:14:22] [Server thread/INFO]: alexisromors issued server command: /gmsp
-[21:15:38] [Server thread/INFO]: Mateo2009MC has made the advancement [Sweet Dreams]
-[21:16:00] [Server thread/INFO]: alexisromors issued server command: /tp NISEXX100
-[21:18:30] [Server thread/INFO]: NISEXX100 has made the advancement [Isn't It Iron Pick]
-[21:19:58] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/43158, uuid='9dd7f830-af4b-49c7-8eb5-c6cff2eb1a8c', l='ServerLevel[world]', x=102.50, y=-48.00, z=205.50, cpos=[6, 12], tl=589, v=true] died: Skeletal Knight suffocated in a wall
-[21:20:34] [Server thread/INFO]: NISEXX100 was shot by Lvl 6 | Skeleton
-[21:20:51] [Server thread/INFO]: NISEXX100 issued server command: /tpa pepito
-[21:21:23] [Server thread/INFO]: Mateo2009MC has made the advancement [Isn't It Iron Pick]
-[21:21:43] [Server thread/INFO]: pepito issued server command: /tpaccept NISEXX100
-[21:22:29] [Server thread/INFO]: NISEXX100 lost connection: Timed out
-[21:22:29] [Server thread/INFO]: NISEXX100 left the game
-[21:22:55] [Server thread/INFO]: pepito lost connection: Timed out
-[21:22:55] [Server thread/INFO]: pepito left the game
-[21:25:48] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/44901, uuid='0d32188e-cfc5-41f1-a509-be9fd60171f4', l='ServerLevel[world]', x=2305.50, y=51.00, z=2796.50, cpos=[144, 174], tl=577, v=true] died: Skeletal Knight suffocated in a wall
-[21:29:17] [Server thread/INFO]: Mateo2009MC has made the advancement [Not Today, Thank You]
-[21:36:46] [Server thread/INFO]: Villager EntityVillager['Nitwit'/44356, uuid='fc54f146-8ac6-4df2-8ca7-aaf978bf5447', l='ServerLevel[world]', x=2459.50, y=74.25, z=2742.73, cpos=[153, 171], tl=14220, v=true] died, message: 'Nitwit was slain by Mateo2009MC'
-[21:37:56] [Server thread/INFO]: Mateo2009MC issued server command: /sethome casa
-[21:38:04] [Server thread/INFO]: Mateo2009MC was slain by Iron Golem ❤
-[21:38:09] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[21:41:37] [Server thread/INFO]: Mateo2009MC has made the advancement [Suit Up]
-[21:47:24] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/48936, uuid='f88f65fb-e758-4d1d-8c5c-ed1a4f041731', l='ServerLevel[world]', x=2500.50, y=53.00, z=2822.50, cpos=[156, 176], tl=582, v=true] died: Skeletal Knight suffocated in a wall
-[21:48:18] [Server thread/INFO]: Mateo2009MC was slain by Iron Golem ❤
-[21:48:23] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[21:48:33] [Server thread/INFO]: Mateo2009MC was slain by Iron Golem ❤
-[21:48:37] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[21:49:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50029, uuid='b72eb42e-1676-422e-b59a-ac1b8357363f', l='ServerLevel[world]', x=2491.78, y=-48.00, z=2770.22, cpos=[155, 173], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:49:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50158, uuid='567dea46-2a14-42e0-b93e-6762ee79570d', l='ServerLevel[world]', x=2491.41, y=-47.50, z=2769.84, cpos=[155, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:49:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50159, uuid='5c73520d-53e8-4db4-82ce-1fb0af5a9384', l='ServerLevel[world]', x=2492.16, y=-47.50, z=2769.84, cpos=[155, 173], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:49:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50106, uuid='55000426-4911-4e17-9c9e-f81df64775a7', l='ServerLevel[world]', x=2485.69, y=28.00, z=2663.78, cpos=[155, 166], tl=181, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:49:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50174, uuid='fe631649-0a84-4c90-a32c-68e3617d21a1', l='ServerLevel[world]', x=2486.06, y=28.50, z=2663.41, cpos=[155, 166], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:50:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50220, uuid='f2b0dee9-d905-4e12-af9a-1e5992462316', l='ServerLevel[world]', x=2390.08, y=38.00, z=2789.81, cpos=[149, 174], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:51:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50681, uuid='47fe3298-679e-4813-85be-41918b75f496', l='ServerLevel[world]', x=2363.22, y=63.00, z=2683.78, cpos=[147, 167], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:51:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50769, uuid='f4a19f11-bfc8-46cf-b0e5-85eae1e8f867', l='ServerLevel[world]', x=2362.84, y=63.50, z=2684.16, cpos=[147, 167], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:51:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50767, uuid='5a060d8a-5379-41ac-932e-c2bd4b0f3d8e', l='ServerLevel[world]', x=2362.95, y=63.00, z=2683.74, cpos=[147, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:51:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50768, uuid='e50990e5-c747-4f73-99ec-98399be5524e', l='ServerLevel[world]', x=2363.70, y=63.02, z=2683.63, cpos=[147, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:51:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/50766, uuid='1357f71a-6069-4276-aa81-5ff2fce4b32a', l='ServerLevel[world]', x=2449.78, y=30.06, z=2831.41, cpos=[153, 176], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:51:14] [Server thread/INFO]: Named entity EntityWitch['Magician'/50593, uuid='732f70fe-f635-456c-8c6d-fc5f0ea9d77f', l='ServerLevel[world]', x=2404.95, y=74.00, z=2769.87, cpos=[150, 173], tl=416, v=false, removed=DISCARDED] died: Magician was slain by Iron Golem
-[21:51:27] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/51058, uuid='3be49123-1824-44af-99ec-74570794d718', l='ServerLevel[world]', x=2486.22, y=66.00, z=2807.78, cpos=[155, 175], tl=152, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:52:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/51551, uuid='a8edc24f-6280-4d85-932c-c9b98b571287', l='ServerLevel[world]', x=2352.30, y=68.00, z=2718.13, cpos=[147, 169], tl=297, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:52:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/51715, uuid='fb613ef0-48c7-47ad-811a-9d8bb619d0e2', l='ServerLevel[world]', x=2352.18, y=68.02, z=2717.76, cpos=[147, 169], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:52:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/51716, uuid='1be46c21-e76f-4fc2-ba95-ff17baba6afd', l='ServerLevel[world]', x=2352.84, y=68.00, z=2717.43, cpos=[147, 169], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:52:26] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/51730, uuid='34f3a5ca-d606-44e0-9909-7836dde220a1', l='ServerLevel[world]', x=2451.50, y=11.00, z=2743.50, cpos=[153, 171], tl=306, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:52:52] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/51919, uuid='ab5de8df-be63-45a3-97d1-be8b5912f06e', l='ServerLevel[world]', x=2451.50, y=11.00, z=2746.50, cpos=[153, 171], tl=291, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:53:00] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52067, uuid='f5ec7c51-62ff-453c-955b-c7d0d8986d9f', l='ServerLevel[world]', x=2379.78, y=55.00, z=2669.06, cpos=[148, 166], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:17] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/52186, uuid='bc5ba5c5-3404-482c-910f-57eae95ee936', l='ServerLevel[world]', x=2315.50, y=-18.00, z=2767.50, cpos=[144, 172], tl=318, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:53:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52377, uuid='45f0187f-fbaf-4243-9795-5b4a44a8892a', l='ServerLevel[world]', x=2337.71, y=28.00, z=2679.23, cpos=[146, 167], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:22] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52494, uuid='25f63636-c232-46e3-91ae-e73f5d806d95', l='ServerLevel[world]', x=2338.18, y=28.00, z=2679.11, cpos=[146, 167], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:26] [Server thread/INFO]: [Matrix] Mateo2009MC tried to move abnormally (Move) #1
-[21:53:30] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/51632, uuid='3aedd72c-e961-47c5-86cb-493617720805', l='ServerLevel[world]', x=2382.36, y=67.68, z=2786.94, cpos=[148, 174], tl=1805, v=false, removed=DISCARDED] died: fire warden was slain by Zombie
-[21:53:48] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:53:48] [Server thread/INFO]: Mateo2009MC was shot by Magic Skeleton
-[21:53:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52669, uuid='7569406f-7ac2-48cc-bb89-57f45b164269', l='ServerLevel[world]', x=2486.22, y=-25.00, z=2739.22, cpos=[155, 171], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52815, uuid='41016e01-7b88-4b29-93d8-e1a57f67cc0c', l='ServerLevel[world]', x=2485.84, y=-24.50, z=2738.84, cpos=[155, 171], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:53:53] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[21:53:55] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52912, uuid='8bb5a21a-5748-492b-9f05-c0e593ff128d', l='ServerLevel[world]', x=86.78, y=26.00, z=259.41, cpos=[5, 16], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:56] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53044, uuid='18ddb715-9ecb-4f87-a85f-af9a074822d9', l='ServerLevel[world]', x=86.49, y=26.02, z=259.22, cpos=[5, 16], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:56] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53046, uuid='2833e45c-c67b-4329-8643-2780b1592adf', l='ServerLevel[world]', x=86.67, y=26.02, z=259.74, cpos=[5, 16], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52923, uuid='81d58af7-3dbf-467b-9080-5b6de663c904', l='ServerLevel[world]', x=10.45, y=31.00, z=342.22, cpos=[0, 21], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53112, uuid='1594b913-c8bb-4910-bcf2-15605e467576', l='ServerLevel[world]', x=9.80, y=31.00, z=342.46, cpos=[0, 21], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:57] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53113, uuid='04053f88-d732-4a6c-a3dc-31fb693858df', l='ServerLevel[world]', x=10.68, y=31.02, z=342.74, cpos=[0, 21], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/52994, uuid='62823d93-1359-47ef-955b-ccdeeeec964c', l='ServerLevel[world]', x=26.70, y=78.00, z=363.85, cpos=[1, 22], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53148, uuid='a44c768c-6970-4e8f-bc65-52a47bdf652b', l='ServerLevel[world]', x=26.50, y=78.00, z=363.43, cpos=[1, 22], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:58] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53149, uuid='f1bc239d-81e9-436d-850f-9eb88f07379e', l='ServerLevel[world]', x=27.12, y=78.02, z=363.72, cpos=[1, 22], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:53:59] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53026, uuid='dbd7d335-d72e-4a12-ba3a-5198c612f12d', l='ServerLevel[world]', x=77.38, y=-23.00, z=220.22, cpos=[4, 13], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:53:59] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53210, uuid='4e7dd340-1cda-43f6-9122-e1e90e731219', l='ServerLevel[world]', x=77.01, y=-22.50, z=219.84, cpos=[4, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:53:59] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53211, uuid='05593b57-2772-4c48-9045-b705abdd291f', l='ServerLevel[world]', x=77.76, y=-22.50, z=219.84, cpos=[4, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:53:59] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53212, uuid='cbf79044-71e1-4c00-9fb2-064b363b29d5', l='ServerLevel[world]', x=77.01, y=-22.50, z=220.59, cpos=[4, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:54:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53098, uuid='6da2b123-675e-418c-b501-1b75192aafb4', l='ServerLevel[world]', x=27.16, y=-46.00, z=224.07, cpos=[1, 14], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53102, uuid='3e79fea9-44e0-491f-a140-c3023e3fac9b', l='ServerLevel[world]', x=104.22, y=-24.00, z=209.75, cpos=[6, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53285, uuid='6f600282-5bf2-47f2-8730-94d6617e588f', l='ServerLevel[world]', x=103.84, y=-23.50, z=210.13, cpos=[6, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:54:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53284, uuid='a7ed8706-0dc9-4483-bf32-f9fa2c478524', l='ServerLevel[world]', x=104.31, y=-24.00, z=209.26, cpos=[6, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53000, uuid='7f7a2612-67d1-43f3-b445-5bf617d427e5', l='ServerLevel[world]', x=59.22, y=-27.00, z=219.78, cpos=[3, 13], tl=176, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53330, uuid='485260cf-42c9-43d4-aca9-e232c6b45da7', l='ServerLevel[world]', x=58.62, y=-26.98, z=219.29, cpos=[3, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:03] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53331, uuid='5332357f-7ce0-47e7-8cb4-cb06a2d94c2f', l='ServerLevel[world]', x=59.97, y=-27.00, z=219.42, cpos=[3, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:06] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53161, uuid='28f43279-e36e-43af-b2c8-6c9e6ba37adf', l='ServerLevel[world]', x=72.78, y=-27.00, z=301.55, cpos=[4, 18], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53252, uuid='2ce686d1-ab1f-4f7b-8239-0fb2ee765244', l='ServerLevel[world]', x=76.78, y=20.00, z=240.81, cpos=[4, 15], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53406, uuid='29e84cba-619a-4b93-871d-7eaed572157d', l='ServerLevel[world]', x=76.43, y=20.00, z=240.26, cpos=[4, 15], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53407, uuid='88e2d57c-5870-419a-87bc-291b771a352d', l='ServerLevel[world]', x=77.20, y=20.00, z=240.26, cpos=[4, 15], tl=12, v=true] died: Blazing Cube suffocated in a wall
-[21:54:11] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/53035, uuid='c5d41110-c66b-4e49-8706-056d748cdf5b', l='ServerLevel[world]', x=62.50, y=-7.00, z=176.50, cpos=[3, 11], tl=325, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:54:13] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/53159, uuid='9a1992cb-f314-4619-b9b1-c138ea32d43e', l='ServerLevel[world]', x=82.50, y=-5.00, z=257.50, cpos=[5, 16], tl=291, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:54:13] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/53096, uuid='27de79c3-a306-4da8-b4ab-b054980d5822', l='ServerLevel[world]', x=26.50, y=-46.00, z=216.50, cpos=[1, 13], tl=332, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:54:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53458, uuid='96a8c48c-3396-45a0-851a-b710dd9ba04c', l='ServerLevel[world]', x=-11.20, y=-14.00, z=306.03, cpos=[-1, 19], tl=131, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:20] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53517, uuid='dcd32962-7ee7-4650-86ea-21ebed2892ca', l='ServerLevel[world]', x=-11.09, y=-14.00, z=306.42, cpos=[-1, 19], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:31] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53567, uuid='31dac86a-36c6-4ea8-ad04-8d6c0fd054fd', l='ServerLevel[world]', x=-87.22, y=67.00, z=264.21, cpos=[-6, 16], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:31] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53616, uuid='dbeb3e08-606c-4fab-b6d7-606e14fbf8f9', l='ServerLevel[world]', x=-87.59, y=67.50, z=263.84, cpos=[-6, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:54:31] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53617, uuid='7c2b3e07-ab75-4a4a-bd65-305f77d3d466', l='ServerLevel[world]', x=-86.84, y=67.50, z=263.84, cpos=[-6, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:54:31] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53618, uuid='36e4867f-2599-42b8-b299-9cfb09d8b85b', l='ServerLevel[world]', x=-87.59, y=67.50, z=264.59, cpos=[-6, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:54:32] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53059, uuid='5f5bf01e-7ecc-447f-a24c-f92366c70c9c', l='ServerLevel[world]', x=-10.77, y=62.97, z=223.70, cpos=[-1, 13], tl=737, v=false, removed=DISCARDED] died: Blazing Cube was slain by Mateo2009MC
-[21:54:38] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53630, uuid='c9275d63-9117-4876-bf27-71994d40a55d', l='ServerLevel[world]', x=-10.69, y=62.39, z=224.21, cpos=[-1, 14], tl=111, v=true] died: Blazing Cube was slain by Mateo2009MC
-[21:54:39] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53632, uuid='35df068f-ca4d-4000-a2dc-46d5b7c169d5', l='ServerLevel[world]', x=-10.18, y=62.73, z=223.53, cpos=[-1, 13], tl=133, v=true] died: Blazing Cube was slain by Mateo2009MC
-[21:54:44] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53631, uuid='143dd017-8dd5-412c-adb4-15fae0fb213b', l='ServerLevel[world]', x=-12.04, y=62.46, z=222.97, cpos=[-1, 13], tl=238, v=true] died: Blazing Cube was slain by Mateo2009MC
-[21:54:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53706, uuid='9c50cec0-f515-4558-8782-7fb5a4663a03', l='ServerLevel[world]', x=-24.78, y=-30.00, z=239.05, cpos=[-2, 14], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53739, uuid='8f8c68bd-f390-488d-a857-030fe068cb33', l='ServerLevel[world]', x=-25.14, y=-30.00, z=238.74, cpos=[-2, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:47] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53740, uuid='09d53d0b-1c6b-4bee-9646-1259689be322', l='ServerLevel[world]', x=-24.46, y=-29.98, z=238.42, cpos=[-2, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:54:49] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53633, uuid='95c4bbaf-b139-4657-a26e-acaa3ab939c4', l='ServerLevel[world]', x=-9.73, y=62.99, z=223.81, cpos=[-1, 13], tl=333, v=true] died: Blazing Cube was slain by Mateo2009MC
-[21:54:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53746, uuid='24a310d3-5610-4a1f-8375-f8e8f8999fa4', l='ServerLevel[world]', x=-104.78, y=-15.00, z=211.47, cpos=[-7, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:54:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53778, uuid='832a8f3f-8aa1-41bb-809b-e0ca9507d7a3', l='ServerLevel[world]', x=-105.16, y=-14.50, z=211.85, cpos=[-7, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:54:52] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53779, uuid='b0f06fd0-5998-45b3-a6f7-d26581e0e50a', l='ServerLevel[world]', x=-104.41, y=-14.50, z=211.85, cpos=[-7, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53787, uuid='84d2e136-abd6-457d-adf5-a8fcef329a58', l='ServerLevel[world]', x=61.22, y=-22.00, z=234.30, cpos=[3, 14], tl=151, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:55:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53846, uuid='038d959b-2a48-4984-b8d4-c87b0c3b54ed', l='ServerLevel[world]', x=60.60, y=-22.00, z=233.52, cpos=[3, 14], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[21:55:02] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53847, uuid='ba214a7f-9a2b-4893-a8f9-1945465d8f67', l='ServerLevel[world]', x=61.74, y=-22.00, z=234.18, cpos=[3, 14], tl=21, v=true] died: Blazing Cube suffocated in a wall
-[21:55:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53899, uuid='220897dd-aebc-4551-8783-0d243c331107', l='ServerLevel[world]', x=-12.88, y=20.00, z=278.22, cpos=[-1, 17], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:55:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53947, uuid='3bbeaa4f-85fa-4c8b-8698-001217d22baa', l='ServerLevel[world]', x=-12.51, y=20.50, z=277.84, cpos=[-1, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:14] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53949, uuid='b4a94d92-f526-4664-a61b-cb2810ed64bf', l='ServerLevel[world]', x=-12.51, y=20.50, z=278.59, cpos=[-1, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53895, uuid='d744b844-510a-4ecd-8e18-d7b439b8a8e0', l='ServerLevel[world]', x=-39.22, y=-26.00, z=293.39, cpos=[-3, 18], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:55:15] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53948, uuid='821cab98-45eb-4cfe-8a9e-e2da61b973be', l='ServerLevel[world]', x=-12.88, y=20.00, z=278.74, cpos=[-1, 17], tl=18, v=true] died: Blazing Cube suffocated in a wall
-[21:55:16] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53834, uuid='7f2103bd-bdf7-4c67-b5f8-c6baf15593e1', l='ServerLevel[world]', x=60.17, y=29.00, z=255.59, cpos=[3, 15], tl=334, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:55:16] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53977, uuid='6f05d28d-4962-43a4-8d9c-0b6df79b2bd3', l='ServerLevel[world]', x=59.79, y=29.50, z=255.22, cpos=[3, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:16] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53978, uuid='f7afe248-bca4-4c48-bcaf-b03ad493cb9d', l='ServerLevel[world]', x=60.54, y=29.50, z=255.22, cpos=[3, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:16] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/53979, uuid='07cdd43b-a77d-4767-af79-5cbcc9f477ed', l='ServerLevel[world]', x=59.79, y=29.50, z=255.97, cpos=[3, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:35] [Server thread/INFO]: Mateo2009MC was slain by Lvl 5 | Drowned
-[21:55:35] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:55:37] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/54063, uuid='9c30178d-8396-4ec1-aa11-095a375fbf7f', l='ServerLevel[world]', x=50.50, y=73.00, z=138.50, cpos=[3, 8], tl=299, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:55:41] [Server thread/INFO]: Mateo2009MC was slain by Lvl 5 | Zombie
-[21:55:41] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:55:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54227, uuid='f2496eae-01e6-4757-a48e-9d3fc2e9fe38', l='ServerLevel[world]', x=12.22, y=-33.00, z=294.78, cpos=[0, 18], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:55:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54317, uuid='4382f558-82b2-418b-a9ec-af7a4ecc4aaa', l='ServerLevel[world]', x=11.73, y=-33.00, z=294.26, cpos=[0, 18], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:55:43] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54319, uuid='7ff17fc8-47ea-4f5c-83a4-ba42679117ff', l='ServerLevel[world]', x=11.54, y=-33.00, z=295.12, cpos=[0, 18], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:55:45] [Server thread/INFO]: Mateo2009MC was blown up by Lvl 11 | Creeper
-[21:55:45] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:55:53] [Server thread/INFO]: Mateo2009MC was slain by Lvl 3 | Zombie
-[21:55:53] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:55:54] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54356, uuid='d53d7232-66c0-4d1d-8fd8-037da5e27280', l='ServerLevel[world]', x=-11.66, y=20.00, z=274.78, cpos=[-1, 17], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:55:54] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54379, uuid='91a45309-fcd4-4fcc-bb32-ba8919dc9899', l='ServerLevel[world]', x=-12.03, y=20.50, z=274.41, cpos=[-1, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:55:54] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54381, uuid='b00de91a-c1ed-432b-9e62-6c41b4fd7fb5', l='ServerLevel[world]', x=-12.03, y=20.50, z=275.16, cpos=[-1, 17], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:56:01] [Server thread/INFO]: Mateo2009MC was shot by Lvl 4 | Skeleton
-[21:56:01] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:56:05] [Server thread/INFO]: Mateo2009MC was shot by Lvl 4 | Skeleton
-[21:56:05] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:56:23] [Server thread/INFO]: Mateo2009MC was slain by Lvl 1 | Zombie
-[21:56:23] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:56:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54599, uuid='9d72cc79-71c7-4799-8ec2-2afcc44b3141', l='ServerLevel[world]', x=81.22, y=46.43, z=236.21, cpos=[5, 14], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:56:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54585, uuid='08ac0014-aff4-4149-b37b-b73865a93c08', l='ServerLevel[world]', x=-14.40, y=-2.00, z=330.78, cpos=[-1, 20], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:56:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54657, uuid='ee815df4-326a-4742-9f36-40616c10ded7', l='ServerLevel[world]', x=-14.02, y=-1.50, z=330.41, cpos=[-1, 20], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:56:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54652, uuid='58d04a73-9a6e-4ad7-a7b0-d2d97c25fa84', l='ServerLevel[world]', x=81.00, y=47.47, z=235.67, cpos=[5, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:56:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54653, uuid='9c2a3177-1e45-437c-b8ce-bb44f462312d', l='ServerLevel[world]', x=81.74, y=47.47, z=236.00, cpos=[5, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:56:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54654, uuid='52141128-119d-40e5-806b-e3f3031c2ad6', l='ServerLevel[world]', x=80.66, y=46.02, z=236.78, cpos=[5, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:56:29] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/53637, uuid='02eb4c49-8ae7-4dcb-a97a-5e7c12f50da4', l='ServerLevel[world]', x=27.36, y=61.91, z=233.83, cpos=[1, 14], tl=2330, v=false, removed=DISCARDED] died: fire warden drowned whilst trying to escape Skeleton
-[21:56:33] [Server thread/INFO]: Mateo2009MC was shot by Lvl 1 | Skeleton
-[21:56:33] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:56:36] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54706, uuid='26243133-56b2-45a1-9aa0-351e28eda50d', l='ServerLevel[world]', x=40.76, y=72.00, z=322.06, cpos=[2, 20], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:56:36] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54757, uuid='9e094a91-071c-4fa1-bcb3-a6cec41ff664', l='ServerLevel[world]', x=41.14, y=72.50, z=321.69, cpos=[2, 20], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:56:36] [Server thread/INFO]: Named entity EntitySkeletonWither['Soldier'/54617, uuid='fdd55c3d-ead3-46b0-85a9-a857750ec91c', l='ServerLevel[world]', x=67.50, y=-23.00, z=301.50, cpos=[4, 18], tl=291, v=false, removed=DISCARDED] died: Soldier suffocated in a wall
-[21:56:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54711, uuid='f5ad6d6e-4da1-441e-a815-2f8d8d2b114c', l='ServerLevel[world]', x=90.29, y=20.00, z=249.87, cpos=[5, 15], tl=121, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:56:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54765, uuid='5d4f5079-30ff-4d1e-ae49-05a7de156497', l='ServerLevel[world]', x=89.92, y=20.50, z=250.24, cpos=[5, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:56:44] [Server thread/INFO]: Mateo2009MC was shot by Lvl 1 | Skeleton
-[21:56:44] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:56:51] [Server thread/INFO]: Named entity EntityBlaze['fire warden'/54563, uuid='ec69837c-9bba-42a6-a68e-605dd25e9304', l='ServerLevel[world]', x=1.80, y=61.90, z=290.24, cpos=[0, 18], tl=667, v=false, removed=DISCARDED] died: fire warden drowned
-[21:56:58] [Server thread/INFO]: Mateo2009MC was shot by Lvl 10 | Skeleton
-[21:56:58] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:57:00] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/54774, uuid='9ebb154f-92f2-46a9-9016-81750894d9af', l='ServerLevel[world]', x=54.37, y=-33.00, z=264.35, cpos=[3, 16], tl=432, v=true] died: Skeletal Knight suffocated in a wall
-[21:57:05] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54946, uuid='1e85a8a1-f016-449f-a9c8-93febd0206a7', l='ServerLevel[world]', x=58.68, y=-18.00, z=262.81, cpos=[3, 16], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:10] [Server thread/INFO]: Mateo2009MC was shot by Magic Skeleton
-[21:57:10] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:57:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/54981, uuid='ca7ce983-a3f8-40b7-81a8-d62692eee95a', l='ServerLevel[world]', x=-76.11, y=63.00, z=297.90, cpos=[-5, 18], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55009, uuid='e693d85e-f2c5-4946-9f20-d700a6c0d4e6', l='ServerLevel[world]', x=-76.49, y=63.50, z=297.52, cpos=[-5, 18], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55011, uuid='915be909-dbbc-47b4-bb6c-4afa59899fc4', l='ServerLevel[world]', x=-76.49, y=63.50, z=298.27, cpos=[-5, 18], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55137, uuid='03632b07-69d5-4c7c-9bfe-34cac194395e', l='ServerLevel[world]', x=93.78, y=24.00, z=211.84, cpos=[5, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55186, uuid='72453eba-1483-49f8-b456-4debcb29ed80', l='ServerLevel[world]', x=93.26, y=24.02, z=211.51, cpos=[5, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55188, uuid='fa888dd2-8a3f-4785-9b55-16cfc1b8a0ce', l='ServerLevel[world]', x=93.26, y=24.02, z=212.36, cpos=[5, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:28] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55189, uuid='2774dbab-e18a-4310-b7b4-169a2568bb97', l='ServerLevel[world]', x=93.80, y=24.00, z=212.21, cpos=[5, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55146, uuid='841539c7-43ad-4e1a-ad31-7469f8b70bf0', l='ServerLevel[world]', x=36.79, y=-8.00, z=255.78, cpos=[2, 15], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55219, uuid='c1a65361-728c-44c9-92fc-a868cd2a9034', l='ServerLevel[world]', x=36.41, y=-7.50, z=255.41, cpos=[2, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55220, uuid='fb02fad6-d27c-4a35-872f-b3f0170f6e19', l='ServerLevel[world]', x=37.16, y=-7.50, z=255.41, cpos=[2, 15], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:36] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55238, uuid='02292dce-908f-4b3d-a6f9-303d8d64d23c', l='ServerLevel[world]', x=114.22, y=50.44, z=238.21, cpos=[7, 14], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55308, uuid='7105789c-359c-4b00-ae78-5e40ecdadd37', l='ServerLevel[world]', x=114.04, y=51.48, z=237.87, cpos=[7, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55309, uuid='3c830026-eeff-4e21-a233-5b3ad7b4fef6', l='ServerLevel[world]', x=114.59, y=51.48, z=238.06, cpos=[7, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55310, uuid='61c36ce5-38a9-4854-9ddd-943abf1ee274', l='ServerLevel[world]', x=113.97, y=51.48, z=238.41, cpos=[7, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55311, uuid='d16e93ff-be02-4b33-b0e1-9bb1d775f7e9', l='ServerLevel[world]', x=114.74, y=50.02, z=238.68, cpos=[7, 14], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:57:40] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55300, uuid='08c49fcc-b5ab-4d30-97fe-5cd1a08c1bc0', l='ServerLevel[world]', x=80.87, y=20.00, z=251.07, cpos=[5, 15], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55315, uuid='32ad35eb-7a51-49af-950e-bf9bd8d89f97', l='ServerLevel[world]', x=-4.37, y=-9.00, z=234.78, cpos=[-1, 14], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:57:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55375, uuid='4aeb7c97-207a-48f9-a30b-8fb31fc93396', l='ServerLevel[world]', x=-4.74, y=-8.50, z=234.41, cpos=[-1, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55376, uuid='e9e901fb-0fa0-4f4a-b411-dc2c6e5ff07e', l='ServerLevel[world]', x=-3.99, y=-8.50, z=234.41, cpos=[-1, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:42] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55377, uuid='8bf8f2cb-22ee-45c7-b5c9-d2f54bb312b6', l='ServerLevel[world]', x=-4.74, y=-8.50, z=235.16, cpos=[-1, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:57:46] [Server thread/INFO]: Mateo2009MC was blown up by Lvl 2 | Creeper
-[21:57:46] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:58:03] [Server thread/INFO]: Mateo2009MC was slain by Zombie ❤
-[21:58:03] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:58:08] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/55335, uuid='d0177372-0d32-4893-985b-18cb8797be58', l='ServerLevel[world]', x=-6.50, y=22.00, z=189.50, cpos=[-1, 11], tl=591, v=true] died: Skeletal Knight suffocated in a wall
-[21:58:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55548, uuid='9d08d41e-3e7b-40a6-97b6-4a0f6216a6ca', l='ServerLevel[world]', x=18.78, y=22.00, z=267.22, cpos=[1, 16], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:58:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55605, uuid='12740d93-2998-4d6c-944d-373fe51bfdcd', l='ServerLevel[world]', x=18.41, y=22.50, z=266.84, cpos=[1, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:12] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55606, uuid='c685fcf0-eb25-4156-9973-c0c910ca8a05', l='ServerLevel[world]', x=19.16, y=22.50, z=266.84, cpos=[1, 16], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:16] [Server thread/INFO]: Mateo2009MC was shot by Lvl 10 | Skeleton
-[21:58:16] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:58:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55663, uuid='7eb5e6c1-f47f-4d7b-a7c6-9801098f4159', l='ServerLevel[world]', x=56.21, y=24.00, z=213.59, cpos=[3, 13], tl=91, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:58:25] [Server thread/INFO]: Mateo2009MC was shot by Lvl 10 | Skeleton
-[21:58:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55696, uuid='c72957b5-adae-4b1c-a0b5-5a14a6c7ad08', l='ServerLevel[world]', x=55.84, y=24.50, z=213.22, cpos=[3, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:25] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55698, uuid='dfb29d8b-bcd4-451f-8e70-0f683c4cb96a', l='ServerLevel[world]', x=55.84, y=24.50, z=213.97, cpos=[3, 13], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:25] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:58:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55683, uuid='f749d2bc-9a1d-4489-8e16-e628ee45b139', l='ServerLevel[world]', x=-31.11, y=2.00, z=314.78, cpos=[-2, 19], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:58:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55739, uuid='01d250ae-0e8d-4e0e-9034-22ab9c567e9c', l='ServerLevel[world]', x=-31.48, y=2.50, z=314.41, cpos=[-2, 19], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55741, uuid='ac4b036f-7d91-498f-b1da-aacf0f265c0c', l='ServerLevel[world]', x=-31.48, y=2.50, z=315.16, cpos=[-2, 19], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55685, uuid='b43fcaf4-f21b-4744-ac3f-e622ca9bfbdb', l='ServerLevel[world]', x=50.66, y=73.00, z=138.39, cpos=[3, 8], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:58:29] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55745, uuid='93624f02-724f-4fd0-b7d6-d7081ca935dc', l='ServerLevel[world]', x=51.03, y=73.50, z=138.02, cpos=[3, 8], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:32] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55709, uuid='a2db542e-9cf0-4f66-bd41-790f8110c4bb', l='ServerLevel[world]', x=75.53, y=25.00, z=226.58, cpos=[4, 14], tl=111, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:58:32] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55776, uuid='f29614b5-3dc7-4258-bb75-5885630a9d33', l='ServerLevel[world]', x=75.91, y=25.50, z=226.21, cpos=[4, 14], tl=1, v=true] died: Blazing Cube suffocated in a wall
-[21:58:36] [Server thread/INFO]: Mateo2009MC was slain by Lvl 3 | Zombie
-[21:58:36] [Server thread/INFO]: [Not Secure] [Server] Mateo2009MC got killed during a bloodmoon!
-[21:58:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55770, uuid='7f761b24-0e7e-4721-bc27-1036e1c3d586', l='ServerLevel[world]', x=36.79, y=23.00, z=220.05, cpos=[2, 13], tl=101, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:58:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55810, uuid='f8ff2cee-b88d-40b0-bdb8-d18e805dbb55', l='ServerLevel[world]', x=36.26, y=23.02, z=219.64, cpos=[2, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:58:37] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/55811, uuid='ad29f7d7-1af9-4ff0-bd7e-9566b0be2354', l='ServerLevel[world]', x=37.07, y=23.00, z=219.74, cpos=[2, 13], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:59:01] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[21:59:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/56053, uuid='bb003015-a971-4703-ad05-c9b7bb1d139a', l='ServerLevel[world]', x=2485.85, y=-25.00, z=2739.55, cpos=[155, 171], tl=6, v=true] died: Blazing Cube suffocated in a wall
-[21:59:01] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/56057, uuid='d49e81bc-6feb-4462-a8f7-36e64a6e6924', l='ServerLevel[world]', x=2486.62, y=-25.00, z=2738.80, cpos=[155, 171], tl=6, v=true] died: Blazing Cube suffocated in a wall
-[21:59:07] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/56204, uuid='5c8239f0-b9b7-4b97-89ab-6fdd9944ae01', l='ServerLevel[world]', x=2487.22, y=29.00, z=2638.03, cpos=[155, 164], tl=128, v=false, removed=DISCARDED] died: Blazing Cube suffocated in a wall
-[21:59:08] [Server thread/INFO]: Mateo2009MC was shot by Magic Skeleton
-[21:59:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/56419, uuid='71695c1b-59d1-4588-967a-05899592a739', l='ServerLevel[world]', x=2486.97, y=29.00, z=2637.50, cpos=[155, 164], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:59:08] [Server thread/INFO]: Named entity EntityMagmaCube['Blazing Cube'/56420, uuid='0f4b6bfc-5915-4666-bddc-dbe4bf7562cc', l='ServerLevel[world]', x=2487.61, y=29.02, z=2637.93, cpos=[155, 164], tl=11, v=true] died: Blazing Cube suffocated in a wall
-[21:59:12] [Server thread/INFO]: Mateo2009MC issued server command: /home casa
-[21:59:19] [Server thread/INFO]: Named entity EntitySkeleton['Magic Skeleton'/56544, uuid='f2eff712-ca15-4659-b760-0a1683372d33', l='ServerLevel[world]', x=2457.23, y=74.00, z=2735.70, cpos=[153, 170], tl=1284, v=false, removed=DISCARDED] died: Magic Skeleton burned to death
-[21:59:23] [Server thread/INFO]: Named entity EntitySkeleton['Magic Skeleton'/56706, uuid='49733e32-d7de-4649-82c4-69fd53feff25', l='ServerLevel[world]', x=2457.32, y=64.00, z=2832.59, cpos=[153, 177], tl=1268, v=false, removed=DISCARDED] died: Magic Skeleton burned to death
-[21:59:27] [Server thread/INFO]: Named entity EntitySkeleton['Magic Skeleton'/56535, uuid='cee5a7ce-1139-4f91-852e-103cc9398501', l='ServerLevel[world]', x=2462.40, y=74.00, z=2726.43, cpos=[153, 170], tl=1066, v=false, removed=DISCARDED] died: Magic Skeleton burned to death
-[21:59:57] [Server thread/INFO]: Named entity EntityWitch['Magician'/56526, uuid='e879ac86-1fc5-48d0-8ac3-6abb5c772c28', l='ServerLevel[world]', x=2475.07, y=72.00, z=2737.30, cpos=[154, 171], tl=1157, v=false, removed=DISCARDED] died: Magician was slain by Mateo2009MC using [Iron Katana]
-[22:00:26] [Server thread/INFO]: Mateo2009MC has made the advancement [What a Deal!]
-[22:00:47] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/57016, uuid='16566901-8dd5-4b80-9589-a747d17aa84d', l='ServerLevel[world]', x=2494.50, y=13.00, z=2846.50, cpos=[155, 177], tl=441, v=true] died: Skeletal Knight suffocated in a wall
-[22:04:42] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/57667, uuid='b26e624b-7211-4363-ba51-1022393ed63d', l='ServerLevel[world]', x=2449.50, y=11.00, z=2743.50, cpos=[153, 171], tl=431, v=true] died: Skeletal Knight suffocated in a wall
-[22:11:24] [Server thread/INFO]: Mateo2009MC lost connection: Timed out
-[22:11:24] [Server thread/INFO]: Mateo2009MC left the game
+[01:40:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:40:50] [Server thread/INFO]: Default game type: SURVIVAL
+[01:40:50] [Server thread/INFO]: Generating keypair
+[01:40:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:40:50] [Server thread/INFO]: Using epoll channel type
+[01:40:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:40:50] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[01:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[01:40:51] [Server thread/INFO]: [eco] Initializing eco
+[01:40:51] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[01:40:51] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:40:54] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
+[01:40:54] [Server thread/INFO]: [Talismans] Initializing Talismans
+[01:40:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[01:40:55] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[01:40:55] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[01:40:55] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[01:40:55] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[01:40:55] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
+[01:40:55] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[01:40:55] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.4.1 b78
+[01:40:55] [Server thread/INFO]: [LevelledMobs] Loading commands
+[01:40:55] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
+[01:40:55] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
+[01:40:55] [Server thread/INFO]: [AdvancedEnchantments] Loading server plugin AdvancedEnchantments v9.11.4
+[01:40:55] [Server thread/INFO]: [DeathCoordinates] Loading server plugin DeathCoordinates v1.12.1
+[01:40:55] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
+[01:40:55] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
+[01:40:55] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
+[01:40:55] [Server thread/INFO]: [EliteMobs] Sanity check!
+[01:40:55] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[01:40:55] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[01:40:55] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
+[01:40:55] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
+[01:40:55] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
+[01:40:55] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
+[01:40:55] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
+[01:40:55] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
+[01:40:55] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.69.6
+[01:40:55] [Server thread/INFO]: [libreforge] Initializing libreforge
+[01:40:55] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.71.6
+[01:40:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:40:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[01:40:56] [Server thread/INFO]:         __    
+[01:40:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[01:40:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:40:56] [Server thread/INFO]: 
+[01:40:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:40:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:40:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:40:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:40:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1711ms)
+[01:40:57] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[01:40:57] [Server thread/INFO]: [eco] Enabling eco v6.74.3
+[01:40:57] [Server thread/INFO]: [eco] Loading eco
+[01:40:57] [Server thread/INFO]: [eco] Loaded integrations: MythicMobs, Essentials
+[01:40:57] [Server thread/INFO]: [eco] Scanning for conflicts...
+[01:40:57] [Server thread/INFO]: [eco] No conflicts found!
+[01:40:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:40:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:40:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:40:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:40:57] [Server thread/INFO]: Preparing level "world"
+[01:40:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:40:59] [Server thread/INFO]: Time elapsed: 255 ms
+[01:40:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:40:59] [Server thread/INFO]: Time elapsed: 129 ms
+[01:40:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:40:59] [Server thread/INFO]: Time elapsed: 69 ms
+[01:40:59] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[01:40:59] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
+[01:40:59] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[01:41:02] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
+[01:41:02] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data
+[01:41:02] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/server/servidor_minecraft/plugins/MythicMobs/data/worlds
+[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Items...
+[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[01:41:05] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[01:41:06] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[01:41:06] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[01:41:06] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[01:41:06] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[01:41:06] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[01:41:06] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[01:41:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
+[01:41:06] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[01:41:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:41:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:41:07] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[01:41:07] [Server thread/INFO]: [Essentials] Using locale en
+[01:41:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:41:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:41:07] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[01:41:07] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[01:41:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[01:41:07] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[01:41:08] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[01:41:09] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[01:41:09] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[01:41:09] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[01:41:09] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 45 ms
+[01:41:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[01:41:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[01:41:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[01:41:09] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[01:41:09] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.4.1 b78
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Using NMS version v1_20_R1 for nametag support
+[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[01:41:09] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[01:41:09] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 242ms)
+[01:41:09] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
+[01:41:10] [Server thread/INFO]: [AdvancedEnchantments] Enabling AdvancedEnchantments v9.11.4
+[01:41:10] [Server thread/INFO]: Thank you for installing AdvancedEnchantments! 
+[01:41:10] [Server thread/INFO]: - To get help, join our discord server: https://discord.gg/advancedplugins
+[01:41:10] [Server thread/INFO]: - We recommend installing https://ae.advancedplugins.net/advancedenchantments-ui to enhance your experience with our UI overhaul!
+[01:41:11] [Server thread/INFO]: [AdvancedEnchantments] Loading Minecraft Version MC1_20_R1
+[01:41:11] [Server thread/INFO]: [AdvancedEnchantments] Loaded 7 armor sets.
+[01:41:11] [Server thread/INFO]: [AdvancedEnchantments] Loaded 5 weapons.
+[01:41:11] [Server thread/INFO]: [DeathCoordinates] Enabling DeathCoordinates v1.12.1
+[01:41:11] [Server thread/INFO]: [DeathCoordinates] Has been enabled! Version: 1.12.1
+[01:41:11] [Server thread/INFO]: [DeathCoordinates] Thanks for using my plugin!  ~Ajneb97
+[01:41:12] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
+[01:41:12] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
+[01:41:12] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
+[01:41:12] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[01:41:12] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[01:41:12] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[01:41:12] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[01:41:12] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[01:41:12] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[01:41:12] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
+[01:41:12] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
+[01:41:12] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
+[01:41:12] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[01:41:12] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[01:41:12] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[01:41:12] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[01:41:12] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[01:41:12] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[01:41:12] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[01:41:12] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
+[01:41:12] [Server thread/WARN]: [Elevators] V120R1NMS
+[01:41:12] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
+[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
+[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[01:41:12] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
+[01:41:12] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
+[01:41:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[01:41:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[01:41:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[01:41:12] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
+[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[01:41:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[01:41:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[01:41:12] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[01:41:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
+[01:41:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
+[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[01:41:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[01:41:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[01:41:12] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
+[01:41:12] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[01:41:12] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[01:41:12] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[01:41:12] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[01:41:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[01:41:12] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[01:41:13] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[01:41:13] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[01:41:13] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[01:41:13] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[01:41:13] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[01:41:13] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[01:41:13] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
+[01:41:13] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
+[01:41:13] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
+[01:41:13] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
+[01:41:13] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
+[01:41:13] [Server thread/INFO]: [Talismans] Enabling Talismans v6.69.6
+[01:41:13] [Server thread/INFO]: [Talismans] Loading Talismans
+[01:41:13] [Server thread/INFO]: [libreforge] Enabling libreforge v4.71.6
+[01:41:13] [Server thread/INFO]: [libreforge] Loading libreforge
+[01:41:13] [Server thread/INFO]: [libreforge] Loaded integrations: AuraSkills, LevelledMobs
+[01:41:13] [Server thread/INFO]: [libreforge] 
+[01:41:13] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[01:41:13] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[01:41:13] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[01:41:13] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[01:41:13] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[01:41:13] [Server thread/INFO]: [libreforge] 
+[01:41:13] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[01:41:13] [Server thread/INFO]: [libreforge] 
+[01:41:14] [Server thread/INFO]: Running delayed init tasks
+[01:41:14] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:41:14] [Craft Scheduler Thread - 9 - Talismans/WARN]: [Talismans] Talismans is out of date! (Version 6.69.6)
+[01:41:14] [Craft Scheduler Thread - 9 - Talismans/WARN]: [Talismans] The newest version is 6.70.2
+[01:41:14] [Craft Scheduler Thread - 9 - Talismans/WARN]: [Talismans] Download the new version!
+[01:41:14] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[01:41:14] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[01:41:15] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[01:41:15] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[01:41:15] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:41:15] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[01:41:15] [Server thread/INFO]: Done (26.013s)! For help, type "help"
+[01:41:15] [Server thread/INFO]: Timings Reset
+[01:41:15] [Server thread/INFO]: [eco] Loaded eco
+[01:41:15] [Server thread/INFO]: [Talismans] Loaded Talismans
+[01:41:15] [Server thread/INFO]: [libreforge] Loaded libreforge
+[01:41:16] [Server thread/INFO]: [AdvancedEnchantments] Successfully hooked into ProtocolLib, AuraSkills, AdvancedEnchantments, MythicMobs, Essentials, LuckPerms.
+[01:41:27] [User Authenticator #0/INFO]: UUID of player alexisromors is 343fb479-c22f-316e-a665-dea3a7ee2b1a
+[01:41:30] [Server thread/INFO]: alexisromors joined the game
+[01:41:30] [Server thread/INFO]: alexisromors[/[0:0:0:0:0:0:0:1%0]:43710] logged in with entity id 149 at ([world]130.13321722116586, -23.498281063741153, 275.82432757531126)
+[01:42:46] [Server thread/INFO]: alexisromors issued server command: /vanish
+[01:42:50] [Server thread/WARN]: alexisromors moved too quickly! 2.1390836790096444,-5.994333133397092,13.230640604469443
+[01:42:52] [Server thread/INFO]: alexisromors issued server command: /gmsp
+[01:42:54] [Server thread/INFO]: alexisromors issued server command: /vanish
+[01:42:58] [Server thread/INFO]: alexisromors issued server command: /gmc
+[01:46:10] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set essentials.sethome.
+[01:46:10] [luckperms-command-executor/INFO]: [LP] LOG > (alexisromors) [G] (default)
+[01:46:10] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome. true
+[01:46:14] [Server thread/INFO]: alexisromors issued server command: /sethome
+[01:46:24] [User Authenticator #1/INFO]: UUID of player luchito is 0e8caddd-7cf1-377b-8ee2-bd733b530fa0
+[01:46:24] [Server thread/INFO]: luchito joined the game
+[01:46:24] [Server thread/INFO]: luchito[/[0:0:0:0:0:0:0:1%0]:60810] logged in with entity id 1079 at ([world]33.5, 84.0, -17.5)
+[01:46:25] [Server thread/INFO]: luchito has made the advancement [Getting an Upgrade]
+[01:46:59] [Server thread/INFO]: alexisromors issued server command: /lp group default permission set essentials.sethome.multiple.vip
+[01:47:05] [Server thread/INFO]: alexisromors issued server command: /gm
+[01:47:06] [Server thread/INFO]: alexisromors issued server command: /gms
+[01:47:53] [Server thread/WARN]: Skipping BlockEntity with id 
+[01:47:53] [Server thread/WARN]: Skipping BlockEntity with id 
+[01:47:54] [Server thread/WARN]: Skipping BlockEntity with id 
+[01:48:23] [Server thread/INFO]: luchito has made the advancement [Stone Age]
+[01:49:30] [Server thread/INFO]: alexisromors issued server command: /gmc
+[01:49:38] [Server thread/INFO]: Villager EntityVillager['Villager'/2593, uuid='26e497b8-e720-4a55-b512-c4fb2923f474', l='ServerLevel[world]', x=-352.89, y=73.31, z=870.15, cpos=[-23, 54], tl=51, v=true] died, message: 'Villager tried to swim in lava'
+[01:49:46] [Server thread/INFO]: alexisromors issued server command: /gms
+[01:49:52] [Server thread/INFO]: alexisromors issued server command: /sethome aldea
+[01:49:52] [Server thread/INFO]: alexisromors issued server command: /gmc
+[01:51:04] [Server thread/WARN]: alexisromors moved too quickly! -9.350706742635964,9.171753960130502,4.566382413758902
+[01:51:07] [Server thread/INFO]: alexisromors issued server command: /home aldae
+[01:51:09] [Server thread/INFO]: alexisromors issued server command: /home aldea
+[01:51:45] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/4689, uuid='e4a41688-1fa7-4b57-af68-ab505977fcd7', l='ServerLevel[world]', x=-40.50, y=-28.00, z=285.50, cpos=[-3, 17], tl=573, v=true] died: Skeletal Knight suffocated in a wall
+[01:53:12] [Server thread/INFO]: alexisromors has made the advancement [Sweet Dreams]
+[01:53:15] [Server thread/INFO]: luchito suffocated in a wall
+[01:54:44] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/5798, uuid='87b3420d-17ec-4d50-9903-a2ee91f7bfda', l='ServerLevel[world]', x=71.88, y=23.00, z=170.50, cpos=[4, 10], tl=577, v=true] died: Skeletal Knight suffocated in a wall
+[02:00:39] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/7980, uuid='70fa1668-f8ef-448b-9c6a-ea10008dae95', l='ServerLevel[world]', x=-115.50, y=-46.00, z=603.50, cpos=[-8, 37], tl=432, v=true] died: Skeletal Knight suffocated in a wall
