@@ -272,3 +272,5 @@
 [22:33:52] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/218, uuid='5cf4e9e4-ca78-411d-bb5a-7ccfd3669c29', l='ServerLevel[world]', x=61.50, y=22.00, z=206.50, cpos=[3, 12], tl=446, v=true] died: Skeletal Knight suffocated in a wall
 [22:34:35] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/395, uuid='96bb3f26-1d7f-48e1-b813-e7f60e95601e', l='ServerLevel[world]', x=-14.50, y=-5.00, z=312.50, cpos=[-1, 19], tl=449, v=true] died: Skeletal Knight suffocated in a wall
 [22:36:59] [Server thread/INFO]: alexisromors issued server command: /gmc
+[22:45:53] [Server thread/INFO]: alexisromors lost connection: Timed out
+[22:45:53] [Server thread/INFO]: alexisromors left the game
